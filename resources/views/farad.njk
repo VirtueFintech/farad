@@ -117,7 +117,7 @@
     </header>
     <!-- END HEADER -->
 
-    <!-- CONTENT --------------------------------------------------------------------------------->
+    <!-- CONTENT -->
 
     <!-- Intro Section -->
     <section id="intro" class="dark-bg">
@@ -130,11 +130,11 @@
           <div class="full-cap-wraper overlay-dark80 light-color">
             <div class="content-caption light-color">
               <div class="container">
-                <h5>Farad Cryptoken</h5>
+                <h5>{{ antl.formatMessage('messages.title') }}</h5>
                 <br />
                 <h1 class="h1 red">
-                  REVOLUTIONISING <br>
-                  THE FUTURE OF INNOVATION
+                  {{ antl.formatMessage('messages.heading.1') }}<br>
+                  {{ antl.formatMessage('messages.heading.2') }}
                 </h1>
               </div>
             </div>
@@ -155,11 +155,11 @@
         <div class="row">
           <div class="col-md-12 col-sm-12">
             <h4>
-              All Pre-token swap can only be done through our official website at https://farad.energy.
+              {{ antl.formatMessage('messages.action.warn.1') }}              
             </h4>
             <h4>
-              We will not be responsible for any swaps done via 3rd party or individuals
-              Select the region where you are coming from to participate in our FARAD Token Swap            
+              {{ antl.formatMessage('messages.action.warn.2') }}<br>
+              {{ antl.formatMessage('messages.action.select') }}
             </h4>
           </div>
         </div>
