@@ -3,6 +3,13 @@
     "title": "Farad Cryptoken",
     "heading.1": "REVOLUTIONISING ",
     "heading.2": "THE FUTURE OF INNOVATION ",
+
+    "menu.home": "Home",
+    "menu.docs": "Documentations",
+    "menu.docs.wp": "White Paper",
+    "menu.docs.overview": "FARAD Overview",
+    "menu.media": "Media",
+    "menu.faq": "FAQ",
     
     "action.warn.1": "All Pre-token swap can only be done through our official website at https://farad.energy.",
     "action.warn.2": "We will not be responsible for any swaps done via 3rd party or individuals",
