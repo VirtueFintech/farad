@@ -8,6 +8,15 @@
     "action.warn.2": "We will not be responsible for any swaps done via 3rd party or individuals",
     "action.select": "Select the region where you are coming from to participate in our FARAD Token Swap",
 
+    "join.uk": "UK/EU",
+    "join.ksa": "KSA",
+    "join.jordan": "Jordan",
+    "join.gcc": "Other GCC",
+    "join.china": "普通话",
+    "join.korea": "대한민국",
+    "join.japan": "日本",
+    "join.row": "Rest of The World",
+
     "nothing": ""
 }
 
