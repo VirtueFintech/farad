@@ -9,6 +9,11 @@ class LangController {
     yield response.redirect('/')
   }
 
+  * cn (request, response) {
+    Antl.setLocale('cn')
+    yield response.redirect('/')
+  }
+
   * kr (request, response) {
     Antl.setLocale('kr')
     yield response.redirect('/')

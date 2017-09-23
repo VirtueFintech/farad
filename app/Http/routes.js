@@ -35,6 +35,7 @@ Route.group('Participate in FARAD', function() {
 
 Route.group('Language Selection', function() {
   Route.get('/en', 'LangController.en')
+  Route.get('/cn', 'LangController.cn')
   Route.get('/kr', 'LangController.kr')
   Route.get('/jp', 'LangController.jp')
   Route.get('/ar', 'LangController.ar')
