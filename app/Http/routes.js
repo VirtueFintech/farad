@@ -19,3 +19,5 @@ const Route = use('Route')
 
 // Route.on('/').render('home')
 Route.get('/', 'HomeController.index')
+Route.get('/press', 'HomeController.press')
+Route.get('/faq', 'HomeController.faq')
