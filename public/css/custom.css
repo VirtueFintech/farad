@@ -26,6 +26,10 @@ div.row.line {
   padding: 20px;
 }
 
+.text-bold {
+  font-style: bold;
+}
+
 .p10 {
   padding: 10px;
 }
