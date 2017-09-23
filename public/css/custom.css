@@ -1,0 +1,31 @@
+
+div.row.launch {
+  background-color: #cd2a4c;
+  padding: 30px;
+  border-bottom: 1px solid rgb(255, 163, 193);
+}
+
+div.skillbar-title, div.skill-bar-percent {
+  color: #fff;
+}
+div.skillbar-bar {
+  background: #cd2a4c;
+}
+
+div.red-bar {
+/*  border-right: 3px solid #cd2a4c;
+  margin-right: 20px;
+*/}
+
+h2.red {
+  color: #cd2a4c;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.p5 {
+  padding: 5px;
+}
+
