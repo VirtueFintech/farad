@@ -1,22 +1,22 @@
 {
-  "title.1": "FARAD Revolution",
-  "title.2": "Everywhere",
-  "desc": "Farad Token Swap Ethereum Smart Contract Wallet Address",
+  "title.1": "ﻃﻔــــــﺮﺓ ﻓــــــﺎﺭاﺩ",
+  "title.2": "ﺑﺎﻟﻤﻤﻠﻜﺔ اﻟﻌﺮﺑﻴﺔ اﻟﺴﻌﻮﺩﻳﺔ",
+  "desc": "ﻓﺎﺭاﺩ ﻋﻨﻮاﻥ ﻣﺤﻔﻈﺔ اﻟﻌﻘﺪ اﻟﺬﻛﻴﺔ (Token) ﻣﺒﺎﺩﻟﺔ اﻻﺛﺮﻳﻮﻡ ﺑﺘﻮﻛﻦ",
 
   "official": "Official Ethereum Address",
 
-  "warn.1": "Please DO NOT send from Exchanger wallet as the token shall be sent to their address",
-  "warn.2": "We will not be held responsible for any token that gets sent to the Exchanger wallet",
+  "warn.1": ".ﺣﻴﺚ ﻳﺘﻌﻴﻦ ﺇﺭﺳﺎﻝ اﻟﺘﻮﻛﻦ ﺇﻟﻰ ﻋﻨﻮاﻧﻬﻢ Exchanger ﻳﺮﺟﻰ ﻋﺪﻡ اﻹﺭﺳﺎﻝ ﻣﻦ ﻣﺤﻔﻈﺔ",
+  "warn.2": ".Exchanger ﻳﺘﻢ ﺇﺭﺳﺎﻟﻬﺎ ﺇﻟﻰ ﻣﺤﻔﻈﺔ (Token) ﻭﻟﻦ ﻧﺘﺤﻤﻞ ﻣﺴﺆﻭﻟﻴﺔ ﺃﻱ ﺗﻮﻛﻦ",
 
   "inst.title": "Contribution Settings",
-  "inst.min.contrib": "Any swap less than 0.05 Ether shall be declined by the contract, and any excess gas used shall be returned to the sender address.",
+  "inst.min.contrib": ".ﺳﻴﺘﻢ ﺭﻓﺾ ﺃﻱ ﻣﺒﺎﺩﻟﺔ ﺃﻗﻞ ﻣﻦ 0.05 ﺇﻳﺜﺮ ﺑﻤﻮﺟﺐ ﻣﺎ ﻭﺭﺩ ﻓﻲ اﻟﻌﻘﺪ، ﻛﻤﺎ ﻳﺘﻌﻴﻦ ﺭﺩ ﺃﻱ ﻏﺎﺯ ﺯاﺋﺪ ﻳﺘﻢ اﺳﺘﺨﺪاﻣﻪ ﺇﻟﻰ ﻋﻨﻮاﻥ اﻟﻤﺮﺳﻞ",
 
-  "eth.gas.price": "Gas Price",
+  "eth.gas.price": "ﺳﻌﺮ اﻟﻐــــــﺎﺯ",
   "eth.gas.price.value": "23 Gwei",
-  "eth.gas.limit": "Recommended Gas Limit",
+  "eth.gas.limit": "ﺣﺪ اﻟﻐﺎﺯ اﻟﻤﻮﺿﻰ ﺑﻪ",
   "eth.gas.limit.value": "150,000",
-  "eth.min.swap": "Minimum Swap Amount",
-  "eth.min.swap.value": "0.05 Ether",
+  "eth.min.swap": "اﻟﺤﺪ اﻷﺩﻧﻰ ﻟﻤﺒﻠﻎ اﻟﻤﺒﺎﺩﻟﺔ",
+  "eth.min.swap.value": "0.05 ﺇﻳﺜﺮ",
 
   
   "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
@@ -25,7 +25,7 @@
   "uk.title": "United Kingdom/Europe",
   "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
 
-  "ksa.title": "Saudi Arabia",
+  "ksa.title": "ﺑﺎﻟﻤﻤﻠﻜﺔ اﻟﻌﺮﺑﻴﺔ اﻟﺴﻌﻮﺩﻳﺔ",
   "ksa.addr": "0x5beeC0Cf71d30ED317979917896C677f3701A1c6",
 
   "jo.title": "Jordan",
@@ -34,13 +34,13 @@
   "gcc.title": "Gulf Countries",
   "gcc.addr": "0x348a50d048ae187447C01Bd19D28A21ab20DFaF4",
 
-  "cn.title": "Mandarin",
+  "cn.title": "普通话",
   "cn.addr": "0x9ee6675eCDd92CEC22AacCD80E77ca14146306c5",
 
-  "kr.title": "Korea",
+  "kr.title": "대한민국",
   "kr.addr": "0xd5cCE82008ff71D1051443d33CD8255DaFA5a6fE",
 
-  "jp.title": "Japan",
+  "jp.title": "日本",
   "jp.addr": "0x8457AE15EBf4819D3de2F53937ca2E1b235C0102",
 
   "row.title": "Rest of The World",

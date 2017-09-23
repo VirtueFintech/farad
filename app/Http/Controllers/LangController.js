@@ -6,27 +6,27 @@ class LangController {
 
   * en (request, response) {
     Antl.setLocale('en')
-    yield response.redirect('/')
+    response.redirect('back')
   }
 
   * cn (request, response) {
     Antl.setLocale('cn')
-    yield response.redirect('/')
+    response.redirect('back')
   }
 
   * kr (request, response) {
     Antl.setLocale('kr')
-    yield response.redirect('/')
+    response.redirect('back')
   }
 
   * jp (request, response) {
     Antl.setLocale('jp')
-    yield response.redirect('/')
+    response.redirect('back')
   }
   
   * ar (request, response) {
     Antl.setLocale('ar')
-    yield response.redirect('/')
+    response.redirect('back')
   }
 
 }

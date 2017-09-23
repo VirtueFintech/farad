@@ -1,17 +1,17 @@
 {
-  "home": "Home",
-  "docs": "Documentations",
+  "home": "ホーム",
+  "docs": "メディア",
   "docs.wp": "White Paper",
   "docs.overview": "FARAD Overview",
-  "media": "Media & Press",
-  "faq": "FAQ",  
+  "media": "メディア",
+  "faq": "よくある 質問",  
   "lang": "Language",
 
   "lang.en": "English",
   "lang.cn": "普通话",
   "lang.kr": "대한민국",
   "lang.jp": "日本",
-  "lang.ar": "Arabic",
+  "lang.ar": "عربى",
 
   "wp.link": "https://s3-ap-southeast-1.amazonaws.com/farad/en/FaradWhitepaper.pdf",
   "overview.link": "https://farad.energy/wp-content/uploads/2017/09/FaradOverview.pdf",

@@ -1,26 +1,26 @@
 {
   "title.1": "FARAD Revolution",
-  "title.2": "Everywhere",
-  "desc": "Farad Token Swap Ethereum Smart Contract Wallet Address",
+  "title.2": "普通话",
+  "desc": "FARAD代币互兑 以太坊 智能合约 钱包地址 ",
 
   "official": "Official Ethereum Address",
 
-  "warn.1": "Please DO NOT send from Exchanger wallet as the token shall be sent to their address",
-  "warn.2": "We will not be held responsible for any token that gets sent to the Exchanger wallet",
+  "warn.1": "请不要从 交易所 钱包发送您的参投，不然您所参投的代币将汇到交易所钱包",
+  "warn.2": "如果您的代币被汇到交易所钱包里，我们将不负任何责任。",
 
   "inst.title": "Contribution Settings",
-  "inst.min.contrib": "Any swap less than 0.05 Ether shall be declined by the contract, and any excess gas used shall be returned to the sender address.",
+  "inst.min.contrib": "任何兑换少于0.05以太币将连同合约被取消，而外多余的gas将还至于发送者。",
 
-  "eth.gas.price": "Gas Price",
+  "eth.gas.price": "Gas 价格",
   "eth.gas.price.value": "23 Gwei",
-  "eth.gas.limit": "Recommended Gas Limit",
+  "eth.gas.limit": "建议的 Gas 限制",
   "eth.gas.limit.value": "150,000",
-  "eth.min.swap": "Minimum Swap Amount",
+  "eth.min.swap": "最低兑换数目",
   "eth.min.swap.value": "0.05 Ether",
 
   
   "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
-  "action.scan": "Send your Ether to the address above, or scan the image shown if sending from mobile wallet.",
+  "action.scan": "根据以下地址发送您参投的以太币，或扫描以下图片显示的二维码；如果您是使用移动钱包。",
 
   "uk.title": "United Kingdom/Europe",
   "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
@@ -34,13 +34,13 @@
   "gcc.title": "Gulf Countries",
   "gcc.addr": "0x348a50d048ae187447C01Bd19D28A21ab20DFaF4",
 
-  "cn.title": "China",
+  "cn.title": "普通话",
   "cn.addr": "0x9ee6675eCDd92CEC22AacCD80E77ca14146306c5",
 
-  "kr.title": "Korea",
+  "kr.title": "대한민국",
   "kr.addr": "0xd5cCE82008ff71D1051443d33CD8255DaFA5a6fE",
 
-  "jp.title": "Japan",
+  "jp.title": "日本",
   "jp.addr": "0x8457AE15EBf4819D3de2F53937ca2E1b235C0102",
 
   "row.title": "Rest of The World",

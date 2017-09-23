@@ -4,6 +4,7 @@
 @import url("plugin/colorbox.css");
 @import url("plugin/jquery.fs.tipper.css");
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Cairo);
 
 /* 
 * BASIC STYLE
@@ -75,7 +76,7 @@ body {
     line-height: 24px;
     color: #323232;
     font-size: 13px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -274,7 +275,7 @@ p.color, .color, a.color, h1.color, h2.color, h3.color, h4.color, h5.color, h6.c
 h1, h2, h3, h4, h5, h6 {
     color: #323232;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -282,12 +283,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 43px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     line-height: 40px;
 }
 
 h1.h1, h2.h2 {
-    letter-spacing: 15px;
+    /*letter-spacing: 15px;*/
 }
 
 @media (max-width: 767px) {
@@ -298,7 +299,7 @@ h1.h1, h2.h2 {
 
 h2 {
     font-size: 27px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     line-height: 37px;
     margin-bottom: 20px;
     padding-top: 10px;
@@ -306,7 +307,7 @@ h2 {
 
 h3 {
     font-size: 21px;
-    letter-spacing: 4px;
+    /*letter-spacing: 4px;*/
     line-height: 32px;
 }
 
@@ -318,24 +319,24 @@ h3:after {
 
 h4 {
     font-size: 17px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     line-height: 28px;
 }
 
 h4.h4 {
-    letter-spacing: 4px;
+    /*letter-spacing: 4px;*/
 }
 
 h5 {
     font-size: 15px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     line-height: 23px;
     font-weight: 600;
 }
 
 h6 {
     font-size: 13px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     line-height: 17px;
     font-weight: 600;
 }

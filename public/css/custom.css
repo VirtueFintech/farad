@@ -20,6 +20,13 @@ h2.red, h5.red {
   color: #cd2a4c;
 }
 
+h2.big-title {
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #aaa;
+}
+
 div.row.line {
   border-top: 1px solid white;
   border-bottom: 1px solid white;

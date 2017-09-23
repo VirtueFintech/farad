@@ -1,26 +1,26 @@
 {
   "title.1": "FARAD Revolution",
-  "title.2": "Everywhere",
-  "desc": "Farad Token Swap Ethereum Smart Contract Wallet Address",
+  "title.2": "日本",
+  "desc": "FARAD トークン スワップ イーサリアム スマート コントラクト ウォレットアドレ ス=",
 
   "official": "Official Ethereum Address",
 
-  "warn.1": "Please DO NOT send from Exchanger wallet as the token shall be sent to their address",
-  "warn.2": "We will not be held responsible for any token that gets sent to the Exchanger wallet",
+  "warn.1": "トークンはアドレスに送付されますので、 エクスチェンジャーウォレットから送付 しないようご注意ください。",
+  "warn.2": "弊社はエクスチェンジャーウォレットに送付された トークンについては一切責任を負いません。",
 
   "inst.title": "Contribution Settings",
-  "inst.min.contrib": "Any swap less than 0.05 Ether shall be declined by the contract, and any excess gas used shall be returned to the sender address.",
+  "inst.min.contrib": "0.05 ETH 未満のスワップはコントラクトにより断られます。使用された余分なガス は送付者のアドレスに返還されます。",
 
-  "eth.gas.price": "Gas Price",
+  "eth.gas.price": "ガスの料金",
   "eth.gas.price.value": "23 Gwei",
-  "eth.gas.limit": "Recommended Gas Limit",
+  "eth.gas.limit": "オススメの ガスリミット",
   "eth.gas.limit.value": "150,000",
-  "eth.min.swap": "Minimum Swap Amount",
+  "eth.min.swap": "最小スワップ量",
   "eth.min.swap.value": "0.05 Ether",
 
   
-  "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
-  "action.scan": "Send your Ether to the address above, or scan the image shown if sending from mobile wallet.",
+  "action.title": "FARAD トークン スワップ イーサリアム スマート コントラクト ウォレットアドレ ス=",
+  "action.scan": "以下のアドレス宛てに イーサリアムを送付 してください。モバイルウォレットをご 利用の場合は以下の画像をスキャンしてください。",
 
   "uk.title": "United Kingdom/Europe",
   "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
@@ -34,13 +34,13 @@
   "gcc.title": "Gulf Countries",
   "gcc.addr": "0x348a50d048ae187447C01Bd19D28A21ab20DFaF4",
 
-  "cn.title": "Mandarin",
+  "cn.title": "普通话",
   "cn.addr": "0x9ee6675eCDd92CEC22AacCD80E77ca14146306c5",
 
-  "kr.title": "Korea",
+  "kr.title": "대한민국",
   "kr.addr": "0xd5cCE82008ff71D1051443d33CD8255DaFA5a6fE",
 
-  "jp.title": "Japan",
+  "jp.title": "日本",
   "jp.addr": "0x8457AE15EBf4819D3de2F53937ca2E1b235C0102",
 
   "row.title": "Rest of The World",
