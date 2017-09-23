@@ -193,6 +193,7 @@ module.exports = {
     | Fallback locale to be used when actual locale is not supported.
     |
     */
-    fallbackLocale: 'en'
+    fallbackLocale: 'en',
+    autoReload: true
   }
 }

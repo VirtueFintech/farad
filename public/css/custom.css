@@ -33,6 +33,16 @@ div.row.line {
   padding: 20px;
 }
 
+div.clock.flip-clock-wrapper {
+  display: inline-block;
+  width: auto;
+  color: #eee;
+}
+
+.flip-clock-label {
+  color: #eee;
+}
+
 .text-bold {
   font-style: bold;
 }
