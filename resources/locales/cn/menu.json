@@ -1,0 +1,20 @@
+{
+  "home": "Home",
+  "docs": "Documentations",
+  "docs.wp": "White Paper",
+  "docs.overview": "FARAD Overview",
+  "media": "Media & Press",
+  "faq": "FAQ", 
+  "lang": "Language", 
+
+  "lang.en": "English",
+  "lang.cn": "Chinese",
+  "lang.kr": "Korean",
+  "lang.jp": "Japanese",
+  "lang.ar": "Arabic",
+
+  "wp.link": "https://s3-ap-southeast-1.amazonaws.com/farad/en/FaradWhitepaper.pdf",
+  "overview.link": "https://farad.energy/wp-content/uploads/2017/09/FaradOverview.pdf",
+
+  "none": ""
+}
