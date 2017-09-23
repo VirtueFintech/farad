@@ -22,13 +22,24 @@ Route.get('/', 'HomeController.index')
 Route.get('/press', 'HomeController.press')
 Route.get('/faq', 'HomeController.faq')
 
-Route.get('/contrib/uk', 'ContribController.uk')
-Route.get('/contrib/ksa', 'ContribController.ksa')
-Route.get('/contrib/jo', 'ContribController.jo')
-Route.get('/contrib/gcc', 'ContribController.gcc')
+Route.group('Participate in FARAD', function() {
+  Route.get('/uk', 'ContribController.uk')
+  Route.get('/ksa', 'ContribController.ksa')
+  Route.get('/jo', 'ContribController.jo')
+  Route.get('/gcc', 'ContribController.gcc')
+  Route.get('/cn', 'ContribController.cn')
+  Route.get('/kr', 'ContribController.kr')
+  Route.get('/jp', 'ContribController.jp')
+  Route.get('/row', 'ContribController.row')
+}).prefix('/contrib')
 
-Route.get('/contrib/cn', 'ContribController.cn')
-Route.get('/contrib/kr', 'ContribController.kr')
-Route.get('/contrib/jp', 'ContribController.jp')
-Route.get('/contrib/row', 'ContribController.row')
+Route.group('Language Selection', function() {
+  Route.get('/en', 'LangController.en')
+  Route.get('/kr', 'LangController.kr')
+  Route.get('/jp', 'LangController.jp')
+  Route.get('/ar', 'LangController.ar')
+}).prefix('/lang')
+
+
+
 
