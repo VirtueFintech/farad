@@ -1,0 +1,50 @@
+{
+  "title.1": "파라드 혁명",
+  "title.2": "대한민국",
+  "desc": "파라드용 이더리움 스마트 계약 토큰세일 주소",
+
+  "official": "Official Ethereum Address",
+
+  "warn.1": "주의사항! 거래소 지갑에서 송금하지 않도록 주의하시길 바랍니다. ",
+  "warn.2": "거래소지갑 사용시 발생하는 오류는 파라드에서 책임지지 않습니다.",
+
+  "inst.title": "Contribution Settings",
+  "inst.min.contrib": "세일금액이 0.05이더 미만일 경우 계약이 채결되지 않으며, 사용된 여분의 가스는 발신자주소로 자동환불처리 됩니다.",
+
+  "eth.gas.price": "가스 가격",
+  "eth.gas.price.value": "23 궤이 (Gwei)",
+  "eth.gas.limit": "권장 가스",
+  "eth.gas.limit.value": "150,000",
+  "eth.min.swap": "최소 송금 금액",
+  "eth.min.swap.value": "0.05 이더 (ETH)",
+
+  
+  "action.title": "파라드용 이더리움 스마트 계약 토큰세일 주소",
+  "action.scan": "이더 송금주소는 아래와 같으며 모바일 월렛 사용시 바코드를 스캔하여 사용해주시길 바랍니다.",
+
+  "uk.title": "United Kingdom/Europe",
+  "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
+
+  "ksa.title": "Saudi Arabia",
+  "ksa.addr": "0x5beeC0Cf71d30ED317979917896C677f3701A1c6",
+
+  "jo.title": "Jordan",
+  "jo.addr": "0xFd82Ffc0D08dcFd902cBf6e48550033b01f919Cc",
+
+  "gcc.title": "Gulf Countries",
+  "gcc.addr": "0x348a50d048ae187447C01Bd19D28A21ab20DFaF4",
+
+  "cn.title": "China",
+  "cn.addr": "0x9ee6675eCDd92CEC22AacCD80E77ca14146306c5",
+
+  "kr.title": "Korea",
+  "kr.addr": "0xd5cCE82008ff71D1051443d33CD8255DaFA5a6fE",
+
+  "jp.title": "Japan",
+  "jp.addr": "0x8457AE15EBf4819D3de2F53937ca2E1b235C0102",
+
+  "row.title": "Rest of The World",
+  "row.addr": "0x75542A5D1Ea42dAE3dB73077Ad62Ce20aC3097D4",
+
+  "none": ""
+}

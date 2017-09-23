@@ -1,0 +1,16 @@
+{% extends './contrib' %}
+
+{% block country %}
+  <h1 class="h1 red">{{ antl.formatMessage('contrib.jp.title') }}</h1>
+{% endblock %}
+
+{% block contract_addr %}
+  <p>{{ antl.formatMessage('contrib.jp.addr') }}</p>
+{% endblock %}
+
+{% block qr_code %}
+  <p>{{ antl.formatMessage('contrib.jp.addr') }}</p>
+  <img src="img/contract/jp_eth_addr.png"/>
+{% endblock %}
+
+

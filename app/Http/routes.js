@@ -23,3 +23,12 @@ Route.get('/press', 'HomeController.press')
 Route.get('/faq', 'HomeController.faq')
 
 Route.get('/contrib/uk', 'ContribController.uk')
+Route.get('/contrib/ksa', 'ContribController.ksa')
+Route.get('/contrib/jo', 'ContribController.jo')
+Route.get('/contrib/gcc', 'ContribController.gcc')
+
+Route.get('/contrib/cn', 'ContribController.cn')
+Route.get('/contrib/kr', 'ContribController.kr')
+Route.get('/contrib/jp', 'ContribController.jp')
+Route.get('/contrib/row', 'ContribController.row')
+

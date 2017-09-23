@@ -16,6 +16,10 @@ class HomeController {
     yield response.sendView('faq')
   }
 
+  * lang (request, response) {
+    // yield response.sendView('faq')
+  }
+
 
 }
 

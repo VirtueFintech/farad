@@ -1,0 +1,13 @@
+{
+  "home": "메인",
+  "docs": "논문",
+  "docs.wp": "White Paper",
+  "docs.overview": "FARAD Overview",
+  "media": "미디어",
+  "faq": "질문과답",  
+
+  "wp.link": "https://s3-ap-southeast-1.amazonaws.com/farad/en/FaradWhitepaper.pdf",
+  "overview.link": "https://farad.energy/wp-content/uploads/2017/09/FaradOverview.pdf",
+
+  "none": ""
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Frequently Asked Questions",
+  "desc": "(FAQ)",
+
+  "section.1": "About FARAD",
+
+  "item.1": "What is Farad Cryptoken",
+  "item.1.text.1": "Farad Cryptoken is a crypto-currency within the Blockchain (Ethereum) ecosystem. Each Farad Cryptoken (\"FRD\") represents a right to the contract manufacturing and sales agency agreement with HK Aerospace Beidou New Technology Co. Ltd (HK) to produce ultra-capacitor cells with an output of 1,600,000,000 mF over a period of 36 months. Each FRD represents 1 mF.",
+  "item.1.text.2": "The ultra-capacitors will potentially be used in combination with traditional batteries such as Lithium Ion batteries within the Energy Storage Industry such as AMR, Beacon, Smart Card, Token, Smart phones, Power banks, RFID, IoT devices, WiFi Dongle, POS devises, SSD, PLP, Power tools, Drones, Automotive Boosters, UPS, Robotic Apparatus and Energy Harvest among others",
+
+  "item.2": "Who is Behind FRD",
+  "item.2.text.1": "Program Manager and Blockchain Developer",
+  "item.2.text.2": "VIRTUE FINTECH FZ-LLC (http://virtue.finance)",
+  "item.2.text.3": "Virtue is a company incorporated in Dubai Internet City, Dubai, United Arab Emirates. The company specializes in blockchain applications focusing on financial economics.",
+  "item.2.text.4": "Program Executors (http://aerobeidou.com)",
+  "item.2.text.5": "HK AEROSPACE BEIDOU NEW TECHNOLOGY CO. LTD.",
+  "item.2.text.6": "The company’s manufacturing facility is under it’s subsidiary Guangxi Aerospace Beidou New Technology Co. Ltd. which is located in Wuzhou City, Guangxi Province, People’s Republic of China.",
+
+  "item.3": "What Is An Ultra-Capacitor And What Can It Be Used For?",
+  "item.3.text.1": "An Ultra-capacitor, also known as a supercapacitor or electrochemical capacitor, is a device for storing electrical energy which is growing rapidly in popularity. The design and mechanism of an Ultra-capacitor’s operation is somewhere between an ordinary capacitor and a battery, which opens up some interesting and valuable applications.",
+  "item.3.text.2": "Like a battery, a single Ultra-capacitor cell consists of a positive and negative electrode, separated by an electrolyte. However, Ultra-capacitor store energy electrostatically, like a regular capacitor, not chemically like a battery - there is a dielectric separator dividing the electrolyte, also like a capacitor. The small separation between electrodes permitted by this structure lead to much higher energy storage density than a normal capacitor. Whilst an Ultra-capacitor stores less energy than an equivalently sized battery, it can release it much quicker, as the discharge is not dependent on a chemical reaction taking place.",
+  "item.3.text.3": "Because no physical or chemical changes occur when charge is stored, Ultra-capacitors can also be used many times over without degradation.",
+
+  "item.4": "How FRD Is Unique/Different From Other Existing CryptoCurrencies?",
+  "item.4.text.1": "Valuation for FRD is driven and backed by real economic cash flows." ,
+  "item.4.text.2": "The ‘mining model’ used for FRD is an ‘assured model’ where the ‘mining’ is based on actual farad produced on the Ethereum Smart Contract. After 3 years, when ‘mining’ is over, it’s fundamental will be backed by 100% Cryptokens.",
+  "item.4.text.3": "Premium over Escrow is meant to be the value attached to FRD as tokens for Farad ultra-capacitor based products and markets.",
+  "item.4.text.4": "Each Farad ultra-capacitor produced by the factory will be recorded in the blockchain system, which will ensure a fully transparent process which is fully accountable and fully auditable by anyone at anytime, using the Blockchain public records." ,
+  "item.4.text.5": "FRD offers a guaranteed swap back higher than offer index.",
+
+  "item.5": "What Does Each FRD Represent?",
+  "item.5.text.1": "Each Farad Cryptoken (“FRD”) represents the rights on the contract manufacturing and sales agency agreement to produce Ultra-Capacitor Cells with an output of 1,600,000,000 mF over a period of 36 months. ",
+  "item.5.text.2": "1 FRD = 1 mF = USD0.125",
+
+  "item.6": "What Are The Advantages Of FRD?",
+  "item.6.text.1": "It is fully accountable through the blockchain",
+  "item.6.text.2": "Its is fully auditable and",
+  "item.6.text.3": "It is transparent",
+
+  "item.7": "Is FRD Anonymous?",
+  "item.7.text.1": "FRD is fully transparent. The FARAD program will initially be housed under Virtue Fintech, who has appointed 2 independent parties to act as the program auditor and compliance. After the ICO and before the first swap-back, Virtue Fintech intends to transfer the ownership of the FARAD program to an independent special purpose company called FARAD SPC, which will have its own independent board of directors.",
+
+  "item.8": "Can FRD Scale To Become A Currency?",
+  "item.8.text.1": "Yes it can, in the future we plan to use FRD as currencies for purchase of Metal Oxide based UC and eventually end products that has Metal Oxide UC as it’s base components.",
+
+  "item.9": "What Determines FRD’s Index?",
+  "item.9.text.1": "Theoretically the par index of FRD at issuance will be pegged to the actual cash flow generated from the guaranteed off-take provision under the manufacturing and sales agency agreement.",
+  
+  "item.10": "Is FRD Secure?",
+  "item.10.text.1": "Yes. Each FRD is secured on the actual milli-farad (mF) that is produced by the production of the Ultra-capacitor cells.",
+
+  "none": ""
+}
