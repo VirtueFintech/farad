@@ -25,7 +25,7 @@ class ContribController {
   }
 
   * kr (request, response) {
-    Antl.setLocale('kr')    
+    // Antl.setLocale('kr')    
     yield response.sendView('contrib/kr')
   }
 
