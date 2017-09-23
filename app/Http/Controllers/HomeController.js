@@ -16,6 +16,7 @@ class HomeController {
     yield response.sendView('faq')
   }
 
+
 }
 
 module.exports = HomeController

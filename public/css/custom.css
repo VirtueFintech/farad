@@ -12,13 +12,18 @@ div.skillbar-bar {
   background: #cd2a4c;
 }
 
-div.red-bar {
-/*  border-right: 3px solid #cd2a4c;
-  margin-right: 20px;
-*/}
+div#warn {
+  background-color: #cd2a4c;
+}
 
-h2.red {
+h2.red, h5.red {
   color: #cd2a4c;
+}
+
+div.row.line {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px;
 }
 
 .p10 {

@@ -5,7 +5,123 @@
   
   <!-- Intro Section -->
   <section id="intro" class="dark-bg">
+
+    <!-- Intro Canvas Pattern -->
+    <div class="intro-media-wraper bg-image overlay-dark parallax parallax-section1" data-background-img="img/farad-bg-1.png">
+    <!-- Canvas Pattern -->
+    <canvas id="pollyfill-canvas"></canvas>
+    <!-- End Canvas Pattern -->
+    </div>
+    <!-- End Intro Canvas Pattern -->
+
+    <!-- Caption Section -->
+    <div class="intro-overlay-section">
+    <div class="js-fullscreen-height intro-caption-top container">
+      <div class="intro-content">
+      <div class="intro-content-inner">
+        <h1 class="h1 red">{{ antl.formatMessage('press.title') }}</h1>
+        <br>
+        <h3 class="h1 red">{{ antl.formatMessage('press.desc') }}</h3>
+        <br>
+      </div>
+    </div>
   </section>
+
+  <!-- Video Section -->
+  <section id="video" class="dark-bg fadeIn ptb ptb-sm-80">
+    <div class="container">
+      <div class="ptb ptb-sm-80 ptb-80 text-center">
+        <h1 class="h1 red">{{ antl.formatMessage('press.video.1') }}</h1>
+
+      </div>
+      <div class="ptb ptb-sm-80">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-30">
+              <p>{{ antl.formatMessage('press.video.1.desc') }}</p>
+              <div class="post-media">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/lCyKDjnKgrE" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 mb-30">
+              <p>{{ antl.formatMessage('press.video.2.desc') }}</p>
+              <div class="post-media">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/etItlScBJyQ" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="dark-bg ptb-60" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="ptb ptb-sm-80 ptb-80 mx-auto text-center">
+          <img src="img/farad-symbol.png" alt="FARAD">
+        </div>
+        <div class="ptb ptb-sm-80 ptb-80">
+          <div class="text-center">
+            <h1 class="h1 red">{{ antl.formatMessage('press.news.title') }}</h1><br><br>
+          </div>  
+          <br>
+          <h4 class="mb-0">{{ antl.formatMessage('press.news.text') }}</h4>
+        </div>
+        <div class="spacer-60"></div>
+        <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
+          <div class="item">
+            <div class="testimonial text-center dark-color">
+              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+              <p class="lead">
+                {{ antl.formatMessage('press.news.1') }}
+              </p>
+              <p>
+                <a class="btn btn-md btn-white-line" href="{{ antl.formatMessage('press.news.1.link') }}">More...</a>
+              </p>
+              <br>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial text-center dark-color">
+              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+              <p class="lead">
+                {{ antl.formatMessage('press.news.2') }}
+              </p>
+              <p>
+                <a class="btn btn-md btn-white-line" href="{{ antl.formatMessage('press.news.2.link') }}">More...</a>
+              </p>
+              <br>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial text-center dark-color">
+              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+              <p class="lead">
+                {{ antl.formatMessage('press.news.3') }}
+              </p>
+              <p>
+                <a class="btn btn-md btn-white-line" href="{{ antl.formatMessage('press.news.3.link') }}">More...</a>
+              </p>
+              <br>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial text-center dark-color">
+              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+              <p class="lead">
+                {{ antl.formatMessage('press.news.4') }}
+              </p>
+              <p>
+                <a class="btn btn-md btn-white-line" href="{{ antl.formatMessage('press.news.4.link') }}">More...</a>
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
 
 {% endblock %}
 <!-- END CONTENT -->

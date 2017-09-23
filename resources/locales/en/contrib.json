@@ -1,0 +1,28 @@
+{
+  "title.1": "FARAD Revolution",
+  "title.2": "United Kingdom/Europe",
+  "desc": "Farad Token Swap Ethereum Smart Contract Wallet Address",
+
+  "official": "Official Ethereum Address",
+
+  "warn.1": "Please DO NOT send from Exchanger wallet as the token shall be sent to their address",
+  "warn.2": "We will not be held responsible for any token that gets sent to the Exchanger wallet",
+
+  "inst.title": "Contribution Settings",
+  "inst.min.contrib": "Any swap less than 0.05 Ether shall be declined by the contract, and any excess gas used shall be returned to the sender address.",
+
+  "eth.gas.price": "Gas Price",
+  "eth.gas.price.value": "23 Gwei",
+  "eth.gas.limit": "Recommended Gas Limit",
+  "eth.gas.limit.value": "150,000",
+  "eth.min.swap": "Minimum Swap Amount",
+  "eth.min.swap.value": "0.05 Ether",
+
+  
+  "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
+  "action.scan": "Send your Ether to the address above, or scan the image shown if sending from mobile wallet.",
+
+  "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
+
+  "none": ""
+}
