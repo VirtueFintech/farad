@@ -16,21 +16,28 @@
 
     <!-- Caption Section -->
     <div class="intro-overlay-section">
-    <div class="js-fullscreen-height intro-caption-top container">
-      <div class="intro-content">
-        <div class="intro-content-inner">
-          <h2>{{ antl.formatMessage('home.title') }}</h2>
-          <br>
-          <h1 class="h1 red">
-            {{ antl.formatMessage('home.heading.1') }}<br><br>
-            {{ antl.formatMessage('home.heading.2') }}
-          </h1>
-          <br>
-          <h4>
-            {{ antl.formatMessage('home.action.warn.2') }}<br>
-            {{ antl.formatMessage('home.action.select') }}
-          </h4>              
-          <br>
+      <div class="js-fullscreen-height intro-caption-top container">
+        <div class="intro-content">
+          <div class="intro-content-inner ptb ptb-80">
+            <h2>{{ antl.formatMessage('home.title') }}</h2>
+            <br>
+            <h1 class="h1 red">
+              {{ antl.formatMessage('home.heading.1') }}
+              {{ antl.formatMessage('home.heading.2') }}
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="overlay-dark80 dark-bg ptb ptb-sm-80">
+    <div class="container">
+      <div>
+        <div>
+          <p>
+            <h4>{{ antl.formatMessage('home.action.warn.2') }}</h4>
+            <h4>{{ antl.formatMessage('home.action.select') }}</h4>              
+          </p>
           <div>
             <a class="btn btn-md btn-white-line" href="/contrib/uk">{{ antl.formatMessage('home.join.uk') }}</a>
             <span class="btn-space-10 xs-hidden"></span>
@@ -57,7 +64,6 @@
           </div>
         </div>
       </div>
-    </div>
     </div>
     <!-- End Caption Section -->
 
@@ -126,11 +132,15 @@
       </div>
       <div class="ptb ptb-sm-80 ptb-80">
         <div class="text-center">
-          <h1 class="h1 red">{{ antl.formatMessage('home.intro.title.1') }}</h1><br><br>
+          <h1 class="h1 red">{{ antl.formatMessage('home.intro.title.1') }}</h1>
           <h1 class="h1 red">{{ antl.formatMessage('home.intro.title.2') }}</h1>
         </div>  
         <br>
-        <h4 class="mb-0">{{ antl.formatMessage('home.intro.text') }}</h4>
+      </div>
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h5 class="p10">{{ antl.formatMessage('home.intro.text') }}</h5>
+        </div>        
       </div>
       <div class="ptb ptb-sm-80 mx-auto text-center">
         <a class="btn btn-md btn-white float-right float-none-xs" href="{{ antl.formatMessage('home.wp.link') }}">{{ antl.formatMessage('menu.docs.wp') }}</a>
