@@ -16,15 +16,25 @@
 
     <!-- Caption Section -->
     <div class="intro-overlay-section">
-    <div class="js-fullscreen-height intro-caption-top container">
-      <div class="intro-content">
-        <div class="intro-content-inner">
-          <div class="ptb ptb-sm-80 ptb-80 mx-auto text-center">
-            <img src="img/farad-symbol.png" alt="FARAD">
+      <div class="js-fullscreen-height intro-caption-top container">
+        <div class="intro-content">
+          <div class="intro-content-inner">
+            <div class="ptb ptb-sm-80 ptb-80 mx-auto text-center">
+              <img src="img/farad-symbol.png" alt="FARAD">
+            </div>
+            <h2 class="h2 red">
+              {{ antl.formatMessage('contrib.title.1') }}<br>
+              {{ antl.formatMessage('contrib.title.2') }}
+            </h2>
           </div>
-          <h1 class="h1 red">{{ antl.formatMessage('contrib.title.1') }}</h1>
-          <br>
-          <h1 class="h1 red">{{ antl.formatMessage('contrib.title.2') }}</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="warn" class="dark-bg fadeIn ptb ptb-sm-80">
+    <div class="text-center">
+      <div>
+        <div>
           <br>
           <p><h2 class="h2 red">{{ antl.formatMessage('contrib.official') }}</h2></p>
           <br>
@@ -33,10 +43,6 @@
           {% endblock %}
         </div>
       </div>
-      <div class="row danger dark-bg">
-        <p>{{ antl.formatMessage('contrib.warn.1') }}</p>
-        <p>{{ antl.formatMessage('contrib.warn.2') }}</p>
-      </div>
     </div>    
   </section>
 
@@ -44,8 +50,8 @@
   <section id="warn" class="dark-bg fadeIn ptb ptb-sm-80">
     <div class="container">
       <div id="warn" class="ptb ptb-sm-80 ptb-80 text-center danger">
-        <h5 class="h1">{{ antl.formatMessage('contrib.warn.1') }}</h5>
-        <h5 class="h1">{{ antl.formatMessage('contrib.warn.2') }}</h5>
+        <h5 class="h2">{{ antl.formatMessage('contrib.warn.1') }}</h5>
+        <h5 class="h2">{{ antl.formatMessage('contrib.warn.2') }}</h5>
       </div>
     </div>
   </section>
@@ -55,7 +61,7 @@
     <div class="container">
       <div class="mx-auto text-center">
         <p>
-          <h1 class="h1 red">{{ antl.formatMessage('contrib.action.title') }}</h1>
+          <h2 class="h2 red">{{ antl.formatMessage('contrib.action.title') }}</h2>
         </p>
         <br>
         {% block qr_code %}
@@ -68,7 +74,7 @@
     </div>
     <div class="container">
       <div class="ptb ptb-sm-80 ptb-80 text-center">
-        <h1 class="h1 red">{{ antl.formatMessage('contrib.inst.title') }}</h1>
+        <h2 class="h2 red">{{ antl.formatMessage('contrib.inst.title') }}</h2>
       </div>
     </div>
     <div id="eth" class="container">
