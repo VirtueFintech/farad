@@ -4,6 +4,29 @@
 {% endblock %}
 
 {% block script %}
+  <script src="js/wow.min.js" type="text/javascript"></script>
+  <script src="js/jquery.countdown.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+
+      new WOW().init();
+      /*
+          Countdown initializer
+      */
+      var now = new Date();
+      var countTo = new Date(2017,8,30,23,59,59); //25 * 24 * 60 * 60 * 1000 + now.valueOf();    
+      $('.timer').countdown(countTo, function(event) {
+        console.log('event:' + event);
+
+        $(this).find('.days').text(event.offset.totalDays);
+        $(this).find('.hours').text(event.offset.hours);
+        $(this).find('.minutes').text(event.offset.minutes);
+        $(this).find('.seconds').text(event.offset.seconds);
+      });
+
+    });
+
+  </script>
 {% endblock %}
 
 <!-- CONTENT -->  
@@ -14,9 +37,9 @@
 
     <!-- Intro Canvas Pattern -->
     <div class="intro-media-wraper bg-image overlay-dark parallax parallax-section1" data-background-img="img/farad-bg-1.png">
-    <!-- Canvas Pattern -->
-    <canvas id="pollyfill-canvas"></canvas>
-    <!-- End Canvas Pattern -->
+      <!-- Canvas Pattern -->
+      <canvas id="pollyfill-canvas"></canvas>
+      <!-- End Canvas Pattern -->
     </div>
     <!-- End Intro Canvas Pattern -->
 
@@ -31,6 +54,29 @@
               {{ antl.formatMessage('home.heading.1') }}
               {{ antl.formatMessage('home.heading.2') }}
             </h2>
+            <br>
+            <div class="container">
+              <h3>{{ antl.formatMessage('home.action.rem') }}</h3>
+            </div>
+            <div id="icotimer">
+              <div class="timer wow fadeInUp">
+                <div class="days-wrapper">
+                  <span class="days">00</span> <br>days
+                </div> 
+                <span class="slash">/</span> 
+                <div class="hours-wrapper">
+                  <span class="hours">00</span> <br>hours
+                </div> 
+                <span class="slash">/</span> 
+                <div class="minutes-wrapper">
+                  <span class="minutes">00</span> <br>min
+                </div> 
+                <span class="slash">/</span> 
+                <div class="seconds-wrapper">
+                  <span class="seconds">00</span> <br>sec
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -41,14 +87,8 @@
     <div class="container">
       <div>
         <div class="text-center">
-          <div>
-            {# <h2 class="big-title">{{ antl.formatMessage('home.action.rem') }}</h2> #}
-          </div>
-          <p>
-            {# <div class="clock"></div> #}         
-          </p>
           <p class="text-center">
-            <h4>{{ antl.formatMessage('home.action.warn.2') }}</h4>
+            <!-- <h4>{{ antl.formatMessage('home.action.warn.2') }}</h4> -->
             <h4>{{ antl.formatMessage('home.action.select') }}</h4>              
           </p>
           <div class="text-center">
