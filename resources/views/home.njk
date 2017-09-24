@@ -1,32 +1,9 @@
 {% extends 'canvas' %}
 
 {% block head %}
-  <link rel="stylesheet" href="plugin/flipclock/compiled/flipclock.css">
 {% endblock %}
 
 {% block script %}
-  <script src="plugin/flipclock/compiled/flipclock.min.js" type="text/javascript"></script>  
-  <script type="text/javascript">
-    var clock;
-
-    $(document).ready(function() {
-
-      // Grab the current date
-      var currentDate = new Date();
-
-      // Set some date in the future. In this case, it's always Jan 1
-      var futureDate  = new Date('2017-09-30 11:59:59 pm');
-
-      // Calculate the difference in seconds between the future and current date
-      var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
-      // Instantiate a coutdown FlipClock
-      clock = $('.clock').FlipClock(diff, {
-        clockFace: 'DailyCounter',
-        countdown: true,
-      });
-    });
-  </script>
 {% endblock %}
 
 <!-- CONTENT -->  
@@ -65,10 +42,10 @@
       <div>
         <div class="text-center">
           <div>
-            <h2 class="big-title">{{ antl.formatMessage('home.action.rem') }}</h2>
+            {# <h2 class="big-title">{{ antl.formatMessage('home.action.rem') }}</h2> #}
           </div>
           <p>
-            <div class="clock"></div>
+            {# <div class="clock"></div> #}         
           </p>
           <p class="text-center">
             <h4>{{ antl.formatMessage('home.action.warn.2') }}</h4>
