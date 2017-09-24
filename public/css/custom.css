@@ -150,6 +150,10 @@ div.clock.flip-clock-wrapper {
   .ether_addr { font-size: 1em; }
 }
 
+@media (max-width: 320px) {
+  .ether_addr { font-size: 0.8em; }
+}
+
 .text-bold {
   font-style: bold;
 }
