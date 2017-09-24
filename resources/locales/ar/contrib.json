@@ -34,13 +34,13 @@
   "gcc.title": "Gulf Countries",
   "gcc.addr": "0x348a50d048ae187447C01Bd19D28A21ab20DFaF4",
 
-  "cn.title": "普通话",
+  "cn.title": "Mandarin",
   "cn.addr": "0x9ee6675eCDd92CEC22AacCD80E77ca14146306c5",
 
-  "kr.title": "대한민국",
+  "kr.title": "Korea",
   "kr.addr": "0xd5cCE82008ff71D1051443d33CD8255DaFA5a6fE",
 
-  "jp.title": "日本",
+  "jp.title": "Japan",
   "jp.addr": "0x8457AE15EBf4819D3de2F53937ca2E1b235C0102",
 
   "row.title": "Rest of The World",
