@@ -40,7 +40,7 @@ div.clock.flip-clock-wrapper {
   color: #eee;
 }
 
-
+.ether_addr { font-size: 1.5em; }
 .timer {
   margin-top: 10px;
 }
@@ -91,6 +91,9 @@ div.clock.flip-clock-wrapper {
 }
 
 @media (max-width: 768px) {
+  h2 { font-size: 42px; }
+  .ether_addr { font-size: 1.2em; }
+
   .timer {
     margin-top: 10px;
   }
@@ -116,6 +119,9 @@ div.clock.flip-clock-wrapper {
 }
 
 @media (max-width: 414px) {
+  h2 { font-size: 32px; }
+  .ether_addr { font-size: 1em; }
+
   .timer {
     margin-top: 10px;
   }
@@ -140,6 +146,9 @@ div.clock.flip-clock-wrapper {
   }
 }
 
+@media (max-width: 375px) {
+  .ether_addr { font-size: 1em; }
+}
 
 .text-bold {
   font-style: bold;
