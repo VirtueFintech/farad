@@ -1,11 +1,11 @@
 {
-  "home": "主页",
-  "docs": "官方文件",
+  "home": "Home",
+  "docs": "Documentations",
   "docs.wp": "White Paper",
   "docs.overview": "FARAD Overview",
-  "media": "媒体资讯",
-  "faq": "常问问题",  
-  "lang": "Language",
+  "media": "Media & Press",
+  "faq": "FAQ", 
+  "lang": "Language", 
 
   "lang.en": "English",
   "lang.cn": "普通话",

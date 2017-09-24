@@ -39,8 +39,8 @@ div.clock.flip-clock-wrapper {
   color: #eee;
 }
 
-.flip-clock-label {
-  color: #eee;
+.flip-clock-divider .flip-clock-label {
+  color: green; 
 }
 
 .text-bold {
