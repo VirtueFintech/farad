@@ -97,6 +97,7 @@ div.clock.flip-clock-wrapper {
 @media (max-width: 320px) {
   h2.red { line-height: 30px; font-size: 22px; letter-spacing: 0px; }
   h2.big-title { line-height: 35px; font-size: 40px; color: #cd2a4c; }
+  h3 { line-height: 20px; }
   .ether_addr { font-size: 0.8em; }
 }
 
