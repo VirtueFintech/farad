@@ -5,12 +5,55 @@
 {% endblock %}
 
 {% block contract_addr %}
-  <p style="font-size: 0.8em;">{{ antl.formatMessage('contrib.jo.addr') }}</p>
+  <p class="ether_addr">{{ antl.formatMessage('contrib.jo.addr') }}</p>
 {% endblock %}
 
 {% block qr_code %}
-  <p style="font-size: 0.8em;">{{ antl.formatMessage('contrib.jo.addr') }}</p>
+  <p class="ether_addr">{{ antl.formatMessage('contrib.jo.addr') }}</p>
   <img src="img/contract/jo_eth_addr.png"/>
+{% endblock %}
+
+{% block extra %}
+  <!-- Announce Section -->
+  <section id="board" class="dark-bg ptb-60" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="ptb ptb-sm-80 ptb-80 text-center">
+        <h2 class="h2 red">
+          {{ antl.formatMessage('contrib.rep.title') }}
+        </h2>
+      </div>
+      <div class="row mt-80">
+        <div class="container">
+          <div class="text-center">
+            <p>{{ antl.formatMessage('contrib.rep.jo.1') }}</p>
+            <p>{{ antl.formatMessage('contrib.rep.jo.2') }}</p>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </section> 
+  <!-- End Announce Section -->
+   
+  <!-- Team Section -->
+  <section id="team" class="dark-bg ptb-60">
+    <div class="container">
+      <div class="row mt-80">
+        <div class="col-md-4 offset-md-4 mb-30">
+          <div class="text-center">
+            <img src="{{ antl.formatMessage('contrib.jo.rep.1.img') }}" alt="{{ antl.formatMessage('contrib.jo.rep.1.name') }}" />
+          </div>          
+          <br>
+          <br>
+          <h5>{{ antl.formatMessage('contrib.jo.rep.1.name') }}</h5>
+          <strong>{{ antl.formatMessage('contrib.jo.rep.1.title') }}</strong>
+          <div class="spacer-15"></div>
+          <p>{{ antl.formatMessage('contrib.jo.rep.1.cv.1') }}</p>
+          <p>{{ antl.formatMessage('contrib.jo.rep.1.cv.2') }}</p>
+          <p>{{ antl.formatMessage('contrib.jo.rep.1.cv.3') }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
 {% endblock %}
 
 
