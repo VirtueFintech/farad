@@ -49,11 +49,11 @@ div.clock.flip-clock-wrapper {
   color: #eee;
 }
 
-h2 { font-weight: 200; }
+h2 { font-weight: 300; }
 
 @media (min-width: 992px) {
-  h2 { line-height: 100px; font-size: 42px; letter-spacing: 0px; color: #cd2a4c; font-weight: 200; }
-  h2.big-title { line-height: 50px; font-size: 100px; color: #aaa; font-weight: 500; }
+  h2 { line-height: 100px; font-size: 42px; letter-spacing: 0px; color: #cd2a4c; }
+  h2.big-title { line-height: 50px; font-size: 40px; color: #aaa; font-weight: 500; }
 
   .ether_addr { font-size: 1.5em; }
   .timer { margin-top: 10px; }
