@@ -152,3 +152,10 @@ h2 { font-weight: 400; }
   padding: 5px;
 }
 
+.btn-blue {
+  color: #fff;
+  background-color: #0069ff;
+  border-color: #0069ff;
+  height: 70px;
+}
+
