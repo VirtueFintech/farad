@@ -22,6 +22,8 @@
   "action.title": "FARAD トークン スワップ イーサリアム スマート コントラクト ウォレットアドレ ス=",
   "action.scan": "以下のアドレス宛てに イーサリアムを送付 してください。モバイルウォレットをご 利用の場合は以下の画像をスキャンしてください。",
 
+  "paypal.title": "Swap via Paypal",
+
   "uk.title": "United Kingdom/Europe",
   "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
 

@@ -22,6 +22,8 @@
   "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
   "action.scan": "根据以下地址发送您参投的以太币，或扫描以下图片显示的二维码；如果您是使用移动钱包。",
 
+  "paypal.title": "Swap via Paypal",
+
   "uk.title": "United Kingdom/Europe",
   "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
 

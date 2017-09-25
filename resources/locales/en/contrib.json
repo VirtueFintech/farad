@@ -22,6 +22,8 @@
   "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
   "action.scan": "Send your Ether to the address above, or scan the image shown if sending from mobile wallet.",
 
+  "paypal.title": "Swap via Paypal",
+
   "uk.title": "United Kingdom/Europe",
   "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
 
