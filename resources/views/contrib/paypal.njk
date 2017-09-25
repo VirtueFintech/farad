@@ -44,6 +44,10 @@
               <span class="input-group-addon" id="basic-addon1">FRD</span>
               <input type="text" name="quantity" id="quantity" class="form-control" placeholder="FRD Amount..." aria-label="FRD" aria-describedby="frd-amount" readonly="true">
             </div>
+            <div class="form-field-wrapper form-group">
+              <label style="color: #fff;">Ether Address</label>
+              <input type="text" name="invoice" id="eth_addr" class="form-control" placeholder="ETH Address" aria-label="ETH" aria-describedby="eth-addr" required="required">
+            </div>
             <button class="btn btn-md btn-blue form-full" type="submit" name="submit">{{ antl.formatMessage('contrib.paypal.title') }}</button>            
           </form>     
         </div>
