@@ -34,10 +34,10 @@
             <div class="form-field-wrapper form-group">
               <label style="color: #fff;">{{ antl.formatMessage('contrib.paypal.select') }}</label>
               <select id="usd_val" class="input-sm form-full" name="os0" required="required" aria-label="Payment Amount">
-                <option value="12.50">USD 12.50</option>
-                <option value="25.00">USD 25.00</option>
-                <option value="37.50">USD 37.50</option>
-                <option value="50.00">USD 50.00</option>
+                <option value="12.50">USD 12.00</option>
+                <option value="24.00">USD 24.00</option>
+                <option value="36.00">USD 36.00</option>
+                <option value="48.00">USD 48.00</option>
                 <option value="0">---</option>
                 <option value="125.00">USD 125.00</option>
                 <option value="250.00">USD 250.00</option>
@@ -67,7 +67,7 @@
             <input type="hidden" id="quantity" name="quantity">
             <div class="form-field-wrapper input-group">
               <span class="input-group-addon" id="basic-addon1">FRD</span>
-              <input type="text" name="frd_amt" id="frd_amt" class="form-control" aria-label="FRD" aria-describedby="frd-amount" readonly="true" value="1,000">
+              <input type="text" name="frd_amt" id="frd_amt" class="form-control" aria-label="FRD" aria-describedby="frd-amount" readonly="true" placeholder="{{ antl.formatMessage('contrib.paypal.frd.amount') }}"> <!--value="1,000"-->
             </div>
             <div class="form-field-wrapper form-group">
               <label style="color: #fff;">{{ antl.formatMessage('contrib.paypal.eth.addr') }}</label>
@@ -87,7 +87,7 @@
 
 {% block script %}
   <script type="text/javascript">
-    var unit_price = 12.5;
+    var unit_price = 12.00;
     $(document).ready(function() {
       $('#usd_val').change(function() {
         var usd = '';
