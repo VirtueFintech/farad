@@ -15,6 +15,10 @@ body {
 }
 
 .__banner {
+  background-image: url('img/farad-bg-1.png');
+  background-size: cover;
+
+  /*
   background: #744d82;
   background: -moz-radial-gradient(top, ellipse cover, #744d82 11%, #503d67 99%, #503d67 100%);
   background: -webkit-gradient(radial, top center, 0, center center, 100%, color-stop(11%, #744d82), color-stop(99%, #503d67), color-stop(100%, #503d67));
@@ -22,6 +26,7 @@ body {
   background: -o-radial-gradient(top, ellipse cover, #744d82 11%, #503d67 99%, #503d67 100%);
   background: -ms-radial-gradient(top, ellipse cover, #744d82 11%, #503d67 99%, #503d67 100%);
   background: radial-gradient(ellipse at top, #744d82 11%, #503d67 99%, #503d67 100%);
+  */
 }
 
 .__banner {
