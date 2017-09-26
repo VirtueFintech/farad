@@ -58,7 +58,7 @@
             <input type="hidden" id="quantity" name="quantity">
             <div class="form-field-wrapper input-group">
               <span class="input-group-addon" id="basic-addon1">FRD</span>
-              <input type="text" name="frd_amt" id="frd_amt" class="form-control" placeholder="{{ antl.formatMessage('contrib.paypal.frd.amount') }}" aria-label="FRD" aria-describedby="frd-amount" readonly="true">
+              <input type="text" name="frd_amt" id="frd_amt" class="form-control" aria-label="FRD" aria-describedby="frd-amount" readonly="true" value="1,000">
             </div>
             <div class="form-field-wrapper form-group">
               <label style="color: #fff;">{{ antl.formatMessage('contrib.paypal.eth.addr') }}</label>
@@ -86,7 +86,7 @@
           usd = $(this).val();
         })
         var frd = (usd / 0.125);
-        $('#frd_amt').val(frd);
+        $('#frd_amt').val(frd.toLocaleString('en'));
 
         var qnty = (usd / 125);
         $('#quantity').val(qnty);
