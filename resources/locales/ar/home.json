@@ -14,9 +14,9 @@
     "join.ksa": "KSA",
     "join.jordan": "Jordan",
     "join.gcc": "Other GCC",
-    "join.china": "普通话",
-    "join.korea": "대한민국",
-    "join.japan": "日本",
+    "join.china": "Mandarin",
+    "join.korea": "Korea",
+    "join.japan": "Japan",
     "join.row": "Rest of The World",
 
     "news.title": "FARAD News",
