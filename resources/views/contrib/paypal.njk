@@ -12,7 +12,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2 text-center">
-          <h3>Swap FRD via Paypal</h3>
+          <h3>{{ antl.formatMessage('contrib.paypal.title') }}</h3>
         </div>
       </div>
       <div class="spacer-75"></div>
@@ -28,7 +28,7 @@
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="display: none;">
 
             <div class="form-field-wrapper form-group">
-              <label style="color: #fff;">Select Amount</label>
+              <label style="color: #fff;">{{ antl.formatMessage('contrib.paypal.select') }}</label>
               <select id="usd_val" class="input-sm form-full" name="os0" required="required" aria-label="Payment Amount">
                 <option value="125">USD 125</option>
                 <option value="250">USD 250</option>
@@ -42,11 +42,15 @@
             </div>
             <div class="form-field-wrapper input-group">
               <span class="input-group-addon" id="basic-addon1">FRD</span>
-              <input type="text" name="quantity" id="quantity" class="form-control" placeholder="FRD Amount..." aria-label="FRD" aria-describedby="frd-amount" readonly="true">
+              <input type="text" name="quantity" id="quantity" class="form-control" placeholder="{{ antl.formatMessage('contrib.paypal.frd.amount') }}" aria-label="FRD" aria-describedby="frd-amount" readonly="true">
             </div>
             <div class="form-field-wrapper form-group">
-              <label style="color: #fff;">Ether Address</label>
-              <input type="text" name="invoice" id="eth_addr" class="form-control" placeholder="ETH Address" aria-label="ETH" aria-describedby="eth-addr" required="required">
+              <label style="color: #fff;">{{ antl.formatMessage('contrib.paypal.eth.addr') }}</label>
+              <input type="text" name="invoice" id="eth_addr" class="form-control" placeholder="{{ antl.formatMessage('contrib.paypal.eth.addr') }}" aria-label="ETH" aria-describedby="eth-addr" required="required">
+            </div>
+            <div class="form-field-wrapper form-group">
+              <label style="color: #fff;">{{ antl.formatMessage('contrib.paypal.email.addr') }}</label>
+              <input type="text" name="email" id="email" class="form-control" placeholder="{{ antl.formatMessage('contrib.paypal.email.addr') }}" aria-label="ETH" aria-describedby="eth-addr" required="required">
             </div>
             <button class="btn btn-md btn-blue form-full" type="submit" name="submit">{{ antl.formatMessage('contrib.paypal.title') }}</button>            
           </form>     
