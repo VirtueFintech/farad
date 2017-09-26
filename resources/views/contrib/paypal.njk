@@ -67,15 +67,15 @@
             <input type="hidden" id="quantity" name="quantity">
             <div class="form-field-wrapper input-group">
               <span class="input-group-addon" id="basic-addon1">FRD</span>
-              <input type="text" name="frd_amt" id="frd_amt" class="form-control" aria-label="FRD" aria-describedby="frd-amount" readonly="true" placeholder="{{ antl.formatMessage('contrib.paypal.frd.amount') }}"> <!--value="1,000"-->
+              <input type="text" name="frd_amt" id="frd_amt" class="form-control" aria-label="FRD" aria-describedby="frd-amount" readonly="true" value="96"> <!-- TODO: change this -->
             </div>
             <div class="form-field-wrapper form-group">
               <label style="color: #fff;">{{ antl.formatMessage('contrib.paypal.eth.addr') }}</label>
-              <input type="text" name="address1" id="eth_addr" class="form-control" placeholder="{{ antl.formatMessage('contrib.paypal.eth.addr') }}" aria-label="ETH" aria-describedby="eth-addr" required="required">
+              <input type="text" name="invoice" id="eth_addr" class="form-control" placeholder="{{ antl.formatMessage('contrib.paypal.eth.addr') }}" aria-label="ETH" aria-describedby="eth-addr" required="required">
             </div>
             <div class="form-field-wrapper form-group">
               <label style="color: #fff;">{{ antl.formatMessage('contrib.paypal.email.addr') }}</label>
-              <input type="email" name="email" id="email" class="form-control" placeholder="{{ antl.formatMessage('contrib.paypal.email.addr') }}" aria-label="ETH" aria-describedby="eth-addr" required="required">
+              <input type="email" name="email" id="email" class="form-control" placeholder="{{ antl.formatMessage('contrib.paypal.email.addr') }}" aria-label="Email" aria-describedby="email-addr" required="required">
             </div>
             <button class="btn btn-md btn-blue form-full" type="submit" name="submit">{{ antl.formatMessage('contrib.paypal.title') }}</button>            
           </form>     
