@@ -5,7 +5,7 @@
   "docs.overview": "FARAD Overview",
   "media": "メディア",
   "faq": "よくある 質問",  
-  "lang": "Language",
+  "lang": "言語",
 
   "lang.en": "English",
   "lang.cn": "普通话",
@@ -13,8 +13,9 @@
   "lang.jp": "日本",
   "lang.ar": "عربى",
 
-  "wp.link": "https://s3-ap-southeast-1.amazonaws.com/farad/en/FaradWhitepaper.pdf",
-  "overview.link": "https://farad.energy/wp-content/uploads/2017/09/FaradOverview.pdf",
+
+  "wp.link": "https://farad.energy/pub/FaradWhitepaper.pdf",
+  "overview.link": "https://farad.energy/pub/FaradOverview.pdf",
 
   "none": ""
 }
