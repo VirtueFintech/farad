@@ -56,56 +56,31 @@
   "item.2.1.2": "I)  Pre-Token Swap program which will be conducted in 3 batches over a maximum period of 36 days. The first batch starts from 25th August 2017, 00:00 GMT till 15th September 2017, 23:59 GMT. The second batch starts from 16th September 2017, 00:00 till 22nd September 2017, 23:59 GMT. The third batch starts from 23rd September 2017, 00:00 GMT till 30th September 2017, 23:59 GMT",
   "item.2.1.3": "II) Token Swap program will be conducted in 3 batches over a maximum period of 31 days. The first batch starts from 1st October 2017, 00:00 GMT till 7th October 2017, 23:59 GMT. The second batch starts from 8th October 2017, 00:00 GMT till 15th October 2017, 23:59 GMT. The third batch starts from 16th October 2017, 00:00 GMT till 31st October 2017, 23:59 GMT  ",
 
-  "item.2.2": "How Will The FRD Be Swapped And What Will Be The Final FRD Index?",
+  "item.2.2": "How Will The FRD Be Swapped?",
   "item.2.2.1": "The Token swap program will be divided into two:",
-  "item.2.2.1.1": "I)  Pre-Token Swap program which will be conducted in 3 batches over a maximum period of 36 days. The first batch starts from 25th August 2017, 00:00 GMT till 15th September 2017, 23:59 GMT. The second batch starts from 16th September 2017, 00:00 till 22nd September 2017, 23:59 GMT. The third batch starts from 23rd September 2017, 00:00 GMT till 30th September 2017, 23:59 GMT.",
-  "item.2.2.1.2": "II) Token Swap program will be conducted in 3 batches over a maximum period of 31 days. The first batch starts from 1st October 2017, 00:00 GMT till 7th October 2017, 23:59 GMT. The second batch starts from 8th October 2017, 00:00 GMT till 15th October 2017, 23:59 GMT. The third batch starts from 16th October 2017, 00:00 GMT till 31st October 2017, 23:59 GMT.",
-  "item.2.2.2": "A total of 1,280,000,000 FRD will be offered during the Token Swap Program subject to :",
-  "item.2.2.2.1": "Total token swap maximum subscription amount (“Total token swap Max-Limit”) in combination should be not more than 1,000,000 ETH or 94,340.2857 BTC equivalent, where :",  
+  "item.2.2.1.1": "I)  Pre-Token Swap program which will be conducted in 3 batches over a maximum period of 36 days. The  rst batch starts from 25th August 2017, 00:00 GMT  ll 15th September 2017, 23:59 GMT. The second batch starts from 16th September 2017, 00:00  ll 22nd September 2017, 23:59 GMT. The third batch starts from 23rd September 2017, 00:00 GMT  ll 30th September 2017, 23:59 GMT.",
+  "item.2.2.1.2": "II) Token Swap program will be conducted in 3 batches over a maximum period of 31 days. The  rst batch starts from 1st October 2017, 00:00 GMT  ll 7th October 2017, 23:59 GMT. The sec ond batch starts from 8th October 2017, 00:00 GMT  ll 15th October 2017, 23:59 GMT. The third batch starts from 16th October 2017, 00:00 GMT  ll 31st October 2017, 23:59 GMT.",
+  "item.2.2.2": "Amount of FRD on offer",
+  "item.2.2.2.1": "A total of 1,280,000,000 FRD will be offered during the total Token Swap Program.",
+ 
+  "item.2.2.3": "Oversubscription above the total FRD on offer",
+  "item.2.2.3.1": "When the total 1,280,000,000 FRD has been fully swapped the token swap program will be closed. If this happens before 31st October 2017, the closure of the token swap program will be brought forward. . Any amount received a er the token swap has been closed will be refunded (for BTC) or rejected (for ETH).",
   
-  "item.2.2.2.2": "Pre-token swap maximum subscription amount (“Pre-token swap Max-Limit”)",
-  "item.2.2.2.3": "Token Swap maximum subscription amount (“ICO-Swap Max-Limit”).",
-  "item.2.2.2.4": "Total Token Swap Max-Limit",
-
-  "item.2.2.3.1": "Pre-token swap program",
-  "item.2.2.3.2": "During the Pre-token swap program, CryptoCurrency holders will send their subscriptions in ETH or BTC to the pre-determined ETH and BTC wallets subject to the Pre-token swap Max-Limit. The details of the Pre-token swap offer is as shown below :",
+  "item.2.2.4": "Undersubscription of the FRD on offer", 
+  "item.2.2.4.1": "The token swap program will be closed on the 31st October 2017 irregardless whether the FRD is undersub- scribed.",
   
-  "item.2.2.4.1": "Amount of FRD on offer",
-  "item.2.2.4.2": "640,000,000",
-  "item.2.2.4.3": "Pre-token swap Max-Limit",
-  "item.2.2.4.4": "In combination should not be more than 473,700 ETH or 44,688.9933 BTC equivalent  ",
-
-  "item.2.2.4.5": "Final allocation between the amount of BTC and/or ETH accepted will be decided on a ‘First-Come-First-Serve’ basis. Any amount received in excess of the Pre-token swap Max-Limit will be moved automatically to the Token-Swap program.",
-
-  "item.2.2.5.1": "Token-Swap program",   
-  "item.2.2.5.2": "During the Token-Swap program, the balance 640,000,000 FRD will be offered based on the details below :",
-  "item.2.2.5.3": "Amount of FRD on offer",
-  "item.2.2.5.4": "640,000,000",
-  "item.2.2.5.5": "Token-Swap Max-Limit  ",
-  "item.2.2.5.6": "In combination should not be more than 526,300 ETH or 49,651.2924 BTC equivalent",
-  "item.2.2.5.7": "Final allocation between the amount of BTC and/or ETH accepted will be decided on a ‘First-Come-First-Serve’ basis. Excess subscription from Pre-token swaps will be allocated first, before Token-Swaps subscriptions are allocated.",
-
-  "item.2.2.6.1": "Bringing Forward Token-Swap Program",
-  "item.2.2.6.2": "In the event that the Pre-token swap Max-Limit has been reached before the 31st October 2017, 23:59 GMT , the Token-Swap Program start date will be brought forward to start immediately when the Token-pre-swap Max-Limit has been reached. The token swap offer period will be closed earlier or on the 13th September 2017, 23:59 GMT, when the Total token swap Max-Limit has been reached.",
+  "item.2.2.5": "Multiple Issuance and Listing", 
+  "item.2.2.5.1": "The Pre-token swap and token swap will be o ered in 6 batches, issuance of FRD will be done not later than 7 days from the closing date of a par cular batch.",
+  "item.2.2.5.2": "The FRD will be listed in exchanges not later than 7 days from the  nal closing date of 31st October 2017.",
   
-  "item.2.2.7.1": "Oversubscription above the Total token swap Max-Limit", 
-  "item.2.2.7.2": "When the total 1,280,000,000 FRD has been fully swapped the token swap program will be closed. If this happens before 31st October 2017, the closure of the token swap program will be brought forward. . Any amount received after the token swap has been closed will be refunded (for BTC) or rejected (for ETH).",
-  
-  "item.2.2.8.1": "Closing and issuance",   
-  "item.2.2.8.2": "The token swap offer will be closed on the 31st October 2017 irregardless whether the FRD is undersubscribed.",   
-  "item.2.2.8.3": "The Pre-token swap and token swap will be offered in 6 batches, issuance of FRD will be done not later than 7 days from the closing date of a particular batch.",   
-  "item.2.2.8.4": "The FRD will be listed in exchanges not later than 7 days from the final closing date of 31st October 2017.",
-
   "item.2.3": "How Many FRD’s Will Be Issued At The Token Swap?",
   "item.2.3.1": "Total FRD issue = 1,600,000,000 FRD",
-  "item.2.3.2": "Quarterly FRD swap back = 133,333,332 FRD",
-  "item.2.3.3": "FRD swap back index = USD 0.145 per FRD redeemable in ETH equivalent",
-
+  
   "item.2.4.1": "Who Can Participate? Is It Open Worldwide Including The US Citizens?",
-  "item.2.4.2": "It is open to everyone except citizens of the US, China, HK and Singapore.",
+  "item.2.4.2": "It is open to everyone except citizens of the US, China, HK, Malaysia and Singapore.",
 
   "item.2.5.1": "Can I Swap FRD With Cash?",
-  "item.2.5.2": "No. FRD can only be swapped using Ether.",
+  "item.2.5.2": "You can swap FRD with PayPal.",
 
   "item.2.6.1": "How Do I Obtain Ethereum In Order For Me To Swap FRD?",
   "item.2.6.2": "Ethereum can be obtained from your local Exchangers namely Luno, Poloniex, Kraken, Bitfinex etc.",
@@ -117,7 +92,7 @@
   "item.2.8.2": "The FRD does not pay dividend, however Token holders who wants periodic profit may elect to sell back their FRD to VIRTUE under the swap back program option.",
 
   "item.2.9.1": "What Is The Minimum Subscriptions Amount To Be Accepted?",
-  "item.2.9.2": "The minimum subscription amount is 0.05 Ether.",
+  "item.2.9.2": "The minimum subscription amount is 100 FRD.",
 
   "item.2.10.1": "What Is The Maximum Subscriptions Amount To Be Accepted?",
   "item.2.10.2": "During Pre-token swap : In combination should not be more than 473,700 ETH or BTC equivalent",
