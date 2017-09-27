@@ -148,7 +148,7 @@ h2 { font-weight: 400; }
 
 @media (max-width: 414px) {
   h2 { font-size: 32px; letter-spacing: 0px; }
-  h2.red { line-height: 80px; }
+  h2.red { line-height: 40px; }
   h2.big-title { line-height: 45px; font-size: 50px; color: #aaa; font-weight: 500; }
   .ether_addr { font-size: 1em; }
 
