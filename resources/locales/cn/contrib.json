@@ -43,11 +43,14 @@
   "cn.title": "普通话",
   "cn.addr": "0x9ee6675eCDd92CEC22AacCD80E77ca14146306c5",
 
-  "kr.title": "Korea",
+  "kr.title": "대한민국",
   "kr.addr": "0xd5cCE82008ff71D1051443d33CD8255DaFA5a6fE",
 
-  "jp.title": "Japan",
+  "jp.title": "日本",
   "jp.addr": "0x8457AE15EBf4819D3de2F53937ca2E1b235C0102",
+
+  "id.title": "Indonesia",
+  "id.addr": "0x2Ca70f6F8EbD683D5afc20D426839Ef40E063f02",
 
   "row.title": "Rest of The World",
   "row.addr": "0x75542A5D1Ea42dAE3dB73077Ad62Ce20aC3097D4",

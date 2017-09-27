@@ -24,6 +24,11 @@ class LangController {
     response.redirect('back')
   }
   
+  * id (request, response) {
+    Antl.setLocale('id')
+    response.redirect('back')
+  }
+  
   * ar (request, response) {
     Antl.setLocale('ar')
     response.redirect('back')
