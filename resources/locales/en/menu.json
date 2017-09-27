@@ -13,8 +13,8 @@
   "lang.jp": "日本",
   "lang.ar": "عربى",
 
-  "wp.link": "https://s3-ap-southeast-1.amazonaws.com/farad/en/FaradWhitepaper.pdf",
-  "overview.link": "https://farad.energy/wp-content/uploads/2017/09/FaradOverview.pdf",
+  "wp.link": "https://farad.energy/public/docs/FaradWhitepaper.pdf",
+  "overview.link": "https://farad.energy/public/docs/FaradOverview.pdf",
 
   "none": ""
 }
