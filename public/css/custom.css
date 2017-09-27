@@ -56,8 +56,8 @@ h2 { font-weight: 400; }
   h2.big-title { line-height: 65px; font-size: 80px; color: #aaa; font-weight: 500; }
   .ether_addr { font-size: 1.5em; }
   .timer { margin-top: 10px; }
-  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 40px; margin: 0 2px; font-size: 12px; }
-  .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 42px; font-weight: 100; line-height: 20px; }  
+  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 120px; margin: 0 2px; font-size: 18px; }
+  .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 62px; font-weight: 100; line-height: 20px; }  
 }
 
 @media (max-width: 1366px) {
@@ -65,8 +65,8 @@ h2 { font-weight: 400; }
   h2.big-title { line-height: 65px; font-size: 80px; color: #aaa; font-weight: 500; }
   .ether_addr { font-size: 1.5em; }
   .timer { margin-top: 10px; }
-  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 40px; margin: 0 2px; font-size: 12px; }
-  .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 42px; font-weight: 100; line-height: 20px; }  
+  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 100px; margin: 0 2px; font-size: 18px; }
+  .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 62px; font-weight: 100; line-height: 20px; }  
 }
 
 @media (max-width: 1112px) {
@@ -74,8 +74,8 @@ h2 { font-weight: 400; }
   h2.big-title { line-height: 65px; font-size: 80px; color: #aaa; font-weight: 500; }
   .ether_addr { font-size: 1.5em; }
   .timer { margin-top: 10px; }
-  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 40px; margin: 0 2px; font-size: 12px; }
-  .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 42px; font-weight: 100; line-height: 20px; }  
+  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 80px; margin: 0 2px; font-size: 18px; }
+  .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 62px; font-weight: 100; line-height: 30px; }  
 }
 
 @media (max-width: 1024px) {
@@ -84,7 +84,7 @@ h2 { font-weight: 400; }
 
   .ether_addr { font-size: 1.5em; }
   .timer { margin-top: 10px; }
-  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 160px; margin: 0 10px; font-size: 18px; }
+  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 80px; margin: 0 10px; font-size: 18px; }
   .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 42px; font-weight: 100; line-height: 20px; }  
 }
 
@@ -113,7 +113,7 @@ h2 { font-weight: 400; }
   h2 { line-height: 42px; font-size: 42px; letter-spacing: 0px; color: #cd2a4c; }
   h2.big-title { line-height: 35px; font-size: 74px; color: #aaa; font-weight: 500; }
   .timer { margin-top: 10px; }
-  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 40px; margin: 0 2px; font-size: 12px; }
+  .timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { display: inline-block; width: 80px; margin: 0 2px; font-size: 18px; }
   .timer .days, .timer .hours, .timer .minutes, .timer .seconds { font-size: 32px; font-weight: 100; line-height: 20px; }
 }
 
