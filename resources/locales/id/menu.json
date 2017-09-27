@@ -1,0 +1,20 @@
+{
+  "home": "Home",
+  "docs": "Documentations",
+  "docs.wp": "White Paper",
+  "docs.overview": "FARAD Overview",
+  "media": "Media & Press",
+  "faq": "FAQ", 
+  "lang": "Language", 
+
+  "lang.en": "English",
+  "lang.cn": "普通话",
+  "lang.kr": "대한민국",
+  "lang.jp": "日本",
+  "lang.ar": "عربى",
+
+  "wp.link": "https://farad.energy/pub/FaradWhitepaper.pdf",
+  "overview.link": "https://farad.energy/pub/FaradOverview.pdf",
+
+  "none": ""
+}

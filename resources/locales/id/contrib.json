@@ -1,0 +1,83 @@
+{
+  "title.1": "FARAD Revolution",
+  "title.2": "Everywhere",
+  "desc": "Farad Token Swap Ethereum Smart Contract Wallet Address",
+
+  "official": "Official Ethereum Address",
+
+  "warn.1": "Please DO NOT send from Exchanger wallet as the token shall be sent to their address",
+  "warn.2": "We will not be held responsible for any token that gets sent to the Exchanger wallet",
+
+  "inst.title": "Contribution Settings",
+  "inst.min.contrib": "Any swap less than 0.05 Ether shall be declined by the contract, and any excess gas used shall be returned to the sender address.",
+
+  "eth.gas.price": "Gas Price",
+  "eth.gas.price.value": "23 Gwei",
+  "eth.gas.limit": "Recommended Gas Limit",
+  "eth.gas.limit.value": "150,000",
+  "eth.min.swap": "Minimum Swap Amount",
+  "eth.min.swap.value": "0.05 Ether",
+
+  
+  "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
+  "action.scan": "Send your Ether to the address above, or scan the image shown if sending from mobile wallet.",
+
+  "paypal.title": "Swap via Paypal",
+  "paypal.select": "Select the USD Amount",
+  "paypal.frd.amount": "FRD Amount",
+  "paypal.eth.addr": "ETH Address",
+  "paypal.email.addr": "Email Address",
+
+  "uk.title": "United Kingdom/Europe",
+  "uk.addr": "0x4C5651c4f59B3E92E67d993b7B969F9aF861380f",
+
+  "ksa.title": "Saudi Arabia",
+  "ksa.addr": "0x5beeC0Cf71d30ED317979917896C677f3701A1c6",
+
+  "jo.title": "Jordan",
+  "jo.addr": "0xFd82Ffc0D08dcFd902cBf6e48550033b01f919Cc",
+
+  "gcc.title": "Gulf Countries",
+  "gcc.addr": "0x348a50d048ae187447C01Bd19D28A21ab20DFaF4",
+
+  "cn.title": "Mandarin",
+  "cn.addr": "0x9ee6675eCDd92CEC22AacCD80E77ca14146306c5",
+
+  "kr.title": "Korea",
+  "kr.addr": "0xd5cCE82008ff71D1051443d33CD8255DaFA5a6fE",
+
+  "jp.title": "Japan",
+  "jp.addr": "0x8457AE15EBf4819D3de2F53937ca2E1b235C0102",
+
+  "row.title": "Rest of The World",
+  "row.addr": "0x75542A5D1Ea42dAE3dB73077Ad62Ce20aC3097D4",
+
+  "rep.title": "Farad Country Representatives",
+
+  "rep.ksa.1": "We are proud to annouce that Sheelam Company LTD has been selected as the official country representative for Kingdom of Saudi Arabia.", 
+  "rep.ksa.2": "Only sales of FARAD in Kingdom of Saudi Arabia done through our official representatives below shall be acknowledged.",
+  "rep.ksa.3": "All direct enquiries can be made through email at sheelam@farad.energy",
+
+  "ksa.rep.1.img": "img/team/01_ibrahim_alarifi.jpg",
+  "ksa.rep.1.name": "Dr. Ibrahim Alarifi",
+  "ksa.rep.1.title": "Country Representative",
+  "ksa.rep.1.cv": "Dr. Ibrahim Alarifi is the CEO manager of the Sheelam Company LTD and Futuristic Insight Company UK LTD. He is also the General Manager of Health Balance For Nutrition Therapy, Honey Quality Laboratory and Training Center For Healthy Training. He has wealth of knowledge in running international businesses since 1993",
+
+  "ksa.rep.2.img": "img/team/02_mhmd_alohaydib.jpg",
+  "ksa.rep.2.name": "Dr. Mohamed Alohaydib",
+  "ksa.rep.2.title": "Country Representative",
+  "ksa.rep.2.cv": "Dr. Mohamed Alohaydib has a Ph.D in IT, is the General Manager of the Sheelam Company LTD, Futuristic Insight Company UK LTD., KPC LTD and Diamond Vision LTD. He has wealth of knowledge in running international businesses since 1990.",
+
+  "rep.jo.1": "We are proud to annouce that Ahmad Shahin has been selected as the official country representative for Jordan. ",
+  "rep.jo.2": "Only sales of FARAD in Jordan done through our official representatives below shall be acknowledged.",
+
+  "jo.rep.1.img": "img/team/03_shaheen.jpg",
+  "jo.rep.1.name": "Ahmad Shahin",
+  "jo.rep.1.title": "Country Representative",
+  "jo.rep.1.cv.1": "Ahmad Shahin's professional career includes the position of Avlon Switchgear Business Development Manager for UAE/Australia, the General Manager for Al Hamad Group in UAE. He is also the Founder of two companies specializing in power generation and control system called Jesco. and as well as for TPG.",
+  "jo.rep.1.cv.2": "His past experience includes being an Associate Member of Institution of Mechanical engineers in the UK, a Consultant for Jordan Engineering Association, as well as an Engineering Consultant for Jordan Ministry of Defense.",
+  "jo.rep.1.cv.3": "He has a BSc. Mechanical Engineering & Energy from Cardiff University.",
+  "jo.rep.1.cv.4": "Email: shahin@farad.energy",
+
+  "none": ""
+}

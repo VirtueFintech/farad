@@ -1,0 +1,106 @@
+{
+  "title": "Frequently Asked Questions",
+  "desc": "(FAQ)",
+
+  "section.1": "About FARAD",
+
+  "item.1": "What is Farad Cryptoken",
+  "item.1.text.1": "Farad Cryptoken is a crypto-currency within the Blockchain (Ethereum) ecosystem. Each Farad Cryptoken (\"FRD\") represents a right to the contract manufacturing and sales agency agreement with HK Aerospace Beidou New Technology Co. Ltd (HK) to produce ultra-capacitor cells with an output of 1,600,000,000 mF over a period of 36 months. Each FRD represents 1 mF.",
+  "item.1.text.2": "The ultra-capacitors will potentially be used in combination with traditional batteries such as Lithium Ion batteries within the Energy Storage Industry such as AMR, Beacon, Smart Card, Token, Smart phones, Power banks, RFID, IoT devices, WiFi Dongle, POS devises, SSD, PLP, Power tools, Drones, Automotive Boosters, UPS, Robotic Apparatus and Energy Harvest among others",
+
+  "item.2": "Who is Behind FRD",
+  "item.2.text.1": "Program Manager and Blockchain Developer",
+  "item.2.text.2": "VIRTUE FINTECH FZ-LLC (http://virtue.finance)",
+  "item.2.text.3": "Virtue is a company incorporated in Dubai Internet City, Dubai, United Arab Emirates. The company specializes in blockchain applications focusing on financial economics.",
+  "item.2.text.4": "Program Executors (http://aerobeidou.com)",
+  "item.2.text.5": "HK AEROSPACE BEIDOU NEW TECHNOLOGY CO. LTD.",
+  "item.2.text.6": "The company’s manufacturing facility is under it’s subsidiary Guangxi Aerospace Beidou New Technology Co. Ltd. which is located in Wuzhou City, Guangxi Province, People’s Republic of China.",
+
+  "item.3": "What Is An Ultra-Capacitor And What Can It Be Used For?",
+  "item.3.text.1": "An Ultra-capacitor, also known as a supercapacitor or electrochemical capacitor, is a device for storing electrical energy which is growing rapidly in popularity. The design and mechanism of an Ultra-capacitor’s operation is somewhere between an ordinary capacitor and a battery, which opens up some interesting and valuable applications.",
+  "item.3.text.2": "Like a battery, a single Ultra-capacitor cell consists of a positive and negative electrode, separated by an electrolyte. However, Ultra-capacitor store energy electrostatically, like a regular capacitor, not chemically like a battery - there is a dielectric separator dividing the electrolyte, also like a capacitor. The small separation between electrodes permitted by this structure lead to much higher energy storage density than a normal capacitor. Whilst an Ultra-capacitor stores less energy than an equivalently sized battery, it can release it much quicker, as the discharge is not dependent on a chemical reaction taking place.",
+  "item.3.text.3": "Because no physical or chemical changes occur when charge is stored, Ultra-capacitors can also be used many times over without degradation.",
+
+  "item.4": "How FRD Is Unique/Different From Other Existing CryptoCurrencies?",
+  "item.4.text.1": "Valuation for FRD is driven and backed by real economic cash flows." ,
+  "item.4.text.2": "The ‘mining model’ used for FRD is an ‘assured model’ where the ‘mining’ is based on actual farad produced on the Ethereum Smart Contract. After 3 years, when ‘mining’ is over, it’s fundamental will be backed by 100% Cryptokens.",
+  "item.4.text.3": "Premium over Escrow is meant to be the value attached to FRD as tokens for Farad ultra-capacitor based products and markets.",
+  "item.4.text.4": "Each Farad ultra-capacitor produced by the factory will be recorded in the blockchain system, which will ensure a fully transparent process which is fully accountable and fully auditable by anyone at anytime, using the Blockchain public records." ,
+  "item.4.text.5": "FRD offers a guaranteed swap back higher than offer index.",
+
+  "item.5": "What Does Each FRD Represent?",
+  "item.5.text.1": "Each Farad Cryptoken (“FRD”) represents the rights on the contract manufacturing and sales agency agreement to produce Ultra-Capacitor Cells with an output of 1,600,000,000 mF over a period of 36 months. ",
+  "item.5.text.2": "1 FRD = 1 mF = USD0.125",
+
+  "item.6": "What Are The Advantages Of FRD?",
+  "item.6.text.1": "It is fully accountable through the blockchain",
+  "item.6.text.2": "Its is fully auditable and",
+  "item.6.text.3": "It is transparent",
+
+  "item.7": "Is FRD Anonymous?",
+  "item.7.text.1": "FRD is fully transparent. The FARAD program will initially be housed under Virtue Fintech, who has appointed 2 independent parties to act as the program auditor and compliance. After the ICO and before the first swap-back, Virtue Fintech intends to transfer the ownership of the FARAD program to an independent special purpose company called FARAD SPC, which will have its own independent board of directors.",
+
+  "item.8": "Can FRD Scale To Become A Currency?",
+  "item.8.text.1": "Yes it can, in the future we plan to use FRD as currencies for purchase of Metal Oxide based UC and eventually end products that has Metal Oxide UC as it’s base components.",
+
+  "item.9": "What Determines FRD’s Index?",
+  "item.9.text.1": "Theoretically the par index of FRD at issuance will be pegged to the actual cash flow generated from the guaranteed off-take provision under the manufacturing and sales agency agreement.",
+  
+  "item.10": "Is FRD Secure?",
+  "item.10.text.1": "Yes. Each FRD is secured on the actual milli-farad (mF) that is produced by the production of the Ultra-capacitor cells.",
+
+  "section.2": "About FARAD Cryptoken",
+
+  "item.2.1": "When Will The FRD Token Swap Officially Open?",
+  "item.2.1.1": "The Token swap program will be divided into two:",
+  "item.2.1.2": "I)  Pre-Token Swap program which will be conducted in 3 batches over a maximum period of 36 days. The first batch starts from 25th August 2017, 00:00 GMT till 15th September 2017, 23:59 GMT. The second batch starts from 16th September 2017, 00:00 till 22nd September 2017, 23:59 GMT. The third batch starts from 23rd September 2017, 00:00 GMT till 30th September 2017, 23:59 GMT",
+  "item.2.1.3": "II) Token Swap program will be conducted in 3 batches over a maximum period of 31 days. The first batch starts from 1st October 2017, 00:00 GMT till 7th October 2017, 23:59 GMT. The second batch starts from 8th October 2017, 00:00 GMT till 15th October 2017, 23:59 GMT. The third batch starts from 16th October 2017, 00:00 GMT till 31st October 2017, 23:59 GMT  ",
+
+  "item.2.2": "How Will The FRD Be Swapped?",
+  "item.2.2.1": "The Token swap program will be divided into two:",
+  "item.2.2.1.1": "I)  Pre-Token Swap program which will be conducted in 3 batches over a maximum period of 36 days. The  rst batch starts from 25th August 2017, 00:00 GMT  ll 15th September 2017, 23:59 GMT. The second batch starts from 16th September 2017, 00:00  ll 22nd September 2017, 23:59 GMT. The third batch starts from 23rd September 2017, 00:00 GMT  ll 30th September 2017, 23:59 GMT.",
+  "item.2.2.1.2": "II) Token Swap program will be conducted in 3 batches over a maximum period of 31 days. The  rst batch starts from 1st October 2017, 00:00 GMT  ll 7th October 2017, 23:59 GMT. The sec ond batch starts from 8th October 2017, 00:00 GMT  ll 15th October 2017, 23:59 GMT. The third batch starts from 16th October 2017, 00:00 GMT  ll 31st October 2017, 23:59 GMT.",
+  "item.2.2.2": "Amount of FRD on offer",
+  "item.2.2.2.1": "A total of 1,280,000,000 FRD will be offered during the total Token Swap Program.",
+ 
+  "item.2.2.3": "Oversubscription above the total FRD on offer",
+  "item.2.2.3.1": "When the total 1,280,000,000 FRD has been fully swapped the token swap program will be closed. If this happens before 31st October 2017, the closure of the token swap program will be brought forward. . Any amount received a er the token swap has been closed will be refunded (for BTC) or rejected (for ETH).",
+  
+  "item.2.2.4": "Undersubscription of the FRD on offer", 
+  "item.2.2.4.1": "The token swap program will be closed on the 31st October 2017 irregardless whether the FRD is undersub- scribed.",
+  
+  "item.2.2.5": "Multiple Issuance and Listing", 
+  "item.2.2.5.1": "The Pre-token swap and token swap will be offered in 6 batches, issuance of FRD will be done not later than 7 days from the closing date of a par cular batch.",
+  "item.2.2.5.2": "The FRD will be listed in exchanges not later than 7 days from the  nal closing date of 31st October 2017.",
+  
+  "item.2.3": "How Many FRD’s Will Be Issued At The Token Swap?",
+  "item.2.3.1": "Total FRD issue = 1,600,000,000 FRD",
+  
+  "item.2.4.1": "Who Can Participate? Is It Open Worldwide Including The US Citizens?",
+  "item.2.4.2": "It is open to everyone except citizens of the US, China, HK, Malaysia and Singapore.",
+
+  "item.2.5.1": "Can I Swap FRD With Cash?",
+  "item.2.5.2": "You can swap FRD with PayPal.",
+
+  "item.2.6.1": "How Do I Obtain Ethereum In Order For Me To Swap FRD?",
+  "item.2.6.2": "Ethereum can be obtained from your local Exchangers namely Luno, Poloniex, Kraken, Bitfinex etc.",
+
+  "item.2.7.1": "Would FRD Be Listed On Exchanges, If Yes Which Ones?",
+  "item.2.7.2": "Yes. The list of exchanges will be announced after the token swap on 7th November 2017.",
+
+  "item.2.8.1": "Do Token Holders Get Dividends?",
+  "item.2.8.2": "The FRD does not pay dividend, however Token holders who wants periodic profit may elect to sell back their FRD to VIRTUE under the swap back program option.",
+
+  "item.2.9.1": "What Is The Minimum Subscriptions Amount To Be Accepted?",
+  "item.2.9.2": "The minimum subscription amount is 100 FRD.",
+
+  "item.2.10.1": "What Is The Maximum Subscriptions Amount To Be Accepted?",
+  "item.2.10.2": "During Pre-token swap : In combination should not be more than 473,700 ETH or BTC equivalent",
+  "item.2.10.3": "During Token-Swap : In combination should not be more than 526,300 ETH or BTC equivalent",
+  "item.2.10.4": "Total token swap maximum subscription amount : in combination should be not more than 1,000,000 ETH or BTC equivalent",
+
+  "item.2.11.1": "Will My Identity Be Protected?",
+  "item.2.11.2": "Ethereum and Bitcoin is pseudonymous in its core. Therefore, you’re protected by design from such privacy, unless they can link the address to the real person by chance.",
+  
+  "none": ""
+}
