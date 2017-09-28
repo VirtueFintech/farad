@@ -1,0 +1,23 @@
+{
+  "title": "Media & Press",
+  "desc": "Talks about FARAD in the Cyberspace",
+
+  "video.1": "What is FARAD Cryptoken",
+  "video.1.desc": "Simple explanations on what is FARAD.",
+  "video.2.desc": "What is An Ultra-Capacitor",
+
+  "news.title": "FARAD In The News",
+  "news.text": "All the chatters about FARAD in print, and online news.",
+
+  "news.1": "Bisnis.com, JAKARTA – Perdagangan mata uang digital atau yang dikenal dengan cryptocurrency belakangan ini semakin marak. Salah satu jenis kurs digital baru itu adalah Farad Cryptoken yang dengan sengaja mengadakan roadshow penawaran perdana koinnya ke Indonesia pada 31 Juli dan 1 Agustus 2017 di Financial Club Jakarta.",
+  "news.1.link": "http://market.bisnis.com/read/20170803/93/677680/mata-uang-digital-saingan-bitcoin-ini-rambah-pasar-indonesia",
+  "news.2": "JAKARTA, KOMPAS.com - Farad Program dari Farad SPC, perusahaan yang bergerak di bidang pengembangan baterai ultrakapasitor, berupaya memperkenalkan mata uang virtual ( cryptocurrency) baru, Farad Cryptoken (FRD), ke Indonesia.",
+  "news.2.link": "http://ekonomi.kompas.com/read/2017/08/01/194347126/akhir-agustus-cryptocurrency-farad-diperkenalkan-di-indonesia",  
+  "news.3": "Dubai: Farad, a Dubai company, launched its Farad cryptoken at a hotel at the Dubai International Financial Centre (DIFC) on Monday afternoon, touting it as the first cryptocurrency backed by real economic activity.",
+  "news.3.link": "http://gulfnews.com/business/economy/new-cryptocurrency-launches-in-dubai-backed-by-real-economic-activity-1.2070453",
+  "news.4": "",
+  "news.4.link": "http://uae.argaam.com/article/articledetail/654546",
+
+
+  "none": ""
+}

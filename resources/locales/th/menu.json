@@ -1,11 +1,11 @@
 {
-  "home": "메인",
-  "docs": "논문",
-  "docs.wp": "White Paper",
-  "docs.overview": "FARAD Overview",
-  "media": "미디어",
-  "faq": "질문과답",  
-  "lang": "Language",
+  "home": "หน้าหลัก",
+  "docs": "เอกสาร",
+  "docs.wp": "กระดาษสีขาว",
+  "docs.overview": "กระดาษสีขาว",
+  "media": "ข่าว",
+  "faq": "คำถามที่ถามบ่อย", 
+  "lang": "เอกสาร", 
 
   "lang.en": "English",
   "lang.cn": "普通话",

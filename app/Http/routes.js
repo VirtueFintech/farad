@@ -32,6 +32,7 @@ Route.group('Participate in FARAD', function() {
   Route.get('/kr', 'ContribController.kr')
   Route.get('/jp', 'ContribController.jp')
   Route.get('/id', 'ContribController.id')
+  Route.get('/th', 'ContribController.th')
   Route.get('/row', 'ContribController.row')
   Route.get('/paypal', 'ContribController.paypal')
 }).prefix('/contrib')
@@ -42,6 +43,7 @@ Route.group('Language Selection', function() {
   Route.get('/kr', 'LangController.kr')
   Route.get('/jp', 'LangController.jp')
   Route.get('/id', 'LangController.id')
+  Route.get('/th', 'LangController.th')
   Route.get('/ar', 'LangController.ar')
 }).prefix('/lang')
 

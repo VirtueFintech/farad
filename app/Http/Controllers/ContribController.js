@@ -36,6 +36,10 @@ class ContribController {
     yield response.sendView('contrib/id')
   }
 
+  * th (request, response) {
+    yield response.sendView('contrib/th')
+  }
+
   * row (request, response) {
     yield response.sendView('contrib/row')
   }
