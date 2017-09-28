@@ -5,33 +5,45 @@ const Antl = use('Antl')
 class LangController {
 
   * en (request, response) {
-    Antl.setLocale('en')
-    response.redirect('back')
+    const lang = 'en'
+    Antl.setLocale(lang)
+
+    response.redirect('/')
   }
 
   * cn (request, response) {
-    Antl.setLocale('cn')
-    response.redirect('back')
+    const lang = 'cn'
+    Antl.setLocale(lang)
+
+    response.redirect('/')
   }
 
   * kr (request, response) {
-    Antl.setLocale('kr')
-    response.redirect('back')
+    const lang = 'kr'
+    Antl.setLocale(lang)
+
+    response.redirect('/')
   }
 
   * jp (request, response) {
-    Antl.setLocale('jp')
-    response.redirect('back')
+    const lang = 'jp'
+    Antl.setLocale(lang)
+
+    response.redirect('/')
   }
   
   * id (request, response) {
-    Antl.setLocale('id')
-    response.redirect('back')
+    const lang = 'id'
+    Antl.setLocale(lang)
+
+    response.redirect('/')
   }
   
   * ar (request, response) {
-    Antl.setLocale('ar')
-    response.redirect('back')
+    const lang = 'ar'
+    Antl.setLocale(lang)
+
+    response.redirect('/')
   }
 
 }

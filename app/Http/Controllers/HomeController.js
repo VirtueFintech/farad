@@ -1,7 +1,5 @@
 'use strict'
 
-const Antl = use('Antl')
-
 class HomeController {
 
   * index (request, response) {
@@ -15,11 +13,6 @@ class HomeController {
   * faq (request, response) {
     yield response.sendView('faq')
   }
-
-  * lang (request, response) {
-    // yield response.sendView('faq')
-  }
-
 
 }
 
