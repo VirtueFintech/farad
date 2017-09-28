@@ -25,11 +25,13 @@
 /* Font-face Icons */
 @font-face {
 	font-family: 'flexslider-icon';
+/*	
 	src:url('http://theme.nileforest.com/html/mazel-v1.5/01_mazel_multiprapose/css/plugin/fonts/flexslider-icon.eot');
 	src:url('http://theme.nileforest.com/html/mazel-v1.5/01_mazel_multiprapose/css/plugin/fonts/flexslider-icon.eot?') format('embedded-opentype'),
 		url('http://theme.nileforest.com/html/mazel-v1.5/01_mazel_multiprapose/css/plugin/fonts/flexslider-icon.woff') format('woff'),
 		url('http://theme.nileforest.com/html/mazel-v1.5/01_mazel_multiprapose/css/plugin/fonts/flexslider-icon.ttf') format('truetype'),
 		url('http://theme.nileforest.com/html/mazel-v1.5/01_mazel_multiprapose/css/plugin/fonts/flexslider-icon.svg') format('svg');
+*/
 	font-weight: normal;
 	font-style: normal;
 }
