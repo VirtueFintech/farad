@@ -85,6 +85,8 @@
         $('#usd_val option:selected').each(function() {
           usd = $(this).val();
         })
+        // TODO: Change to this for TS1.
+        // var frd = (usd / 0.145);
         var frd = (usd / 0.125);
         $('#frd_amt').val(frd.toLocaleString('en'));
 
