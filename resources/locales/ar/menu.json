@@ -1,11 +1,12 @@
 {
-  "home": "Home",
-  "docs": "Documentations",
+  "home": "الصفحة الرئيسية",
+  "docs": "مستندات",
   "docs.wp": "White Paper",
   "docs.overview": "FARAD Overview",
-  "media": "Media & Press",
+  "media": "أخبار",
   "faq": "FAQ",  
-  "lang": "Language",
+  "lang": "لغة",
+  "blog": "مدونة",
 
   "lang.en": "English",
   "lang.cn": "普通话",
