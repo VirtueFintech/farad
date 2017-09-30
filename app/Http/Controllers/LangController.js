@@ -35,8 +35,7 @@ class LangController {
   }
   
   * ar (request, response) {
-    const lang = 'ar'
-    Antl.setLocale(lang)
+    Antl.setLocale('ar')
 
     response.redirect('/')
   }

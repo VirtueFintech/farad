@@ -4,8 +4,8 @@
     "heading.1": "혁신의 미래",
     "heading.2": "일 시간 분 초",
 
-    "action.rem": "Pre-Token Swap Ends In...",
-    "action.warn.1": "All Pre-token swap can only be done through our official website at https://farad.energy.",
+    "action.rem": "Token Swap Ends In...",
+    "action.warn.1": "All Token swap can only be done through our official website at https://farad.energy.",
     "action.warn.2": "We will not be responsible for any swaps done via 3rd party or individuals",
     "action.select": "Select the region where you are coming from to participate in our FARAD Token Swap",
 
@@ -30,7 +30,7 @@
     "news.one.from": "Mr. Satriya Suetoh",
     "news.one.title": "General Manager - HK Aerospace Beidou New Energy Technology Co. Ltd.",
     "news.two": "Positive Changes In Farad Program And FRD Token Swap",
-    "news.two.link": "https://farad.energy/wp-content/uploads/2017/08/PressRelease-14092017.pdf",
+    "news.two.link": "https://farad.energy/pub/PressRelease-14092017.pdf",
     "news.two.from": "Dr. Wan Hasni",
     "news.two.title": "FARAD Program Manager",
     "news.three": "Guangxi Aerospace Beidou officially commences operations on its first ultra-capacitor production line after successful testing on Aug 31, 2017. Four ultra capacitor cells produced by the assembly line were tested and qualified for use.",
@@ -106,7 +106,7 @@
     "team.3.img": "img/team/03-hisham.jpg",
     "team.3.name": "Hisham Ismail",
     "team.3.title": "Chief Cryptoken Officer, Virtue Fintech FZ LLC",
-    "team.3.cv": "HHisham Ismail은 Telco Mission-Critical Systems 설계 및 개발에 20 년간 종사해 왔습니다. 그는 전 세계의 통신 회사를 위해 다양한 시스템을 설계, 프로젝트 관리 및 개발했습니다. 미국 인디애나 주 퍼듀 대학 (Purdue University) 에서 전기 공학 학사학위를 취득한 그는 Fintech FZ LLC의 Cryptoken 최고 책임자입니다.",
+    "team.3.cv": "Hisham Ismail은 Telco Mission-Critical Systems 설계 및 개발에 20 년간 종사해 왔습니다. 그는 전 세계의 통신 회사를 위해 다양한 시스템을 설계, 프로젝트 관리 및 개발했습니다. 미국 인디애나 주 퍼듀 대학 (Purdue University) 에서 전기 공학 학사학위를 취득한 그는 Fintech FZ LLC의 Cryptoken 최고 책임자입니다.",
 
     "team.4.img": "img/team/04-richard.jpg",
     "team.4.name": "리차드 임란 딩",

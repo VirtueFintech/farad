@@ -23,6 +23,9 @@ Route.get('/', 'HomeController.index')
 Route.get('/press', 'HomeController.press')
 Route.get('/faq', 'HomeController.faq')  
 
+// Language specific page.
+Route.get('/ar', 'HomeController.ar')  
+
 Route.group('Participate in FARAD', function() {
   Route.get('/uk', 'ContribController.uk')
   Route.get('/ksa', 'ContribController.ksa')
