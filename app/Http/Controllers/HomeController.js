@@ -19,7 +19,7 @@ class HomeController {
   * ar (request, response) {
     Antl.setLocale('ar')
 
-    yield response.sendView('home')
+    yield response.sendView('ar')
   }
 
 }
