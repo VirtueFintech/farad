@@ -4,6 +4,7 @@
     "heading.1": "启动改革",
     "heading.2": "创新未来",
 
+
     "action.rem": "First Batch Token Swap Ends In...",
     "action.warn.1": "All Token swap can only be done through our official website at https://farad.energy.",
     "action.warn.2": "We will not be responsible for any swaps done via 3rd party or individuals",
@@ -22,6 +23,7 @@
     "join.row": "其他地区",
 
     "news.title": "FARAD有关消息",
+    "news.more":"更多",
     "news.paypal": "为了满足大众的需求，我们现今开始接纳以Paypal参加FARAD数字代币兑换程序",
     "news.paypal.link": "https://farad.energy/contrib/paypal",
     "news.paypal.from": "FARAD管理员",
