@@ -18,6 +18,7 @@
 const Route = use('Route')
 
 // Route.on('/').render('home')
+//Route.redirect('/farad-ucc', '/ucc',301)  
 
 Route.get('/', 'HomeController.index')
 Route.get('/press', 'HomeController.press')
