@@ -6,8 +6,8 @@ class HomeController {
 
   * index (request, response) {
 
-    // if (Antl.getLocale!='cn') {Antl.setLocale('en')}
-    Antl.getLocale()
+    if (Antl.getLocale()==null) {Antl.setLocale('en')}
+    //Antl.getLocale()
     // console.log(Antl.getLocale())
     yield response.sendView('home')
 
