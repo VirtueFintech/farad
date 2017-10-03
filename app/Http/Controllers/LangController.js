@@ -1,6 +1,7 @@
 'use strict'
 
 const Antl = use('Antl')
+var MyUrl='/'
 
 class LangController {
 
@@ -11,7 +12,8 @@ class LangController {
 
   * cn (request, response) {
     Antl.setLocale('cn')
-    response.redirect('/')
+  //  response.redirect('/')
+  response.redirect('/')
   }
 
   * kr (request, response) {
