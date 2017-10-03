@@ -1,0 +1,120 @@
+{% extends 'canvas' %}
+
+<!-- CONTENT -->  
+{% block content %}
+  
+  <!-- Intro Section -->
+  <section id="intro" class="dark-bg">
+
+    <!-- Intro Canvas Pattern -->
+    <div class="intro-media-wraper bg-image overlay-dark parallax parallax-section1" data-background-img="img/farad-bg-1.png">
+      <!-- Canvas Pattern -->
+      <canvas id="pollyfill-canvas"></canvas>
+      <!-- End Canvas Pattern -->
+    </div>
+    <!-- End Intro Canvas Pattern -->
+
+    <!-- Caption Section -->
+    <div class="intro-overlay-section">
+      <div class="js-fullscreen-height intro-caption-top container">
+        <div class="intro-content">
+          <div class="intro-content-inner">
+            <div class="mx-auto text-center">
+              <img src="img/farad-symbol.png" alt="FARAD">
+            </div>
+            <h2 class="h2 red">
+              {{ antl.formatMessage('contrib.title.1') }}<br>
+              {% block country %}              
+              {% endblock %}
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% block ethereum %}
+  <section id="warn" class="dark-bg fadeIn ptb ptb-sm-80" >
+    <div class="text-center">
+      <div>
+        <div>
+          <br>
+          <p><h2 class="h2 red">{{ antl.formatMessage('contrib.official') }}</h2></p>
+          <br>
+          {% block contract_addr %}
+          {% endblock %}
+        </div>
+      </div>
+    </div>    
+  </section>
+
+  <!-- Warn Page -->
+  <section id="warn" class="dark-bg fadeIn ptb ptb-sm-80" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div id="warn" class="ptb ptb-sm-80 ptb-80 text-center danger">
+        <h5 class="h2">{{ antl.formatMessage('contrib.warn.1') }}</h5>
+        <h5 class="h2">{{ antl.formatMessage('contrib.warn.2') }}</h5>
+      </div>
+    </div>
+  </section>
+  <!-- End Warn Page -->
+
+  <section id="inst" class="dark-bg fadeIn ptb ptb-sm-80">
+    <div class="container">
+      <div class="mx-auto text-center">
+        <p>
+          <h2 class="h2 red">{{ antl.formatMessage('contrib.action.title') }}</h2>
+        </p>
+        <br>
+        {% block qr_code %}
+        <p><h5>{{ antl.formatMessage('contrib.uk.addr') }}</h5></p>
+        <img src="img/contract/uk_eth_addr.png"/>
+        {% endblock %}
+        <br><br>
+        <p><h5>{{ antl.formatMessage('contrib.action.scan') }}</h5></p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="ptb ptb-sm-80 ptb-80 text-center">
+        <h2 class="h2 red">{{ antl.formatMessage('contrib.inst.title') }}</h2>
+      </div>
+    </div>
+    <div id="eth" class="container">
+      <div class="row line">
+        <div class="col-md-4 offset-md-2">
+          <h6>{{ antl.formatMessage('contrib.eth.gas.price') }}</h6>
+        </div>
+        <div class="col-md-4 offset-md-2">
+          <h6>{{ antl.formatMessage('contrib.eth.gas.price.value') }}</h5>
+        </div>
+      </div>      
+      <div class="row line">
+        <div class="col-md-4 offset-md-2">
+          <h6>{{ antl.formatMessage('contrib.eth.gas.limit') }}</h6>
+        </div>
+        <div class="col-md-4 offset-md-2">
+          <h6>{{ antl.formatMessage('contrib.eth.gas.limit.value') }}</h5>
+        </div>
+      </div>      
+      <div class="row line">
+        <div class="col-md-4 offset-md-2">
+          <h6>{{ antl.formatMessage('contrib.eth.min.swap') }}</h6>
+        </div>
+        <div class="col-md-4 offset-md-2">
+          <h6>{{ antl.formatMessage('contrib.eth.min.swap.value') }}</h5>
+        </div>
+      </div>      
+    </div>
+    <div class="container">
+      <div class="ptb ptb-sm-80 ptb-80 text-center">
+        <h5 class="h5 red">{{ antl.formatMessage('contrib.inst.min.contrib') }}</h5>
+      </div>
+    </div>    
+  </section>
+  {% endblock %}
+
+  {% block extra %}
+  {% endblock %}
+
+{% endblock %}
+<!-- END CONTENT -->

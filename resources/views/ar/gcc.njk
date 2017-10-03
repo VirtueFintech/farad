@@ -1,0 +1,15 @@
+{% extends './contrib' %}
+
+{% block country %}
+  {{ antl.formatMessage('contrib.gcc.title') }}
+{% endblock %}
+
+{% block contract_addr %}
+  <p class="ether_addr">{{ antl.formatMessage('contrib.gcc.addr') }}</p>
+{% endblock %}
+
+{% block qr_code %}
+  <p class="ether_addr">{{ antl.formatMessage('contrib.gcc.addr') }}</p>
+  <img src="img/contract/gcc_eth_addr.png"/>
+{% endblock %}
+

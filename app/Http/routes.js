@@ -25,7 +25,7 @@ Route.get('/press', 'HomeController.press')
 Route.get('/faq', 'HomeController.faq')  
 
 // Language specific page.
-Route.get('/ar', 'HomeController.ar')  
+// Route.get('/ar', 'HomeController.ar')  
 
 Route.group('Participate in FARAD', function() {
   Route.get('/uk', 'ContribController.uk')
@@ -40,6 +40,14 @@ Route.group('Participate in FARAD', function() {
   Route.get('/row', 'ContribController.row')
   Route.get('/paypal', 'ContribController.paypal')
 }).prefix('/contrib')
+
+Route.group('Arabic Pages', function() {
+  Route.get('/', 'ArController.home')
+  Route.get('/ksa', 'ArController.ksa')
+  Route.get('/jo', 'ArController.jo')
+  Route.get('/gcc', 'ArController.gcc')
+  Route.get('/paypal', 'ArController.paypal')
+}).prefix('/ar')
 
 Route.group('Language Selection', function() {
   Route.get('/en', 'LangController.en')
