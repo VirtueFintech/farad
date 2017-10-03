@@ -37,9 +37,7 @@ class LangController {
   }
   
   * ar (request, response) {
-    Antl.setLocale('ar')
-
-    response.redirect('/')
+    response.redirect('/ar')
   }
 
 }
