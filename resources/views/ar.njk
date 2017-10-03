@@ -1,15 +1,628 @@
-{% extends 'home' %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Farad &#8211; Revolutionising The Future Of Innovation 2017</title>
+  <base href="/">
+  
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="mhi@virtue.finance">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-          {% block joinbutton %}
+  <!-- Favicone Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+
+  <!-- CSS -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/ionicons.css" rel="stylesheet" type="text/css" />
+  <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/custom.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <section id="preloader">
+    <div class="loader" id="loader">
+      <div class="loader-img"></div>
+    </div>
+  </section>
+  <!-- End Preloader -->
+
+  <!-- Site Wraper -->
+  <div class="wrapper">
+
+  <!-- Header -->
+  <header id="header" class="header">
+    <div class="container header-inner">
+
+    <!-- Logo -->
+    <div class="logo">
+      <a href="/">
+      <img class="logo-light" src="img/logo-farad-white.png" alt="Farad" />
+      <img class="logo-dark" src="img/logo-farad-white.png" alt="Farad" />
+      </a>
+    </div>
+    <!-- End Logo -->
+
+    <!-- Rightside Menu (Search, Cart, Bart icon) -->
+    <div class="side-menu-btn">
+      <ul>        
+        <!-- Social Menu Icon -->      
+        <li class="">
+          <a class="search-overlay-menu-btn header-icon" target="_blank" href="https://t.me/joinchat/Bz_rXUN6T6yNR0AKBLevQw"><i class="fa fa-telegram"></i></a>
+        </li>
+        <li class="">
+          <a class="search-overlay-menu-btn header-icon" target="_blank" href="https://www.facebook.com/faradcryptoken/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="">
+          <a class="search-overlay-menu-btn header-icon" target="_blank"  href="https://www.instagram.com/faradcryptoken/"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li class="">
+          <a class="search-overlay-menu-btn header-icon" target="_blank" href="https://twitter.com/faradcryptoken"><i class="fa fa-twitter"></i></a>
+        </li>        
+        <!-- End Social Menu Icon-->
+      </ul>      
+    </div>
+    <!-- End Rightside Menu -->
+
+    <!-- Mobile Navbar Icon -->
+    <div class="nav-mobile nav-bar-icon">
+      <span></span>
+    </div>
+    <!-- End Mobile Navbar Icon -->
+
+    <!-- Navbar Navigation -->
+    <div class="nav-menu">
+      <ul class="nav-menu-inner">
+        <li>
+          <a class="" href="/">الصفحة الرئيسية</a>
+        </li>
+        <li>
+          <a class="menu-has-sub">مستندات<i class="fa fa-angle-down"></i></a>
+          <!-- Dropdown -->
+          <ul class="sub-dropdown dropdown">
+            <li><a class="" href="/pub/FaradWhitepaper.pdf">Whitepaper</a></li>
+            <li><a class="" href="/pub/FaradOverview.pdf">Overview</a></li>
+          </ul>
+          <!-- End Dropdown -->
+        </li>
+        <li>
+          <a class="" href="/press">أخبار</a>
+        </li>            
+        <li>
+          <a class="" href="/faq">FAQ</a>
+        </li>
+        <li>
+          <a class="" target="_blank" href="http://farad.io">مدونة</a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- End Navbar Navigation -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- CONTENT -->  
+  <!-- Intro Section -->
+  <section id="intro" class="dark-bg">
+
+    <!-- Intro Canvas Pattern -->
+    <div class="intro-media-wraper bg-image overlay-dark parallax parallax-section1" data-background-img="img/farad-bg-1.png">
+      <!-- Canvas Pattern -->
+      <canvas id="pollyfill-canvas"></canvas>
+      <!-- End Canvas Pattern -->
+    </div>
+    <!-- End Intro Canvas Pattern -->
+
+    <!-- Caption Section -->
+    <div class="intro-overlay-section">
+      <div class="js-fullscreen-height intro-caption-top container">
+        <div class="intro-content">
+          <div class="intro-content-inner ptb ptb-80">
+          
+            <h2 class="big-title">Farad Cryptoken</h2>
+            <br>
+            <h2 class="h2 red">
+              REVOLUTIONISING THE FUTURE OF INNOVATION
+            </h2>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="overlay-dark80 dark-bg ptb ptb-sm-80">
+    <div class="container">
+      <div>
+        <div class="text-center">
+          <p class="text-center">
+            <h4>Select the region/method where you are coming from to participate in our FARAD Token Swap</h4>
+          </p>
           <div class="text-center">
-            <a class="btn btn-md btn-white-line" href="/contrib/paypal">{{ antl.formatMessage('home.join.paypal') }}</a>
+            <a class="btn btn-md btn-white-line" href="/contrib/paypal">PayPal</a>
             <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/ksa">{{ antl.formatMessage('home.join.ksa') }}</a>
+            <a class="btn btn-md btn-white-line" href="/contrib/ksa">KSA</a>
             <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/jo">{{ antl.formatMessage('home.join.jordan') }}</a>
+            <a class="btn btn-md btn-white-line" href="/contrib/jo">Jordan</a>
             <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/gcc">{{ antl.formatMessage('home.join.gcc') }}</a>
+            <a class="btn btn-md btn-white-line" href="/contrib/gcc">Others</a>
             <span class="btn-space-10 xs-hidden"></span>
           </div>
           <br>
-          {% endblock %}
+        </div>
+      </div>
+    </div>
+    <!-- End Caption Section -->
+
+
+  </section>
+  <!-- End Intro Section -->
+
+  <div class="clearfix"></div>
+
+  <!-- News Slider -->
+  <section class="overlay-dark80 dark-bg ptb ptb-sm-80" style="background-image: url('img/bgroundpoly.jpg');" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <h2 class="text-center">{{ antl.formatMessage('home.news.title') }}</h2>
+      <div class="spacer-60"></div>
+      <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
+        <div class="item">
+          <div class="testimonial text-center dark-color">
+            <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+            <p class="lead">
+              {{ antl.formatMessage('home.news.paypal') }}
+            </p>
+            <p>
+              <a class="btn btn-md btn-white-line" target="_blank" href="{{ antl.formatMessage('home.news.paypal.link') }}">{{ antl.formatMessage('home.news.more') }} ...</a>
+            </p>
+            <br>
+            <h6 class="quote-author">{{ antl.formatMessage('home.news.paypal.from') }}</h6>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testimonial text-center dark-color">
+            <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+            <p class="lead">
+              {{ antl.formatMessage('home.news.one') }}
+            </p>
+            <p>
+              <a class="btn btn-md btn-white-line" target="_blank" href="{{ antl.formatMessage('home.news.one.link') }}">{{ antl.formatMessage('home.news.more') }} ...</a>
+            </p>
+            <br>
+            <h6 class="quote-author">{{ antl.formatMessage('home.news.one.from') }} <span style="font-weight: 400;">{{ antl.formatMessage('home.news.one.title') }}</span></h6>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testimonial text-center dark-color">
+            <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+            <p class="lead">
+              {{ antl.formatMessage('home.news.two') }}
+            </p>
+            <p>
+              <a class="btn btn-md btn-white-line" target="_blank" href="{{ antl.formatMessage('home.news.two.link') }}">{{ antl.formatMessage('home.news.more') }} ...</a>
+            </p>
+            <br>
+            <h6 class="quote-author">{{ antl.formatMessage('home.news.two.from') }} <span style="font-weight: 400;">{{ antl.formatMessage('home.news.two.title') }}</span></h6>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testimonial text-center dark-color">
+            <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+            <p class="lead">
+              {{ antl.formatMessage('home.news.three') }}
+            </p>
+            <p>
+              <a class="btn btn-md btn-white-line" target="_blank" href="{{ antl.formatMessage('home.news.three.link') }}">{{ antl.formatMessage('home.news.more') }} ...</a>
+            </p>
+            <br>
+            <h6 class="quote-author">{{ antl.formatMessage('home.news.three.from') }} <span style="font-weight: 400;">{{ antl.formatMessage('home.news.three.title') }}</span></h6>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testimonial text-center dark-color">
+            <div class="container-icon"><i class="fa fa-quote-right"></i></div>
+            <p class="lead">
+              {{ antl.formatMessage('home.news.four') }}
+            </p>
+            <p>
+              <a class="btn btn-md btn-white-line" target="_blank" href="{{ antl.formatMessage('home.news.four.link') }}">{{ antl.formatMessage('home.news.more') }} ...</a>
+            </p>
+            <br>
+            <h6 class="quote-author">{{ antl.formatMessage('home.news.four.from') }} <span style="font-weight: 400;">{{ antl.formatMessage('home.news.four.title') }}</span></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End News Slider -->
+  
+  <!-- FARAD Intro Section -->
+  <section id="intro" class="dark-bg ptb-60" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
+    <div class="container">
+    <div class="row">
+      <div class="ptb ptb-sm-80 ptb-80 mx-auto text-center">
+        <img src="img/farad-symbol.png" alt="FARAD">
+      </div>
+      <div class="container">
+        <div class="mx-auto text-center">
+          <h2 class="h2 red">
+            Introducing<br>
+            Farad Cryptoken
+          </h2>
+        </div>  
+      </div>
+      <div class="container">
+        <div class="col-md-8 offset-md-2 text-center">
+          <p class="p10">
+            Farad Cryptoken is the first of it's kind among the cryptocurrencies that exist in the market. The main difference of Farad Cryptoken is that, it is backed by real economic activity which is the production of Ultra-capacitors within actual factory settings
+          </p>
+        </div>        
+      </div>
+      <div class="ptb ptb-sm-80 mx-auto text-center">
+        <a class="btn btn-md btn-white float-right float-none-xs" href="/pub/FaradWhitepaper.pdf">Whitepaper</a>
+        <span class="btn-space-10 float-right"></span>
+        <a class="btn btn-md btn-white float-right float-none-xs" href="/pub/FaradOverview.pdf">Overview</a>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End FARAD Intro Section -->
+
+
+  <!-- Launch Section -->
+  <section id="launch" class="dark-bg fadeIn ptb ptb-sm-80">
+    <div class="container">
+      <div class="ptb ptb-sm-80 ptb-80 text-center">
+        <h2 class="h2 red">
+          FARAD Cryptoken
+          <br>
+          Launch Summary
+        </h2>
+      </div>      
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>Pre-Token swap</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>
+            Pre-Token Swap program which will be conducted in 3 batches over a maximum period of 36 days. The first batch starts from 25th August 2017, 00:00 GMT till 15th September 2017, 23:59 GMT. The second batch starts from 16th September 2017, 00:00 till 22nd September 2017, 23:59 GMT. The third batch starts from 23rd September 2017, 00:00 GMT till 30th September 2017, 23:59 GMT.
+          </p>
+        </div>
+      </div>
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>Token Swap</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>
+            Token Swap program will be conducted in 3 batches over a maximum period of 31 days. The first batch starts from 1st October 2017, 00:00 GMT till 7th October 2017, 23:59 GMT. The second batch starts from 8th October 2017, 00:00 GMT till 15th October 2017, 23:59 GMT. The third batch starts from 16th October 2017, 00:00 GMT till 31st October 2017, 23:59 GMT.
+          </p>
+        </div>
+      </div>
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>Token Swap Volume</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>1,280,000,000 FRD</p>
+        </div>
+      </div>
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>Token Issue Volume</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>1,600,000,000 FRD</p>
+        </div>
+      </div>
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>Distribution of FRD</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>
+            For every 100 FRD swapped in this offering, 25 additional FRD will be issued and retained for sponsor, team members, partners and advisor
+          </p>
+        </div>
+      </div>
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>FRD Offer Swap (Pre-Token Swap)</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>US$ 0.125 per FRD in ETH + 10% bonus in FRD</p>
+        </div>
+      </div>
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>FRD Offer Swap (Token Swap)</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>US$ 0.125 per FRD in ETH</p>
+        </div>
+      </div>
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>Website URL</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>https://farad.energy</p>
+        </div>
+      </div>
+      <div class="row launch">
+        <div class="col-md-2 offset-md-1">
+          <h6>FRD Issue Date</h6>
+        </div>
+        <div class="col-md-8 offset-md-1">      
+          <p>The FRD will be issued in batches not later than 7 days after the closing date of each batch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Launch Section-->
+
+  <!--Timeline Section-->
+  <section id="about" class="overlay-dark80 wow dark-bg fadeIn ptb ptb-sm-80" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.status') }}</h2>
+          <div class="spacer-15"></div>
+        </div>
+      </div>
+      <div class="row mt-80">
+        <!-- Status -->
+        <div class="col-md-6 mb-30">
+          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.frd.title') }}</h2>
+
+          <!-- FRD Updates -->
+          <div class="red-bar">
+            <div class="skillbar" data-percent="{{ antl.formatMessage('home.timeline.frd.m1.status') }}">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.frd.m1') }} <br> 
+                {{ antl.formatMessage('home.timeline.frd.m1.text') }}
+              </div>
+              <div class="skill-bar-percent">{{ antl.formatMessage('home.timeline.frd.m1.status') }}</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="{{ antl.formatMessage('home.timeline.frd.m2.status') }}">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.frd.m2') }} <br> 
+                {{ antl.formatMessage('home.timeline.frd.m2.text') }}
+              </div>
+              <div class="skill-bar-percent">{{ antl.formatMessage('home.timeline.frd.m2.status') }}</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="{{ antl.formatMessage('home.timeline.frd.m3.status') }}">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.frd.m3') }} <br> 
+                {{ antl.formatMessage('home.timeline.frd.m3.text') }}
+              </div>
+              <div class="skill-bar-percent">{{ antl.formatMessage('home.timeline.frd.m3.status') }}</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="{{ antl.formatMessage('home.timeline.frd.m4.status') }}">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.frd.m4') }} <br> 
+                {{ antl.formatMessage('home.timeline.frd.m4.text') }}
+              </div>
+              <div class="skill-bar-percent">{{ antl.formatMessage('home.timeline.frd.m4.status') }}</div>
+              <div class="skillbar-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UCC Updates -->
+        <div class="col-md-6 mb-30">
+          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.ucc.title') }}</h2>
+          <div>
+            <div class="skillbar" data-percent="{{ antl.formatMessage('home.timeline.ucc.m1.status') }}">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.ucc.m1') }} <br>
+                {{ antl.formatMessage('home.timeline.ucc.m1.text') }}
+              </div>
+              <div class="skill-bar-percent">{{ antl.formatMessage('home.timeline.ucc.m1.status') }}</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="{{ antl.formatMessage('home.timeline.ucc.m2.status') }}">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.ucc.m2') }} <br> 
+                {{ antl.formatMessage('home.timeline.ucc.m2.text') }}
+              </div>
+              <div class="skill-bar-percent">{{ antl.formatMessage('home.timeline.ucc.m2.status') }}</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="{{ antl.formatMessage('home.timeline.ucc.m3.status') }}">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.ucc.m3') }} <br> 
+                {{ antl.formatMessage('home.timeline.ucc.m3.text') }}
+              </div>
+              <div class="skill-bar-percent">{{ antl.formatMessage('home.timeline.ucc.m3.status') }}</div>
+              <div class="skillbar-bar"></div>
+            </div>
+          </div>
+        </div>
+        <!-- End Status -->
+      </div>
+    </div>
+  </section>
+  <!-- End Timeline Section-->
+
+  <!-- Team Section -->
+  <section id="team" class="dark-bg ptb-60">
+    <div class="container">
+      <div class="ptb ptb-sm-80 ptb-80 text-center">
+        <h2 class="h2 red">
+          Farad Progam<br>
+          Middle East
+        </h2>
+      </div>
+      <div class="row mt-80">
+        <div class="col-md-3 mb-30">
+          <div class="text-center">
+            <img src="img/team/01-drwan.jpg" alt="Dr. Wan M. Hasni" />
+          </div>
+          <br>
+          <br>
+          <h5>Dr. Wan M. Hasni</h5>
+          <strong>Chief Executive Officer, FARAD Program</strong>
+          <div class="spacer-15"></div>
+          <p>
+            Wan Hasni has been among the pioneer in financial economics for more than 25 years. He had founded, developed, and managed various organizations in Asia and the Middle East, involving multi billion dollars of assets under his management. Dr. Hasni holds a PhD in finance from University of Iowa, Iowa City, USA. He is the Chairman & CEO of Virtue Fintech FZ LLC.
+          </p>
+        </div>
+        <div class="col-md-3 mb-30">
+          <div class="text-center">
+            <img src="img/team/02-mangoosh.jpg" alt="Dr. Abdulla Mangoosh" />
+          </div>
+          <br>
+          <br>
+          <h5>Dr. Abdulla Mangoosh</h5>
+          <strong>Director, FARAD Program</strong>
+          <div class="spacer-15"></div>
+          <p>
+            Dr. Abdulla Mangoosh, is the Chairman and CEO of Emirates House Group. Mr. Mangoosh is an expert in the field of meteorology and has also hold various posts in the UAE government in this field culminating in his appointment as the Director of the Water Resources Department under the direct supervision of the Late H.H. Sheikh Zayed Bin Sultan Al Nahyan’s office. He holds a Master’s Degree of Science from the University of the Witwatersrand, Johannesburg and a PhD in Economical Sciences from the International University of Business Technologies, Russia.
+          </p>
+        </div>
+        <div class="col-md-3 mb-30">
+          <div class="text-center">
+            <img src="img/team/03_shaheen.jpg" alt="Ahmad Shahin" />
+          </div>          
+          <br>
+          <br>
+          <h5>Ahmad Shahin</h5>
+          <strong>Director, FARAD Program</strong>
+          <div class="spacer-15"></div>
+          <p>
+            Ahmad Shahin's professional career includes the position of Avlon Switchgear Business Development Manager for UAE/Australia, the General Manager for Al Hamad Group in UAE. He is also the Founder of two companies specializing in power generation and control system called Jesco. and as well as for TPG.
+          </p>
+        </div>
+        <div class="col-md-3 mb-30">
+          <div class="text-center">
+            <img src="img/team/02_mhmd_alohaydib.jpg" alt="د/ محمد الاحيدب" />
+          </div>          
+          <br>
+          <br>
+          <h5>د/ محمد الاحيدب</h5>
+          <strong>ممثل إقليمي</strong>
+          <div class="spacer-15"></div>
+          <p>
+            حصل دكتور/ محمد الأحيدب على دكتوراه في تكنولوجيا المعلومات، ويشغل منصب المدير العام لشركة الشيلام المحدودة وشركة فوتوريستيك إنسيت كومباني يو كيه ليمتد وشركة كيه بي سي ليمتد وشركة دياموند فيجن ليمتد. كما أنه يتمتع بخبرة كبيرة في مجال إدارة الشركات الدولية منذ 1990.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Team Section -->
+
+  <!-- END CONTENT -->
+
+  <!-- FOOTER -->
+  <footer class="footer pt-80">
+    <div class="container">
+      <div class="row mb-60">
+        <!-- Logo -->
+        <div class="col-md-3 col-sm-3 mb-xs-30">
+          <a class="footer-logo" href="/">
+            <img src="img/logo-farad.png" />
+          </a>
+        </div>
+        <!-- Logo -->
+
+        <!-- Newsletter -->
+        <div class="col-md-4 col-sm-5 mb-xs-30 text-center">
+          <p>
+            &copy; 2017. All rights reserved.
+          </p>
+        </div>
+        <!-- End Newsletter -->
+
+        <!-- Social -->
+        <div class="col-md-3 offset-md-2 col-sm-4">
+          <ul class="social">
+            <li><a target="_blank" href="https://bitcointalk.org/index.php?topic=2075985.0"><i class="fa fa-bitcoin"></i></a></li>
+            <li><a target="_blank" href="https://t.me/joinchat/Bz_rXUN6T6yNR0AKBLevQw"><i class="fa fa-telegram"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/faradcryptoken"><i class="fa fa-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/faradcryptoken/"><i class="fa fa-instagram"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/faradcryptoken/"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCKnB42eCIlBS50VBsYq0haQ"><i class="fa fa-youtube"></i></a></li>
+            <li><a target="_blank" href="https://github.com/VirtueFintech/FaradCryptoken"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+        <!-- End Social -->
+      </div>
+    </div>
+    <hr>
+
+  </footer>
+  <!-- END FOOTER -->
+
+  <!-- Scroll Top -->
+  <a class="scroll-top">
+    <i class="fa fa-angle-double-up"></i>
+  </a>
+  <!-- End Scroll Top -->
+
+  </div>
+  <!-- Site Wraper End -->
+
+
+  <!-- JS -->
+
+  <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+  <script src="plugin/tether-1.3.3/dist/js/tether.min.js" type="text/javascript"></script>
+
+  <script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
+  <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+  <script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+  <script src="js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
+  <script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+  <script src="js/plugin/wow.min.js" type="text/javascript"></script>
+  <script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+  <script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+  <script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/plugin/sidebar-menu.js" type="text/javascript"></script>
+  <script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+  <script src="js/plugin/mediaelement-and-player.min.js"></script>
+  <script src="js/theme.js" type="text/javascript"></script>
+  <script src="js/navigation.js" type="text/javascript"></script>
+  <script src="js/plugin/TweenLite.min.js" type="text/javascript"></script>
+  <script src="js/plugin/EasePack.min.js" type="text/javascript"></script>
+  <script src="js/plugin/pollyfill.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-103539776-1', 'auto');
+    ga('send', 'pageview');
+  </script>  
+
+  <script data-cfasync="false">
+    window.intercomSettings = {"app_id":"a2652fuk"};
+  </script>
+  <script data-cfasync="false">(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/a2652fuk';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+  </script>  
+
+  {% block script %}
+  {% endblock %}
+
+
+</body>
+</html>

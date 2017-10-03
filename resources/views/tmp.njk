@@ -1,0 +1,41 @@
+{% extends 'home' %}
+
+            {% block icotimer %}
+            {% endblock %}
+
+          {% block joinbutton %}
+          <div class="text-center">
+            <a class="btn btn-md btn-white-line" href="/contrib/paypal">{{ antl.formatMessage('home.join.paypal') }}</a>
+            <span class="btn-space-10 xs-hidden"></span>
+            <a class="btn btn-md btn-white-line" href="/contrib/ksa">{{ antl.formatMessage('home.join.ksa') }}</a>
+            <span class="btn-space-10 xs-hidden"></span>
+            <a class="btn btn-md btn-white-line" href="/contrib/jo">{{ antl.formatMessage('home.join.jordan') }}</a>
+            <span class="btn-space-10 xs-hidden"></span>
+            <a class="btn btn-md btn-white-line" href="/contrib/gcc">{{ antl.formatMessage('home.join.gcc') }}</a>
+            <span class="btn-space-10 xs-hidden"></span>
+          </div>
+          <br>
+          {% endblock %}
+
+  {% block customteam %}
+  <section id="team" class="dark-bg ptb-60">
+    <div class="container">
+      <div class="ptb ptb-sm-80 ptb-80 text-center">
+        <h2 class="h2 red">
+          {{ antl.formatMessage('home.team.title.1') }}<br>
+          {{ antl.formatMessage('home.team.custom.title.2') }}
+        </h2>
+      </div>
+      <div class="row mt-80">
+      </div>
+    </div>
+  </section>
+  {% endblock %}
+
+
+  {% block team %}  
+  {% endblock %}
+
+  {% block board %}  
+  {% endblock %}
+
