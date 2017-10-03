@@ -9,14 +9,17 @@ class ContribController {
   }
 
   * ksa (request, response) {
+    Antl.setLocale('ar')
     yield response.sendView('contrib/ksa')
   }
 
   * jo (request, response) {
+    Antl.setLocale('ar')
     yield response.sendView('contrib/jo')
   }
 
   * gcc (request, response) {
+    Antl.setLocale('ar')
     yield response.sendView('contrib/gcc')
   }
 
