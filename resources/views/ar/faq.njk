@@ -1,0 +1,268 @@
+{% extends './home' %}
+
+<!-- CONTENT -->  
+{% block content %}
+  
+  <!-- Intro Section -->
+  <section id="intro" class="dark-bg">
+
+    <!-- Intro Canvas Pattern -->
+    <div class="intro-media-wraper bg-image overlay-dark parallax parallax-section1" data-background-img="img/farad-bg-1.png">
+    <!-- Canvas Pattern -->
+    <canvas id="pollyfill-canvas"></canvas>
+    <!-- End Canvas Pattern -->
+    </div>
+    <!-- End Intro Canvas Pattern -->
+
+    <!-- Caption Section -->
+    <div class="intro-overlay-section">
+    <div class="js-fullscreen-height intro-caption-top container">
+      <div class="intro-content">
+      <div class="intro-content-inner">
+        <h1 class="h1 red">{{ antl.formatMessage('faq.title') }}</h1>
+        <br>
+        <h1 class="h1 red">{{ antl.formatMessage('faq.desc') }}</h1>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq-farad" class="ptb ptb-sm-80">
+    <div class="container">
+      <h2>{{ antl.formatMessage('faq.section.1') }}</h2>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.1.text.1') }}</p>
+            <p>{{ antl.formatMessage('faq.item.1.text.2') }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2') }}</h6>
+          <div class="accordion-content">
+            <h5>{{ antl.formatMessage('faq.item.2.text.1') }}</h5>
+            <strong>{{ antl.formatMessage('faq.item.2.text.2') }}</strong>
+            <p>{{ antl.formatMessage('faq.item.2.text.3') }}</p>
+            <br>
+            <h5>{{ antl.formatMessage('faq.item.2.text.4') }}</h5>
+            <strong>{{ antl.formatMessage('faq.item.2.text.5') }}</strong>
+            <p>{{ antl.formatMessage('faq.item.2.text.6') }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.3') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.3.text.1') }}</p>
+            <p>{{ antl.formatMessage('faq.item.3.text.2') }}</p>
+            <p>{{ antl.formatMessage('faq.item.3.text.3') }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.4') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.4.text.1') }}</p>
+            <p>{{ antl.formatMessage('faq.item.4.text.2') }}</p>
+            <p>{{ antl.formatMessage('faq.item.4.text.3') }}</p>
+            <p>{{ antl.formatMessage('faq.item.4.text.4') }}</p>
+            <p>{{ antl.formatMessage('faq.item.4.text.5') }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.5') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.5.text.1') }}</p>
+            <p>{{ antl.formatMessage('faq.item.5.text.2') }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.6') }}</h6>
+          <div class="accordion-content">
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.6.text.1') }}</li>
+              <li>{{ antl.formatMessage('faq.item.6.text.2') }}</li>
+              <li>{{ antl.formatMessage('faq.item.6.text.3') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.7') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.7.text.1') }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.8') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.8.text.1') }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.9') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.9.text.1') }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.10') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.10.text.1') }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq-cryptoken" class="ptb ptb-sm-80">
+    <div class="container">
+      <h2>{{ antl.formatMessage('faq.section.2') }}</h2>
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.1.1') }}</p>
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.2.1.2') }}</li>
+              <li>{{ antl.formatMessage('faq.item.2.1.3') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.2') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.2.1') }}</p>
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.2.2.1.1') }}</li>
+              <li>{{ antl.formatMessage('faq.item.2.2.1.2') }}</li>
+            </ul>
+            <p>{{ antl.formatMessage('faq.item.2.2.2') }}</p>
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.2.2.2.1') }}</li>
+            </ul>
+            <p>{{ antl.formatMessage('faq.item.2.2.3') }}</p>
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.2.2.3.1') }}</li>
+            </ul>
+              <p>{{ antl.formatMessage('faq.item.2.2.4') }}</p>
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.2.2.4.1') }}</li>
+            </ul>
+            <p>{{ antl.formatMessage('faq.item.2.2.5') }}</p>
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.2.2.5.1') }}</li>
+              <li>{{ antl.formatMessage('faq.item.2.2.5.2') }}</li>
+            </ul>
+
+ 
+            <div class="container">
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.3') }}</h6>
+          <div class="accordion-content">
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.2.3.1') }}</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.4.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.4.2') }}</p>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.5.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.5.2') }}</p>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.6.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.6.2') }}</p>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.7.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.7.2') }}</p>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.8.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.8.2') }}</p>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.9.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.9.2') }}</p>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.10.1') }}</h6>
+          <div class="accordion-content">
+            <ul>
+              <li>{{ antl.formatMessage('faq.item.2.10.2') }}</li>
+              <li>{{ antl.formatMessage('faq.item.2.10.3') }}</li>
+              <li>{{ antl.formatMessage('faq.item.2.10.4') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>  
+      <div class="accordion">
+        <div class="accordion-section">
+          <h6 class="accordion-title">{{ antl.formatMessage('faq.item.2.11.1') }}</h6>
+          <div class="accordion-content">
+            <p>{{ antl.formatMessage('faq.item.2.11.2') }}</p>
+          </div>
+        </div>
+      </div>        
+    </div>
+  </section>
+
+  <hr/>
+
+
+{% endblock %}
+<!-- END CONTENT -->

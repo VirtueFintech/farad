@@ -43,6 +43,8 @@ Route.group('Participate in FARAD', function() {
 
 Route.group('Arabic Pages', function() {
   Route.get('/', 'ArController.home')
+  Route.get('/faq', 'ArController.faq')
+  Route.get('/press', 'ArController.press')
   Route.get('/ksa', 'ArController.ksa')
   Route.get('/jo', 'ArController.jo')
   Route.get('/gcc', 'ArController.gcc')

@@ -12,6 +12,16 @@ class ArController {
     yield response.sendView('ar/home')
   }
 
+  * faq (request, response) {
+    Antl.setLocale('ar')
+    yield response.sendView('ar/faq')
+  }
+
+  * press (request, response) {
+    Antl.setLocale('ar')
+    yield response.sendView('ar/press')
+  }
+
   * ksa (request, response) {
     Antl.setLocale('ar')
     yield response.sendView('ar/ksa')
