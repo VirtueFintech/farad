@@ -27,9 +27,9 @@ class HomeController {
   }
 
   * ar (request, response) {
-    while ('ar' != Antl.getLocale()) {
+   // while ('ar' != Antl.getLocale()) {
       Antl.setLocale('ar')
-    }
+   // }
 
     yield response.sendView('ar')
   }
