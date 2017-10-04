@@ -3,12 +3,12 @@
   "title.2": "普通话",
   "desc": "FARAD代币互兑 以太坊 智能合约 钱包地址 ",
 
-  "official": "Official Ethereum Address",
+  "official": "官方以太坊地址",
 
-  "warn.1": "请不要从 交易所 钱包发送您的参投，不然您所参投的代币将汇到交易所钱包",
-  "warn.2": "如果您的代币被汇到交易所钱包里，我们将不负任何责任。",
+  "warn.1": "请不要从 Exchanger 钱包发送您的参投，不然您所参投的代币将汇到Exchanger钱包",
+  "warn.2": "如果您的代币被汇到Exchanger钱包里，我们将不负任何责任。",
 
-  "inst.title": "Contribution Settings",
+  "inst.title": "参投设定",
   "inst.min.contrib": "任何兑换少于0.05以太币将连同合约被取消，而外多余的gas将还至于发送者。",
 
   "eth.gas.price": "Gas 价格",
@@ -19,8 +19,8 @@
   "eth.min.swap.value": "0.05 Ether",
 
   
-  "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
-  "action.scan": "根据以下地址发送您参投的以太币，或扫描以下图片显示的二维码；如果您是使用移动钱包。",
+  "action.title": "FARAD代币兑换 以太坊 智能合约 钱包地址",
+  "action.scan": "根据以上地址发送您参投的以太币，或扫描以上图片显示的二维码；如果您是使用移动钱包",
 
   "paypal.title": "Swap via Paypal",
   "paypal.select": "Select the USD Amount",

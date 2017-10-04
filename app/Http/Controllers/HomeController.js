@@ -7,6 +7,7 @@ class HomeController {
   * index (request, response) {
 
     if (Antl.getLocale()==null) {Antl.setLocale('en')}
+  
     if (Antl.getLocale()=='ar') {Antl.setLocale('en')}
     //Antl.getLocale()
     // console.log(Antl.getLocale())
