@@ -114,8 +114,19 @@
     <!-- End Mobile Navbar Icon -->
 
  <script type="text/javascript">
+  
+// echo  "LANGUAGE:".(localStorage.getItem('FRLang'))."|";
 
-if (Antl.getLocale()==null) {Antl.setLocale('en')}
+if(localStorage.getItem('FRLang')) {
+  Antl.setLocale(localStorage.getItem('FRLang'))   
+}
+else {
+  if (Antl.getLocale()==null) {Antl.setLocale('en')}
+  localStorage.setItem(Antl.getLocale(),FRLang)
+}
+
+
+//if (Antl.getLocale()==null) {Antl.setLocale('en')}
 </script>
 
     <!-- Navbar Navigation -->
@@ -144,7 +155,7 @@ if (Antl.getLocale()==null) {Antl.setLocale('en')}
         </li>
         <li>
           <a class="menu-has-sub">
-            {{ antl.formatMessage('menu.lang') 
+           {{ antl.formatMessage('menu.lang') 
                 
           }} <i class="fa fa-angle-down"></i></a>
           <ul class="sub-dropdown dropdown">
@@ -192,7 +203,7 @@ if (Antl.getLocale()==null) {Antl.setLocale('en')}
         <!-- Newsletter -->
         <div class="col-md-4 col-sm-5 mb-xs-30 text-center">
           <p>
-            &copy; 2017. All rights reserved.
+            &copy; 2017. All rights reserved ( {{antl.getLocale()}} ).
           </p>
         <!--div class="newsletter">
           <form>
