@@ -58,79 +58,209 @@
   <section id="intro" class="dark-bg ptb-60" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row">
-        <div class="ptb ptb-sm-80 ptb-80 mx-auto text-center">
-          <img src="img/farad-symbol.png" alt="FARAD">
-        </div>
+
         <div class="ptb ptb-sm-80 ptb-80">
           <div class="text-center">
-            <h1 class="h1 red">{{ antl.formatMessage('press.news.title') }}</h1><br><br>
+            <h1 class="h1 red">{{ antl.formatMessage('press.news.title') }}</h1>
             <h4 class="mb-0">{{ antl.formatMessage('press.news.text') }}</h4>
           </div>  
-          <br>
         </div>
-        <div class="spacer-60"></div>
-        <div class="owl-carousel testimonial-carousel nf-carousel-theme white">
-          <div class="item">
-            <div class="testimonial text-center dark-color">
-              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-              <p class="lead">
-                {{ antl.formatMessage('press.news.1') }}
-              </p>
-              <p>
-                <a class="btn btn-md btn-white-line" target="_blank"  href="{{ antl.formatMessage('press.news.1.link') }}">More...</a>
-              </p>
-              <br>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonial text-center dark-color">
-              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-              <p class="lead">
-                {{ antl.formatMessage('press.news.2') }}
-              </p>
-              <p>
-                <a class="btn btn-md btn-white-line" target="_blank" href="{{ antl.formatMessage('press.news.2.link') }}">More...</a>
-              </p>
-              <br>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonial text-center dark-color">
-              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-              <p class="lead">
-                {{ antl.formatMessage('press.news.3') }}
-              </p>
-              <p>
-                <a class="btn btn-md btn-white-line" target="_blank"  href="{{ antl.formatMessage('press.news.3.link') }}">More...</a>
-              </p>
-              <br>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonial text-center dark-color">
-              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-              <p class="lead">
-                {{ antl.formatMessage('press.news.4') }}
-              </p>
-              <p>
-                <a class="btn btn-md btn-white-line" target="_blank"  href="{{ antl.formatMessage('press.news.4.link') }}">More...</a>
-              </p>
-              <br>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testimonial text-center dark-color">
-              <div class="container-icon"><i class="fa fa-quote-right"></i></div>
-              <p class="lead">
-                {{ antl.formatMessage('press.news.5') }}
-              </p>
-              <p>
-                <a class="btn btn-md btn-white-line" target="_blank"  href="{{ antl.formatMessage('press.news.5.link') }}">More...</a>
-              </p>
-              <br>
-            </div>
-          </div>
-        </div>
+
+ <style>
+
+#container{
+    position: relative;
+    width: 100%;
+    min-width: 1400px;
+    height: 600px;
+    
+}
+#main_image{
+    width: 100%;
+    height: 100%;
+    background-color:#222222;
+    opacity:0.5;
+}
+#image1{
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    background: none;
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+    horizontal-align: middle;
+}
+
+
+.Newsdropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.Newsdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444444;
+    color:white;
+    width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #999999;
+    border-width: 2px;
+    line-height:100%;
+}
+
+.Newsdropdown-content a {
+    color: silver;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.Newsdropdown-content a:hover {
+  background-color: silver;
+  color: black;
+  border-radius:10px;
+ }
+
+.Newsdropdown:hover .Newsdropdown-content {
+    display: block;
+}
+
+.Newsdropdown:hover .Newsdropbtn {
+    background-color: #3e8e41;
+}
+</style>
+
+<div id="container" >
+    <div id="main_image"></div>
+
+    <div id="image1" class="Newsdropdown" style="top:50px;left:10px;"><img src="/img/logo/1jakartaglobe.png"/>
+      <div class="Newsdropdown-content">
+      <a href="http://jakartaglobe.id/business/farad-cryptoken-program-seeks-indonesian-investment-in-blockchain-technology/" target="_blank" >Farad Cryptoken Program Seeks Indonesian Investment in Blockchain Technology</a>
+      </div>
+    </div>
+
+    <div id="image1"  class="Newsdropdown"  style="top:40px;left:250px; width:130px"><img src="/img/logo/2cnn1.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://www.cnnindonesia.com/tv/20170828171148-402-237875/farad-cryptoken-pesaing-baru-bitcoin/" target="_blank" >Farad Cryptoken, Pesaing Baru Bitcoin</a>
+      </div>
+    </div>
+
+
+    <div id="image1"  class="Newsdropdown"  style="top:50px;left:410px; width:300px"><img src="/img/logo/11wakuwaku.png"/>
+      <div class="Newsdropdown-content">
+      <a href="http://wakuwaku-currency.com/2017/08/27/farad-cryptoken%E3%81%AF%E3%80%81pre-ico%E3%81%AE%E3%82%B9%E3%83%AF%E3%83%83%E3%83%97%E3%82%92%E7%99%BA%E8%A1%A8/" target="_blank" >FARAD CRYPTOKENは、PRE-ICOのスワップを発表</a>
+      </div>
+    </div>
+
+
+        <div id="image1"  class="Newsdropdown"  style="top:50px;left:750px; width:240px"><img src="/img/logo/4newsbtc.png"/>
+      <div class="Newsdropdown-content">
+      <a href="http://www.newsbtc.com/2017/08/26/farad-cryptoken-announces-pre-ico-token-swap/" target="_blank" >FARAD CRYPTOKEN ANNOUNCES PRE-ICO TOKEN SWAP</a>
+      </div>
+    </div>
+
+        <div id="image1"  class="Newsdropdown"  style=" top:50px;left:1000px; width:200px"><img src="/img/logo/5thebitcoinnews.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://thebitcoinnews.com/farad-cryptoken-announces-pre-ico-token-swap/" target="_blank" >FARAD CRYPTOKEN ANNOUNCES PRE-ICO TOKEN SWAP</a>
+      </div>
+    </div>
+
+
+        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:10px; width:150px"><img src="/img/logo/6steemit.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://steemit.com/bitcoin/@complapgeek/crytp-lover-3-farad-cryptoken" target="_blank" >Crytp Lover #3 Farad Cryptoken Offer at 0.00004559 BTC per token</a>
+      </div>
+    </div>
+
+
+        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:200px; width:200px"><img src="/img/logo/7coinpag.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://coinpang.com/news/5427" target="_blank" >FARAD CRYPTOKEN, 프리 ICO 토큰 스왑 출시</a>
+      </div>
+    </div>
+
+
+        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:400px; width:200px"><img src="/img/logo/8bitcoinexchangeguide.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://bitcoinexchangeguide.com/farad/" target="_blank" >Farad Cryptoken – FRD ICO Ultra-Capacitor Energy Storage Blockchain? </a>
+      </div>
+    </div>
+
+        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:600px; width:200px"><img src="/img/logo/9cointelegraph.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://cointelegraph.com/press-releases/farad-cryptoken-announces-pre-ico-token-swap" target="_blank" >FARAD Cryptoken Announces Pre-ICO Token Swap</a>
+      </div>
+    </div>
+
+        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:800px; width:100px"><img src="/img/logo/10cryptojournalru.jpg"/>
+      <div class="Newsdropdown-content">
+      <a href="https://cryptojournal.ru/%D0%B2-%D0%BE%D0%B0%D1%8D-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D1%8E%D1%82-ico-%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D1%8B-farad-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9-%D1%91%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BA%D0%BE%D0%BD%D0%B4%D0%B5%D0%BD%D1%81%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2-2f36319fc00d" target="_blank" >CryptoJournal: В ОАЭ запускают ICO криптовалюты Farad, обеспеченной ёмкостью суперконденсаторов</a>
+      </div>
+    </div>
+
+        <div id="image1"  class="Newsdropdown"  style=" top:200px;left:1000px; width:100px"><img src="/img/logo/12maerkle.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://themerkle.com/launch-of-farad-cryptoken-first-cryptocurrency-with-actual-economic-value/" target="_blank" >Launch of Farad Cryptoken, First Cryptocurrency With Actual Economic Value</a>
+      </div>
+    </div>
+            <div id="image1"  class="Newsdropdown"  style=" top:310px;left:10px; width:150px"><img src="/img/logo/13cryptorussiaru.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://cryptorussia.ru/news/7-avgusta-mezhdunarodnyy-finansovyy-centr-dubaya-obnarodoval-novost-o-zapuske-novoy" target="_blank" >7 августа Международный финансовый центр Дубая обнародовал новость о запуске новой криптовалюты Farad</a>
+      </div>
+    </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:310px;left:200px; width:200px"><img src="/img/logo/14applancer.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://www.applancer.co/blog/15-insights-on-farad-ico" target="_blank" >15 insights on FARAD ICO</a>
+      </div>
+    </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:310px;left:420px; width:150px"><img src="/img/logo/15islamicfinance.gif"/>
+      <div class="Newsdropdown-content">
+      <a href="http://www.islamicfinance.de/?q=node/10485" target="_blank" >New #cryptocurrency launches in Dubai, backed by real economic activity Swap</a>
+      </div>
+    </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:330px;left:600px; width:200px"><img src="/img/logo/17gulfnews.png"/>
+      <div class="Newsdropdown-content">
+      <a href="http://gulfnews.com/business/economy/new-cryptocurrency-launches-in-dubai-backed-by-real-economic-activity-1.2070453" target="_blank" > New cryptocurrency launches in Dubai, backed by real economic activity</a>
+      </div>
+    </div>
+
+
+     <div id="image1"  class="Newsdropdown"  style=" top:310px;left:800px; width:180px"><img src="/img/logo/18zawya.png"/>
+      <div class="Newsdropdown-content">
+      <a href="https://http://www.zawya.com/mena/en/story/New_cryptocurrency_launched_in_Dubai_backed_by_real_economic_activity-GN_07082017_080846/" target="_blank" >New cryptocurrency launched in Dubai, backed by real economic activity</a>
+      </div>
+    </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:310px;left:1000px; width:130px"><img src="/img/logo/19thestar.png"/>
+      <div class="Newsdropdown-content">
+      <a href="http://www.thestar.com.my/business/business-news/2017/08/07/fundraising-disrupter/" target="_blank" >Fund-raising disrupter</a>
+      </div>
+    </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:440px;left:400px; width:200px"><img src="/img/logo/20bisnis.png"/>
+      <div class="Newsdropdown-content">
+      <a href="http://market.bisnis.com/read/20170806/93/678402/crypt " target="_blank" >Cryptocurrency: Soal Farad Cryptoken, Tak Ada Salahnya Anda Simak Peringatan Bank Indonesia Ini</a>
+      </div>
+    </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:440px;left:650px; width:230px"><img src="/img/logo/21kompas.png"/>
+      <div class="Newsdropdown-content">
+      <a href="http://ekonomi.kompas.com/read/2017/08/03/133931326/meski-makin-marak-bi-sebut-mata-uang-digital-bukan-alat-pembayaran" target="_blank" >Meski Makin Marak, BI Sebut Mata Uang Digital Bukan Alat Pembayaran</a>
+      </div>
+    </div>
+
+</div>
+
+
+
+
       </div>
     </div>
   </section>  
