@@ -62,5 +62,13 @@ Route.group('Language Selection', function() {
 }).prefix('/lang')
 
 
+Route.group('Language Pages', function() {
+  Route.get('/en', 'LangPageController.en')
+  Route.get('/cn', 'LangPageController.cn')
+  Route.get('/kr', 'LangPageController.kr')
+  Route.get('/jp', 'LangPageController.jp')
+  Route.get('/id', 'LangPageController.id')
+  Route.get('/th', 'LangPageController.th')
+})
 
 

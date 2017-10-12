@@ -6,45 +6,38 @@ var MyUrl='/'
 class LangController {
 
   * en (request, response) {
-    Antl.setLocale('en')
-//    localStorage.setItem('en', FRLang);
-    response.redirect('/')
-  }
+   Antl.setLocale('en');
+ 
+   response.redirect('/en')  }
 
   * cn (request, response) {
-    Antl.setLocale('cn');
- //   localStorage.setItem('cn', FRLang);
-  response.redirect('/')
+   Antl.setLocale('cn');
+   response.redirect('/cn')
   }
 
   * kr (request, response) {
-    Antl.setLocale('kr')
-  //  localStorage.setItem('id', FRLang);
+   Antl.setLocale('kr')
 
-    response.redirect('/')
+    response.redirect('/kr')
   }
 
   * jp (request, response) {
     Antl.setLocale('jp')
- //   localStorage.setItem('jp', FRLang);
-
-    response.redirect('/')
+  
+    response.redirect('/jp')
   }
   
   * id (request, response) {
     Antl.setLocale('id')
- //   localStorage.setItem('id', FRLang);
-    response.redirect('/')
+    response.redirect('/id')
   }
   
   * th (request, response) {
     Antl.setLocale('th')
-  //  localStorage.setItem('th', FRLang);
-    response.redirect('/')
+    response.redirect('/th')
   }
   
   * ar (request, response) {
- //   localStorage.setItem('ar', FRLang);
     response.redirect('/ar')
   }
 

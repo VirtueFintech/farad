@@ -133,7 +133,7 @@ else {
     <div class="nav-menu">
       <ul class="nav-menu-inner">
         <li>
-          <a class="" href="/">{{ antl.formatMessage('menu.home') }} </a>
+          <a class="" href="/{{ antl.formatMessage('menu.pagelocale') }}/">{{ antl.formatMessage('menu.home') }} </a>
         </li>
         <li>
           <a class="menu-has-sub">{{ antl.formatMessage('menu.docs') }} <i class="fa fa-angle-down"></i></a>
@@ -155,9 +155,9 @@ else {
         </li>
         <li>
           <a class="menu-has-sub">
-           {{ antl.formatMessage('menu.lang') 
+           {{ antl.formatMessage('menu.lang')}}
                 
-          }} <i class="fa fa-angle-down"></i></a>
+           <i class="fa fa-angle-down"></i></a>
           <ul class="sub-dropdown dropdown">
             <li><a class="" href="/lang/en">{{ antl.formatMessage('menu.lang.en') }}</a></li>
             <li><a class="" href="/lang/cn">{{ antl.formatMessage('menu.lang.cn') }}</a></li>

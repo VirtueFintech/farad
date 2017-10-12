@@ -1,5 +1,7 @@
 {
-  "home": "主页",
+ 
+     "pagelocale":"cn",
+ "home": "主页",
   "docs": "官方文件",
   "docs.wp": "White Paper",
   "docs.overview": "FARAD Overview",
