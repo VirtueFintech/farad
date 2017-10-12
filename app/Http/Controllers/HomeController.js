@@ -7,9 +7,8 @@ class HomeController {
   * index (request, response) {
     if (Antl.getLocale()==null) {Antl.setLocale('en')}
     if (Antl.getLocale()=='ar') {Antl.setLocale('en')}
-      Antl.setLocale('en')
-//    yield response.sendView('home')
-   response.redirect('/lang/en')  
+    yield response.sendView('home')
+
   }
 
   * press (request, response) {
