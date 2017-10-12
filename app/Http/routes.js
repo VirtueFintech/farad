@@ -45,6 +45,7 @@ Route.group('Arabic Pages', function() {
   Route.get('/', 'ArController.home')
   Route.get('/faq', 'ArController.faq')
   Route.get('/press', 'ArController.press')
+  Route.get('/aboutus', 'ArController.aboutUs')
   Route.get('/ksa', 'ArController.ksa')
   Route.get('/jo', 'ArController.jo')
   Route.get('/gcc', 'ArController.gcc')

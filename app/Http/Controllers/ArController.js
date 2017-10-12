@@ -22,6 +22,11 @@ class ArController {
     yield response.sendView('ar/press')
   }
 
+  * aboutUs (request, response) {
+    Antl.setLocale('ar')
+    yield response.sendView('ar/aboutUs')
+  }
+
   * ksa (request, response) {
     Antl.setLocale('ar')
     yield response.sendView('ar/ksa')
