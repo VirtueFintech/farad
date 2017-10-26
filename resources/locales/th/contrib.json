@@ -22,7 +22,7 @@
   "action.title": "Farad Token Swap Ethereum Smart Contract Wallet Address",
   "action.scan": "Send your Ether to the address above, or scan the image shown if sending from mobile wallet.",
 
-  "paypal.title": "Swap via Paypal",
+  "paypal.title": "Remittance",
   "paypal.select": "Select the USD Amount",
   "paypal.frd.amount": "FRD Amount",
   "paypal.eth.addr": "ETH Address",

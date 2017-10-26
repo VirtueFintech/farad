@@ -22,7 +22,7 @@
   "action.title": "FARAD トークン スワップ イーサリアム スマート コントラクト ウォレットアドレ ス=",
   "action.scan": "以下のアドレス宛てに イーサリアムを送付 してください。モバイルウォレットをご 利用の場合は以下の画像をスキャンしてください。",
 
-  "paypal.title": "Swap via Paypal",
+  "paypal.title": "Remittance",
   "paypal.select": "Select the USD Amount",
   "paypal.frd.amount": "FRD Amount",
   "paypal.eth.addr": "ETH Address",

@@ -38,7 +38,7 @@ Route.group('Participate in FARAD', function() {
   Route.get('/id', 'ContribController.id')
   Route.get('/th', 'ContribController.th')
   Route.get('/row', 'ContribController.row')
-  Route.get('/paypal', 'ContribController.paypal')
+  Route.get('/remit', 'ContribController.remit')
 }).prefix('/contrib')
 
 Route.group('Arabic Pages', function() {
@@ -49,7 +49,7 @@ Route.group('Arabic Pages', function() {
   Route.get('/ksa', 'ArController.ksa')
   Route.get('/jo', 'ArController.jo')
   Route.get('/gcc', 'ArController.gcc')
-  Route.get('/paypal', 'ArController.paypal')
+  Route.get('/remit', 'ArController.remit')
 }).prefix('/ar')
 
 Route.group('Language Selection', function() {

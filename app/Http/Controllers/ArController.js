@@ -42,9 +42,9 @@ class ArController {
     yield response.sendView('ar/gcc')
   }
 
-  * paypal (request, response) {
+  * remit (request, response) {
     Antl.setLocale('ar')
-    yield response.sendView('ar/paypal')
+    yield response.sendView('ar/remit')
   }
 
 }

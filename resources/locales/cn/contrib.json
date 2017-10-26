@@ -22,7 +22,7 @@
   "action.title": "FARAD代币兑换 以太坊 智能合约 钱包地址",
   "action.scan": "根据以上地址发送您参投的以太币，或扫描以上图片显示的二维码；如果您是使用移动钱包",
 
-  "paypal.title": "Swap via Paypal",
+  "paypal.title": "Remittance",
   "paypal.select": "Select the USD Amount",
   "paypal.frd.amount": "FRD Amount",
   "paypal.eth.addr": "ETH Address",

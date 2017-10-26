@@ -47,8 +47,8 @@ class ContribController {
     yield response.sendView('contrib/row')
   }
 
-  * paypal (request, response) {
-    yield response.sendView('contrib/paypal')
+  * remit (request, response) {
+    yield response.sendView('contrib/remit')
   }
 
 }

@@ -22,7 +22,7 @@
   "action.title": "파라드용 이더리움 스마트 계약 토큰세일 주소",
   "action.scan": "이더 송금주소는 아래와 같으며 모바일 월렛 사용시 바코드를 스캔하여 사용해주시길 바랍니다.",
 
-  "paypal.title": "Swap via Paypal",
+  "paypal.title": "Remittance",
   "paypal.select": "Select the USD Amount",
   "paypal.frd.amount": "FRD Amount",
   "paypal.eth.addr": "ETH Address",
