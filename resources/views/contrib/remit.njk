@@ -1,0 +1,56 @@
+{% extends './contrib' %}
+
+{% block head %}
+{% endblock %}
+  
+{% block country %}
+  {{ antl.formatMessage('contrib.paypal.title') }}
+{% endblock %}
+
+{% block ethereum %}
+  <section id="warn" class="dark-bg ptb ptb-sm-80" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+        <h4>Remittance can be made to the following bank</h4><br> 
+        </div>
+        <div class="col-md-8 offset-md-4 text-left">
+        Bank Name: National Bank of Abu Dhabi (NBAD)<br>
+        Account name: Emirates House Group<br>
+        Account number: 6202741514<br>
+        IBAN: AE890350000006202741514<br>
+        SWIFT CODE: NBADAEAAAML<br>
+        </div>
+        </div>
+        </div>
+      <div class="spacer-75"></div>
+      <div class="row">
+        <div class="col-md-8 offset-md-3">
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+{% block script %}
+  <script type="text/javascript">
+    var unit_price = 125.00;
+    $(document).ready(function() {
+      $('#usd_val').change(function() {
+        var usd = '';
+        console.log('usd = ' + usd);
+        $('#usd_val option:selected').each(function() {
+          usd = $(this).val();
+        })
+        // TODO: Change to this for TS1.
+        var frd = (usd / 0.125);
+        $('#frd_amt').val(frd.toLocaleString('en'));
+
+        var qnty = (usd / unit_price);
+        $('#quantity').val(qnty);
+      })
+    });
+  </script>
+{% endblock %}
+
+
