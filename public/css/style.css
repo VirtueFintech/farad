@@ -1834,7 +1834,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 #intro {
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .intro-media-wraper {
