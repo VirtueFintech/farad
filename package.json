@@ -23,7 +23,9 @@
     "adonis-lucid": "^3.0.14",
     "adonis-middleware": "^1.0.11",
     "adonis-websocket": "^1.0.3",
+    "bootstrap": "^4.0.0-beta.2",
     "moment": "^2.18.1",
+    "slick-carousel": "^1.8.1",
     "youch": "^2.0.4"
   },
   "standard": {

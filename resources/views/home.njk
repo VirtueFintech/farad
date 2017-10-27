@@ -4,6 +4,19 @@
 {% endblock %}
 
 {% block script %}
+ 
+
+   <!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+
+
+
   <script src="js/wow.min.js" type="text/javascript"></script>
   <script src="js/jquery.countdown.min.js" type="text/javascript"></script>
   <script type="text/javascript">
@@ -17,7 +30,7 @@
       var countTo = new Date('2017-10-31T23:59:59Z');
 
       $('.timer').countdown(countTo, function(event) {
-        console.log('event:' + event);
+        //console.log('event:' + event);
 
         $(this).find('.days').text(event.offset.totalDays);
         $(this).find('.hours').text(event.offset.hours);
@@ -27,8 +40,14 @@
 
     });
 
+
   </script>
+
+
+ 
 {% endblock %}
+
+
 
 <!-- CONTENT -->  
 {% block content %}
@@ -47,43 +66,285 @@
     <!-- Caption Section -->
     <div class="intro-overlay-section">
       <div class="js-fullscreen-height intro-caption-top container">
+
+      
         <div class="intro-content">
           <div class="intro-content-inner ptb ptb-80">
-          
+  
             <h2 class="big-title">{{ antl.formatMessage('home.title') }} </h2>
             <br>
+
             <h2 class="h2 red">
               {{ antl.formatMessage('home.heading.1') }}{{ antl.formatMessage('home.heading.2') }}
             </h2>
             <br>
-            <div class="container">
-              <h3>{{ antl.formatMessage('home.action.rem') }}</h3>
+
+            <div class="row">
+            <div class="col-sm-3">
+            <div class="container ">
+              <h4>{{ antl.formatMessage('home.action.rem') }}</h4><hr>
             </div>
+
             <br>
-            <div id="icotimer">
-              <div class="timer wow fadeInUp">
-                <div class="days-wrapper">
-                  <span class="days">00</span> <br>days
-                </div> 
-                <span class="slash">/</span> 
-                <div class="hours-wrapper">
-                  <span class="hours">00</span> <br>hours
-                </div> 
-                <span class="slash">/</span> 
-                <div class="minutes-wrapper">
-                  <span class="minutes">00</span> <br>min
-                </div> 
-                <span class="slash">/</span> 
-                <div class="seconds-wrapper">
-                  <span class="seconds">00</span> <br>sec
-                </div>
-              </div>
-            </div>
+                <script>
+            p {
+                text-align: center;
+                font-size: 60px;
+                }
+                </script>
+            <p id="FRDcounter"></p>
+ 
+
           </div>
+        <div class="col-sm-5">
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <span><img class="d-block " src="carousel/1.png" alt="First slide"></span>
+    </div>
+    <div class="carousel-item">
+      <span><img class="d-block" src="carousel/2.png" alt="Second slide"></span>
+    </div>
+    <div class="carousel-item">
+      <span><img class="d-block " src="carousel/3.jpg" alt="Third slide"></span>
+    </div>
+    <div class="carousel-item">
+      <span><img class="d-block " src="carousel/4.jpg" alt="Third slide"></span>
+    </div>
+    <div class="carousel-item">
+      <span><img class="d-block " src="carousel/6.jpg" alt="Third slide"></span>
+    </div>
+  </div>
+</div>
         </div>
+        <div class="col-sm-4">
+          
+  <!-- News Section -->
+
+
+ <style>
+
+#container{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow:scroll;
+
+    
+}
+#main_image{
+    left:50%;
+    width: 100%;
+    height: 100%;
+    background-color:#222222;
+    opacity:0.5;
+    overflow:scroll;
+
+ 
+}
+#image1{
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    background: none;
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+    horizontal-align: middle;
+}
+
+.CountDown
+{
+  font-style: normal;
+  font-family: Verdana;
+  line-height: 90%;
+
+}
+
+/*
+.Newsdropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.Newsdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444444;
+    color:white;
+    width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #999999;
+    border-width: 2px;
+    line-height:100%;
+}
+
+.Newsdropdown-content a {
+    color: silver;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.Newsdropdown-content a:hover {
+  background-color: silver;
+  color: black;
+  border-radius:10px;
+ }
+
+.Newsdropdown:hover .Newsdropdown-content {
+    display: block;
+}
+
+.Newsdropdown:hover .Newsdropbtn {
+    background-color: #3e8e41;
+}
+*/
+
+</style>
+<h4>  {{ antl.formatMessage('press.news.title') }}<br></h4>
+ {{ antl.formatMessage('press.news.text') }}
+<hr>
+<div id="container" >
+    <div id="main_image"></div>
+
+    <div id="image1" style="top:0px;left:0px; width:160px">
+      <a href="http://jakartaglobe.id/business/farad-cryptoken-program-seeks-indonesian-investment-in-blockchain-technology/" target="_blank" ><img src="/img/logo/1.JakartaGlobe.png"/></a>
+      
+    </div>
+
+    <div id="image1"  class="Newsdropdown"  style="top:40px;left:0px; width:160px">
+      <a href="https://www.cnnindonesia.com/tv/20170828171148-402-237875/farad-cryptoken-pesaing-baru-bitcoin/" target="_blank" ><img src="/img/logo/3.CNNIndo.png"/></a>
+    </div>
+
+
+    <div id="image1"  class="Newsdropdown"  style="top:80px;left:0px; width:160px">
+      <a href="http://wakuwaku-currency.com/2017/08/27/farad-cryptoken%E3%81%AF%E3%80%81pre-ico%E3%81%AE%E3%82%B9%E3%83%AF%E3%83%83%E3%83%97%E3%82%92%E7%99%BA%E8%A1%A8/" target="_blank" ><img src="/img/logo/11.Waku2Currency.png"/></a>
+    </div>
+
+
+        <div id="image1"  class="Newsdropdown"  style="top:120px;left:0px; width:160px">
+      <a href="http://www.newsbtc.com/2017/08/26/farad-cryptoken-announces-pre-ico-token-swap/" target="_blank" ><img src="/img/logo/16.NewsBTC.png"/></a>
+    </div>
+
+        <div id="image1"  class="Newsdropdown"  style=" top:160px;left:0px; width:160px">
+      <a href="https://thebitcoinnews.com/farad-cryptoken-announces-pre-ico-token-swap/" target="_blank" ><img src="/img/logo/20.TheBitcoinNews.png"/></a>
+    </div>
+
+
+        <div id="image1"  class="Newsdropdown"  style=" top:200px;left:0px; width:160px">
+      <a href="https://steemit.com/bitcoin/@complapgeek/crytp-lover-3-farad-cryptoken" target="_blank" ><img src="/img/logo/19.Steemit.png"/></a>
+    </div>
+
+
+        <div id="image1"  class="Newsdropdown"  style=" top:240px;left:0px; width:160px">
+      <a href="https://coinpang.com/news/5427" target="_blank" ><img src="/img/logo/13.CoinPang.png"/></a>
+    </div>
+
+
+        <div id="image1"  class="Newsdropdown"  style=" top:280px;left:0px; width:160px">
+      <a href="https://bitcoinexchangeguide.com/farad/" target="_blank" ><img src="/img/logo/12.BitcoinXchangeGuide.png"/> </a>
+    </div>
+
+        <div id="image1"  class="Newsdropdown"  style=" top:0px;left:170px; width:160px">
+      <a href="https://cointelegraph.com/press-releases/farad-cryptoken-announces-pre-ico-token-swap" target="_blank" ><img src="/img/logo/6.CoinTelegraph.png"/></a>
+   </div>
+
+        <div id="image1"  class="Newsdropdown"  style=" top:40px;left:170px; width:160px">
+       <a href="https://cryptojournal.ru/%D0%B2-%D0%BE%D0%B0%D1%8D-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D1%8E%D1%82-ico-%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D1%8B-farad-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9-%D1%91%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BA%D0%BE%D0%BD%D0%B4%D0%B5%D0%BD%D1%81%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2-2f36319fc00d" target="_blank" ><img src="/img/logo/7.CryptoJournalRu.png"/></a>
+     </div>
+
+        <div id="image1"  class="Newsdropdown"  style=" top:80px;left:170px; width:160px">
+
+      <a href="https://themerkle.com/launch-of-farad-cryptoken-first-cryptocurrency-with-actual-economic-value/" target="_blank" ><img src="/img/logo/15.TheMerkle.png"/></a>
+
+    </div>
+
+            <div id="image1"  class="Newsdropdown"  style=" top:120px;left:170px; width:160px">
+      <a href="https://cryptorussia.ru/news/7-avgusta-mezhdunarodnyy-finansovyy-centr-dubaya-obnarodoval-novost-o-zapuske-novoy" target="_blank" ><img src="/img/logo/8.CryptoRussiaRu.png"/></a>
+      </div>
+ 
+     <div id="image1"  class="Newsdropdown"  style=" top:160px;left:170px; width:160px">
+       <a href="https://www.applancer.co/blog/15-insights-on-farad-ico" target="_blank" ><img src="/img/logo/4.applancer.png"/>
+    </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:200px;left:170px; width:160px">
+      <a href="http://www.islamicfinance.de/?q=node/10485" target="_blank" ><img src="/img/logo/10.IslamicFinanceDe.png"/></a>
+      </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:240px;left:170px; width:160px">
+      <a href="http://gulfnews.com/business/economy/new-cryptocurrency-launches-in-dubai-backed-by-real-economic-activity-1.2070453" target="_blank" > <img src="/img/logo/14.GulfNews.png"/></a>
+    </div>
+
+
+     <div id="image1"  class="Newsdropdown"  style=" top:280px;left:170px; width:160px">
+      <a href="http://www.zawya.com/mena/en/story/New_cryptocurrency_launched_in_Dubai_backed_by_real_economic_activity-GN_07082017_080846/" target="_blank" ><img src="/img/logo/21.Zawya.png"/></a>
+      </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:320px;left:0px; width:160px">
+      <a href="http://www.thestar.com.my/business/business-news/2017/08/07/fundraising-disrupter/" target="_blank" ><img src="/img/logo/22.TheStar.png"/></a>
+      </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:320px;left:170px; width:160px">
+      <a href="http://market.bisnis.com/read/20170806/93/678402/crypt " target="_blank" ><img src="/img/logo/5.BisnisCom.png"/></a>
+      </div>
+
+     <div id="image1"  class="Newsdropdown"  style=" top:360px;left:0px; width:160px">
+      <a href="http://ekonomi.kompas.com/read/2017/08/03/133931326/meski-makin-marak-bi-sebut-mata-uang-digital-bukan-alat-pembayaran" target="_blank" ><img src="/img/logo/17.KompasCom.png"/></a>
+      </div>
+
+</div>
+
+
+
+  <!-- End News Section -->
+
+
+
+
+        </div>
+        </div>
+        </div>
+       </div>
       </div>
     </div>
   </section>
+
+ <script>
+    // Set the date we're counting down to
+var countDownDate = new Date("Oct 31, 2017 23:59:59Z").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("FRDcounter").innerHTML = "<h2 class=\"CountDown\">"+ days + "<small> DAYS</small><br>" + hours + "<small> hr </small><br>"
+    + minutes + "<small> min</small><br>" + seconds + "<small> sec</small><br></h2> ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
 
 <style>
 .flash-button{
@@ -593,225 +854,6 @@
 
 
 
-
-  <!-- News Section -->
-
-  <section id="intro" class="dark-bg ptb-60" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
-    <div class="container">
-      <div class="row">
-
-        <div class="ptb ptb-sm-80 ptb-80">
-          <div class="text-center">
-            <h2 class="h2 red" align=center>{{ antl.formatMessage('press.news.title') }}</h2>
-            <h1 class="mb-0" align=center>{{ antl.formatMessage('press.news.text') }}</h1>
-          </div>  
-        </div>
-
- <style>
-
-#container{
-    position: relative;
-    width: 100%;
-    height: 600px;
-    overflow:scroll;
-
-    
-}
-#main_image{
-    left:50%;
-    width: 100%;
-    height: 100%;
-    background-color:#222222;
-    opacity:0.5;
-    overflow:scroll;
-
- 
-}
-#image1{
-    position: absolute;
-    width: 200px;
-    height: 75px;
-    background: none;
-    padding: 10px 10px 10px 10px;
-    vertical-align: middle;
-    horizontal-align: middle;
-}
-
-
-.Newsdropdown {
-    position: relative;
-    display: inline-block;
-
-}
-
-.Newsdropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #444444;
-    color:white;
-    width: 500px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #999999;
-    border-width: 2px;
-    line-height:100%;
-}
-
-.Newsdropdown-content a {
-    color: silver;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.Newsdropdown-content a:hover {
-  background-color: silver;
-  color: black;
-  border-radius:10px;
- }
-
-.Newsdropdown:hover .Newsdropdown-content {
-    display: block;
-}
-
-.Newsdropdown:hover .Newsdropbtn {
-    background-color: #3e8e41;
-}
-</style>
-
-<div id="container" >
-    <div id="main_image"></div>
-
-    <div id="image1" class="Newsdropdown" style="top:50px;left:50px;"><img src="/img/logo/1jakartaglobe.png"/>
-      <div class="Newsdropdown-content">
-      <a href="http://jakartaglobe.id/business/farad-cryptoken-program-seeks-indonesian-investment-in-blockchain-technology/" target="_blank" >Farad Cryptoken Program Seeks Indonesian Investment in Blockchain Technology</a>
-      </div>
-    </div>
-
-    <div id="image1"  class="Newsdropdown"  style="top:20px;left:300px; width:130px"><img src="/img/logo/2cnn1.png"/>
-      <div class="Newsdropdown-content">
-      <a href="https://www.cnnindonesia.com/tv/20170828171148-402-237875/farad-cryptoken-pesaing-baru-bitcoin/" target="_blank" >Farad Cryptoken, Pesaing Baru Bitcoin</a>
-      </div>
-    </div>
-
-
-    <div id="image1"  class="Newsdropdown"  style="top:50px;left:450px; width:300px"><img src="/img/logo/11wakuwaku.png"/>
-      <div class="Newsdropdown-content">
-      <a href="http://wakuwaku-currency.com/2017/08/27/farad-cryptoken%E3%81%AF%E3%80%81pre-ico%E3%81%AE%E3%82%B9%E3%83%AF%E3%83%83%E3%83%97%E3%82%92%E7%99%BA%E8%A1%A8/" target="_blank" >FARAD CRYPTOKENは、PRE-ICOのスワップを発表</a>
-      </div>
-    </div>
-
-
-        <div id="image1"  class="Newsdropdown"  style="top:50px;left:800px; width:240px"><img src="/img/logo/4newsbtc.png"/>
-      <div class="Newsdropdown-content"  style="right:0">
-      <a href="http://www.newsbtc.com/2017/08/26/farad-cryptoken-announces-pre-ico-token-swap/" target="_blank" >FARAD CRYPTOKEN ANNOUNCES PRE-ICO TOKEN SWAP</a>
-      </div>
-    </div>
-
-        <div id="image1"  class="Newsdropdown"  style=" top:460px;left:130px; width:200px"><img src="/img/logo/5thebitcoinnews.png"/>
-      <div class="Newsdropdown-content">
-      <a href="https://thebitcoinnews.com/farad-cryptoken-announces-pre-ico-token-swap/" target="_blank" >FARAD CRYPTOKEN ANNOUNCES PRE-ICO TOKEN SWAP</a>
-      </div>
-    </div>
-
-
-        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:10px; width:150px"><img src="/img/logo/6steemit.png"/>
-      <div class="Newsdropdown-content">
-      <a href="https://steemit.com/bitcoin/@complapgeek/crytp-lover-3-farad-cryptoken" target="_blank" >Crytp Lover #3 Farad Cryptoken Offer at 0.00004559 BTC per token</a>
-      </div>
-    </div>
-
-
-        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:200px; width:200px"><img src="/img/logo/7coinpag.png"/>
-      <div class="Newsdropdown-content">
-      <a href="https://coinpang.com/news/5427" target="_blank" >FARAD CRYPTOKEN, 프리 ICO 토큰 스왑 출시</a>
-      </div>
-    </div>
-
-
-        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:400px; width:200px"><img src="/img/logo/8bitcoinexchangeguide.png"/>
-      <div class="Newsdropdown-content">
-      <a href="https://bitcoinexchangeguide.com/farad/" target="_blank" >Farad Cryptoken – FRD ICO Ultra-Capacitor Energy Storage Blockchain? </a>
-      </div>
-    </div>
-
-        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:600px; width:200px"><img src="/img/logo/9cointelegraph.png"/>
-      <div class="Newsdropdown-content">
-      <a href="https://cointelegraph.com/press-releases/farad-cryptoken-announces-pre-ico-token-swap" target="_blank" >FARAD Cryptoken Announces Pre-ICO Token Swap</a>
-      </div>
-    </div>
-
-        <div id="image1"  class="Newsdropdown"  style=" top:180px;left:850px; width:100px"><img src="/img/logo/10cryptojournalru.jpg"/>
-      <div class="Newsdropdown-content"  style="right:0">
-      <a href="https://cryptojournal.ru/%D0%B2-%D0%BE%D0%B0%D1%8D-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D1%8E%D1%82-ico-%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D1%8B-farad-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9-%D1%91%D0%BC%D0%BA%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BA%D0%BE%D0%BD%D0%B4%D0%B5%D0%BD%D1%81%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2-2f36319fc00d" target="_blank" >CryptoJournal: В ОАЭ запускают ICO криптовалюты Farad, обеспеченной ёмкостью суперконденсаторов</a>
-      </div>
-    </div>
-
-        <div id="image1"  class="Newsdropdown"  style=" top:200px;left:950px; width:100px"><img src="/img/logo/12maerkle.png"/>
-      <div class="Newsdropdown-content" style="right:0">
-      <a href="https://themerkle.com/launch-of-farad-cryptoken-first-cryptocurrency-with-actual-economic-value/" target="_blank" >Launch of Farad Cryptoken, First Cryptocurrency With Actual Economic Value</a>
-      </div>
-    </div>
-            <div id="image1"  class="Newsdropdown"  style=" top:310px;left:10px; width:150px"><img src="/img/logo/13cryptorussiaru.png"/>
-      <div class="Newsdropdown-content">
-      <a href="https://cryptorussia.ru/news/7-avgusta-mezhdunarodnyy-finansovyy-centr-dubaya-obnarodoval-novost-o-zapuske-novoy" target="_blank" >7 августа Международный финансовый центр Дубая обнародовал новость о запуске новой криптовалюты Farad</a>
-      </div>
-    </div>
-
-     <div id="image1"  class="Newsdropdown"  style=" top:310px;left:200px; width:200px"><img src="/img/logo/14applancer.png"/>
-      <div class="Newsdropdown-content">
-      <a href="https://www.applancer.co/blog/15-insights-on-farad-ico" target="_blank" >15 insights on FARAD ICO</a>
-      </div>
-    </div>
-
-     <div id="image1"  class="Newsdropdown"  style=" top:310px;left:420px; width:150px"><img src="/img/logo/15islamicfinance.gif"/>
-      <div class="Newsdropdown-content">
-      <a href="http://www.islamicfinance.de/?q=node/10485" target="_blank" >New #cryptocurrency launches in Dubai, backed by real economic activity Swap</a>
-      </div>
-    </div>
-
-     <div id="image1"  class="Newsdropdown"  style=" top:330px;left:600px; width:200px"><img src="/img/logo/17gulfnews.png"/>
-      <div class="Newsdropdown-content">
-      <a href="http://gulfnews.com/business/economy/new-cryptocurrency-launches-in-dubai-backed-by-real-economic-activity-1.2070453" target="_blank" > New cryptocurrency launches in Dubai, backed by real economic activity</a>
-      </div>
-    </div>
-
-
-     <div id="image1"  class="Newsdropdown"  style=" top:310px;left:800px; width:180px"><img src="/img/logo/18zawya.png"/>
-      <div class="Newsdropdown-content"  style="right:0" >
-      <a href="https://http://www.zawya.com/mena/en/story/New_cryptocurrency_launched_in_Dubai_backed_by_real_economic_activity-GN_07082017_080846/" target="_blank" >New cryptocurrency launched in Dubai, backed by real economic activity</a>
-      </div>
-    </div>
-
-     <div id="image1"  class="Newsdropdown"  style=" top:310px;left:1000px; width:130px"><img src="/img/logo/19thestar.png"/>
-      <div class="Newsdropdown-content"  style="right:0">
-      <a href="http://www.thestar.com.my/business/business-news/2017/08/07/fundraising-disrupter/" target="_blank" >Fund-raising disrupter</a>
-      </div>
-    </div>
-
-     <div id="image1"  class="Newsdropdown"  style=" top:460px;left:400px; width:250px"><img src="/img/logo/20bisnis.png"/>
-      <div class="Newsdropdown-content">
-      <a href="http://market.bisnis.com/read/20170806/93/678402/crypt " target="_blank" >Cryptocurrency: Soal Farad Cryptoken, Tak Ada Salahnya Anda Simak Peringatan Bank Indonesia Ini</a>
-      </div>
-    </div>
-
-     <div id="image1"  class="Newsdropdown"  style=" top:460px;left:700px; width:250px"><img src="/img/logo/21kompas.png"/>
-      <div class="Newsdropdown-content"  style="right:0">
-      <a href="http://ekonomi.kompas.com/read/2017/08/03/133931326/meski-makin-marak-bi-sebut-mata-uang-digital-bukan-alat-pembayaran" target="_blank" >Meski Makin Marak, BI Sebut Mata Uang Digital Bukan Alat Pembayaran</a>
-      </div>
-    </div>
-
-</div>
-
-
-
-
-      </div>
-    </div>
-  </section> 
-  <!-- End News Section -->
 
 
 {% endblock %}
