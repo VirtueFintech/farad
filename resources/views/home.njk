@@ -374,59 +374,105 @@
 }
 </style>
 
-  <section class="overlay-dark80 dark-bg ptb ptb-sm-80">
 
-
-    <!--
+<!--Timeline Section-->
+  <section id="about" class="overlay-dark80 wow dark-bg fadeIn ptb ptb-sm-80" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
     <div class="container">
-      <div>
-        <div class="text-center">
-          <p class="text-center">
+      <div class="row text-center">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.status') }}</h2>
+          <div class="spacer-15"></div>
+        </div>
+      </div>
+      <div class="row mt-80">
+        <!-- Status -->
+        <div class="col-md-6 mb-30">
+          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.frd.title') }}</h2>
+
+          <!-- FRD Updates -->
+          <div class="red-bar">
+            <div class="skillbar" data-percent="100%">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.frd.m1') }} <br> 
+                {{ antl.formatMessage('home.timeline.frd.m1.text') }}
+              </div>
+              <div class="skill-bar-percent">100%</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="100%">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.frd.m2') }} <br> 
+                {{ antl.formatMessage('home.timeline.frd.m2.text') }}
+              </div>
+              <div class="skill-bar-percent">100%</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="100">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.frd.m3') }} <br> 
+                {{ antl.formatMessage('home.timeline.frd.m3.text') }}
+              </div>
+              <div class="skill-bar-percent">100%</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="0">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.frd.m4') }} <br> 
+                {{ antl.formatMessage('home.timeline.frd.m4.text') }}
+              </div>
+              <div class="skill-bar-percent">0%</div>
+              <div class="skillbar-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UCC Updates -->
+        <div class="col-md-6 mb-30">
+          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.ucc.title') }}</h2>
+          <div>
+            <div class="skillbar" data-percent="100%">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.ucc.m1') }} <br>
+                {{ antl.formatMessage('home.timeline.ucc.m1.text') }}
+              </div>
+              <div class="skill-bar-percent">100%</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="45%">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.ucc.m2') }} <br> 
+                {{ antl.formatMessage('home.timeline.ucc.m2.text') }}
+              </div>
+              <div class="skill-bar-percent">45%</div>
+              <div class="skillbar-bar"></div>
+            </div>
+            <div class="skillbar" data-percent="50%">
+              <div class="skillbar-title">
+                {{ antl.formatMessage('home.timeline.ucc.m3') }} <br> 
+                {{ antl.formatMessage('home.timeline.ucc.m3.text') }}
+              </div>
+              <div class="skill-bar-percent">50%</div>
+              <div class="skillbar-bar"></div>
+            </div>
+          </div>
+        </div>
+        <!-- End Status -->
+      </div>
+      <div class="row text-center">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="h3">Thank you for your unwavering support in our Farad Programme. Keep an eye on this space for exciting updates on your long term investment. </h3>
             
-            <h4>{{ antl.formatMessage('home.action.select') }}</h4>              
-          </p>
-          {% block joinbutton %}
-          <div class="text-center">
-            <a class="btn btn-md btn-white-line" href="/contrib/remit">{{ antl.formatMessage('home.join.paypal') }}</a>
-            <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line flash-button" href="https://vxe.ae">V X E . A E</a>
-            <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/uk">{{ antl.formatMessage('home.join.uk') }}</a>
-            <span class="btn-space-10 xs-hidden"></span>
-          </div>
-          <br>
-          <div class="text-center">
-            <a class="btn btn-md btn-white-line" href="/ar">عربى/GCC</a>
-            <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/cn">{{ antl.formatMessage('home.join.china') }}</a>
-            <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/kr">{{ antl.formatMessage('home.join.korea') }}</a>
-            <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/jp">{{ antl.formatMessage('home.join.japan') }}</a>
-            <span class="btn-space-10 xs-hidden"></span>
-          </div>
-          <br>
-          <div class="text-center">
-            <a class="btn btn-md btn-white-line" href="/contrib/id">{{ antl.formatMessage('home.join.id') }}</a>
-            <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/th">{{ antl.formatMessage('home.join.th') }}</a>
-            <span class="btn-space-10 xs-hidden"></span>
-            <a class="btn btn-md btn-white-line" href="/contrib/row">{{ antl.formatMessage('home.join.row') }}</a>
-            <span class="btn-space-10 xs-hidden"></span>
-          </div>
-          {% endblock %}
+          <h2 class="h3">The number of total contributions will be updated on or before the 7th November 2017. </h3>
+          <div class="spacer-15"></div>
         </div>
       </div>
     </div>
-  -->
-    <!-- End Caption Section -->
-
-
   </section>
-  <!-- End Intro Section -->
+  <!-- End Timeline Section-->
+
+
 
   <div class="clearfix"></div>
-
   
   <!-- FARAD Intro Section -->
   <section id="intro" class="dark-bg ptb-60" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
@@ -544,92 +590,6 @@
   </section>
   <!-- End Launch Section-->
 
-  <!--Timeline Section-->
-  <section id="about" class="overlay-dark80 wow dark-bg fadeIn ptb ptb-sm-80" style="background-image: url('img/farad-mesh-2.png');" data-stellar-background-ratio="0.5">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-8 offset-md-2">
-          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.status') }}</h2>
-          <div class="spacer-15"></div>
-        </div>
-      </div>
-      <div class="row mt-80">
-        <!-- Status -->
-        <div class="col-md-6 mb-30">
-          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.frd.title') }}</h2>
-
-          <!-- FRD Updates -->
-          <div class="red-bar">
-            <div class="skillbar" data-percent="100%">
-              <div class="skillbar-title">
-                {{ antl.formatMessage('home.timeline.frd.m1') }} <br> 
-                {{ antl.formatMessage('home.timeline.frd.m1.text') }}
-              </div>
-              <div class="skill-bar-percent">100%</div>
-              <div class="skillbar-bar"></div>
-            </div>
-            <div class="skillbar" data-percent="35%">
-              <div class="skillbar-title">
-                {{ antl.formatMessage('home.timeline.frd.m2') }} <br> 
-                {{ antl.formatMessage('home.timeline.frd.m2.text') }}
-              </div>
-              <div class="skill-bar-percent">35%</div>
-              <div class="skillbar-bar"></div>
-            </div>
-            <div class="skillbar" data-percent="0">
-              <div class="skillbar-title">
-                {{ antl.formatMessage('home.timeline.frd.m3') }} <br> 
-                {{ antl.formatMessage('home.timeline.frd.m3.text') }}
-              </div>
-              <div class="skill-bar-percent">0%</div>
-              <div class="skillbar-bar"></div>
-            </div>
-            <div class="skillbar" data-percent="0">
-              <div class="skillbar-title">
-                {{ antl.formatMessage('home.timeline.frd.m4') }} <br> 
-                {{ antl.formatMessage('home.timeline.frd.m4.text') }}
-              </div>
-              <div class="skill-bar-percent">0%</div>
-              <div class="skillbar-bar"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- UCC Updates -->
-        <div class="col-md-6 mb-30">
-          <h2 class="h2 red">{{ antl.formatMessage('home.timeline.ucc.title') }}</h2>
-          <div>
-            <div class="skillbar" data-percent="100%">
-              <div class="skillbar-title">
-                {{ antl.formatMessage('home.timeline.ucc.m1') }} <br>
-                {{ antl.formatMessage('home.timeline.ucc.m1.text') }}
-              </div>
-              <div class="skill-bar-percent">100%</div>
-              <div class="skillbar-bar"></div>
-            </div>
-            <div class="skillbar" data-percent="10%">
-              <div class="skillbar-title">
-                {{ antl.formatMessage('home.timeline.ucc.m2') }} <br> 
-                {{ antl.formatMessage('home.timeline.ucc.m2.text') }}
-              </div>
-              <div class="skill-bar-percent">10%</div>
-              <div class="skillbar-bar"></div>
-            </div>
-            <div class="skillbar" data-percent="20%">
-              <div class="skillbar-title">
-                {{ antl.formatMessage('home.timeline.ucc.m3') }} <br> 
-                {{ antl.formatMessage('home.timeline.ucc.m3.text') }}
-              </div>
-              <div class="skill-bar-percent">20%</div>
-              <div class="skillbar-bar"></div>
-            </div>
-          </div>
-        </div>
-        <!-- End Status -->
-      </div>
-    </div>
-  </section>
-  <!-- End Timeline Section-->
 
   <!-- Team Section -->
   <section id="team" class="dark-bg ptb-60">
