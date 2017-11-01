@@ -5,50 +5,50 @@ const Antl = use('Antl')
 class ContribController {
 
   * uk (request, response) {
-    yield response.sendView('contrib/uk')
+    yield response.sendView('/')
   }
 
   * ksa (request, response) {
     Antl.setLocale('ar')
-    yield response.sendView('contrib/ksa')
+    yield response.sendView('/')
   }
 
   * jo (request, response) {
     Antl.setLocale('ar')
-    yield response.sendView('contrib/jo')
+    yield response.sendView('/')
   }
 
   * gcc (request, response) {
     Antl.setLocale('ar')
-    yield response.sendView('contrib/gcc')
+    yield response.sendView('/')
   }
 
   * cn (request, response) {
-    yield response.sendView('contrib/cn')
+    yield response.sendView('/')
   }
 
   * kr (request, response) {
-    yield response.sendView('contrib/kr')
+    yield response.sendView('/')
   }
 
   * jp (request, response) {
-    yield response.sendView('contrib/jp')
+    yield response.sendView('/')
   }
 
   * id (request, response) {
-    yield response.sendView('contrib/id')
+    yield response.sendView('/')
   }
 
   * th (request, response) {
-    yield response.sendView('contrib/th')
+    yield response.sendView('/')
   }
 
   * row (request, response) {
-    yield response.sendView('contrib/row')
+    yield response.sendView('/')
   }
 
   * remit (request, response) {
-    yield response.sendView('contrib/remit')
+    yield response.sendView('/')
   }
 
 }
