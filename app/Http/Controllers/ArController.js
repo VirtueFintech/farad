@@ -29,22 +29,22 @@ class ArController {
 
   * ksa (request, response) {
     Antl.setLocale('ar')
-    yield response.sendView('/')
+    yield response.sendView('ar/home')
   }
 
   * jo (request, response) {
     Antl.setLocale('ar')
-    yield response.sendView('/')
+    yield response.sendView('ar/home')
   }
 
   * gcc (request, response) {
     Antl.setLocale('ar')
-    yield response.sendView('/')
+    yield response.sendView('ar/home')
   }
 
   * remit (request, response) {
     Antl.setLocale('ar')
-    yield response.sendView('/')
+    yield response.sendView('ar/home')
   }
 
 }
