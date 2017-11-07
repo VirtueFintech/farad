@@ -9,6 +9,22 @@
     "action.warn.2": "We will not be responsible for any swaps done via 3rd party or individuals",
     "action.select": "Select the region where you are coming from to participate in our FARAD Token Swap",
 
+    "endswap.title":"A MESSAGE FROM THE DESK OF DR WAN M. HASNI",
+    "endswap.head":"On behalf of FARAD Program Manager, we are happy to announce that the FARAD Token Swap Program had been concluded October 31, 2017 with a resounding success. The total token Swap results are as follows:",
+    "endswap.li.1":"Total token created for the program was 1.6bil FRD",
+    "endswap.li.2":"Total distributed during token swap exercise was over 200mil FRD",
+    "endswap.li.3":"The balance of 1.4bil FRD will be sent to the upcoming Farad Store, the first blockchain based market place.",
+    "endswap.li.4":"The energy storage innovation which FARAD represents is in the invention, manufacturing and delivery of FARAD ultra-capacitors, while the Blockchain is based on Ethereum ERC20 Smart Contract.",
+    "endswap.li.5":"A quick update on production line of the ultra-capacitors is that the semi- automated assembly line has been installed, while the more advanced fully automated assembly line is being manufactured and planned for full scale 24/7 operations in January 2018.",
+    "endswap.li.6":"To further step up our efforts in the FARAD program, we have exciting news on FRD getting listed, the Smart Contract for FRD Redemption Program and our upcoming FARAD Store.",
+    "endswap.bottom":"Please see below for Farad Cryptoken’s Official Report along with Farad Cryptoken’s independant auditor’s report",
+    "endswap.button.1":"SWAP CLOSURE STATEMENT",
+    "endswap.button.2":"AUDITOR REPORT",
+    "endswap.buttonlink.1":"/pub/Farad_Cryptoken_Closure.pdf",
+    "endswap.buttonlink.2":"/pub/Farad_Cryptoken_Auditor_Report.pdf",
+ 
+    
+
     "join.paypal": "Remittance",
     "join.uk": "UK/EU",
     "join.ksa": "KSA",

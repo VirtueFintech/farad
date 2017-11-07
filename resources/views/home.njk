@@ -87,30 +87,32 @@ p.sansserif {
             <br>
 
             <h3 class="h3 red">
-              A MESSAGE FROM THE DESK OF DR WAN M. HASNI
+              {{ antl.formatMessage('home.endswap.title') }}
 </h3>
 <div class="row">
    <div class="col-sm-2"></div>
     <div class="col-sm-8">
-<p class="sansserif">
-On behalf of FARAD Program Manager, we are happy to announce that the FARAD Token Swap Program had been concluded October 31, 2017 with a resounding success. The total token Swap results are as follows:<br><br>
+<p class="sansserif"> {{ antl.formatMessage('home.endswap.head') }}
+</h3>
+<br><br>
 
 <ul style="list-style-type:disc;text-align:left;">
-<li>Total token created for the program was 1.6bil FRD</li>
-<li>Total distributed during token swap exercise was over 200mil FRD</li>
-<li>The balance of 1.4bil FRD will be sent to the upcoming Farad Store, the first blockchain based market place.</li>
-<li>The energy storage innovation which FARAD represents is in the invention, manufacturing and delivery of FARAD ultra-capacitors, while the Blockchain is based on Ethereum ERC20 Smart Contract. </li>
-<li>A quick update on production line of the ultra-capacitors is that the semi- automated assembly line has been installed, while the more advanced fully automated assembly line is being manufactured and planned for full scale 24/7 operations in January 2018.</li>
-<li>To further step up our efforts in the FARAD program, we have exciting news on FRD getting listed, the Smart Contract for FRD Redemption Program and our upcoming FARAD Store. </li>
+<li>{{ antl.formatMessage('home.endswap.li.1') }}</li>
+<li>{{ antl.formatMessage('home.endswap.li.2') }}</li>
+<li>{{ antl.formatMessage('home.endswap.li.3') }}</li>
+<li>{{ antl.formatMessage('home.endswap.li.4') }} </li>
+<li>{{ antl.formatMessage('home.endswap.li.5') }}</li>
+<li>{{ antl.formatMessage('home.endswap.li.6') }} </li>
 </ul>
 
-Please see below for Farad Cryptoken’s Official Report along with Farad Cryptoken’s independant auditor’s report<br>
+{{ antl.formatMessage('home.endswap.bottom') }}<br>
         
 
       <div class="mx-auto text-center">
-        <a class="btn btn-md btn-black float-center float-none-xs" href="/pub/Farad_Cryptoken_Closure.pdf">Swap Closure Statement</a>
+
+       <a class="btn btn-md btn-black float-center float-none-xs" href=" {{ antl.formatMessage('home.endswap.buttonlink.1') }}">{{ antl.formatMessage('home.endswap.button.1') }}</a>
         <span class="btn-space-10 float-right"></span>
-        <a class="btn btn-md btn-black float-center float-none-xs" href="/pub/Farad_Cryptoken_Auditor_Report.pdf">Auditor Report</a>
+        <a class="btn btn-md btn-black float-center float-none-xs" href="{{ antl.formatMessage('home.endswap.buttonlink.2') }} ">{{ antl.formatMessage('home.endswap.button.2') }}</a>
       </div>
           
           </p>

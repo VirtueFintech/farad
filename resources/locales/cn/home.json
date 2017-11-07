@@ -10,6 +10,22 @@
     "action.warn.2": "We will not be responsible for any swaps done via 3rd party or individuals",
     "action.select": "选择您来之的地区以参加我们FARAD的代币兑换程序",
 
+
+    "endswap.title":"转载Wan M. Hasni博士的信息",
+    "endswap.head":"我代表FARAD项目经理，高兴地宣布FARAD代币兑换计划已于2017年10月31日圆满结束。总代币兑换结果如下：",
+    "endswap.li.1":"为该计划创建的代币总数为1.6亿FRD",
+    "endswap.li.2":"代币兑换过程中的总发售量超过2亿FRD",
+    "endswap.li.3":"14亿的FRD余额将发送到即将到来的第一个以区块链为基础的商店，Farad商店",
+    "endswap.li.4":"FARAD所代表的储能创新是FARAD超级电容器的制造和发行，区块链基于以太坊 ERC20 智能合约。",
+    "endswap.li.5":"超级电容器生产线的最新更新，目前已经安装了半自动化装配线，而更先进的全自动化装配线正在制造和计划于2018年1月全面全天候运行。",
+    "endswap.li.6":"为了进一步加强FARAD计划的工作，我们提供了几项令人振奋的消息。该项消息包括FRD上线交易平台，FRD购回智能合约计划以及即将推出的FARAD商店。",
+    "endswap.bottom":"我完整的陈述可以在这里查询。",
+    "endswap.button.1":"兑换关闭声明",
+    "endswap.button.2":"审计报告",
+    "endswap.buttonlink.1":"/pub/Farad_Cryptoken_Closure_CN.pdf",
+    "endswap.buttonlink.2":"/pub/Farad_Cryptoken_Auditor_Report.pdf",
+
+    
     "join.paypal": "Remittance",
     "join.uk": "英国/欧洲",
     "join.ksa": "沙特阿拉伯",
